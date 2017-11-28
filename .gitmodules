@@ -1,0 +1,8 @@
+[submodule "themes/hugo-goa"]
+	path = themes/hugo-goa
+	url = git@github.com:shenoybr/hugo-goa
+	branch = master
+[submodule "public"]
+	path = public
+	url = git@github.com:danyspin97/danyspin97.github.io.git
+	branch = master

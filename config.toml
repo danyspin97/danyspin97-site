@@ -1,0 +1,31 @@
+baseURL = "https://danyspin97.github.io/"
+languageCode = "en-us"
+title = "DanySpin97's site"
+theme = "hugo-goa"
+googleAnalytics = "UA-84714824-5"
+enableRobotsTXT = true
+
+[params]
+author = "Danilo Spinella"
+intro = "Aspirant developer"
+description = "Engineering student. Linux enthusiast."
+authorimage = "profile.jpg"
+
+[[menu.main]]
+    name = "projects"
+    weight = 300
+    url = "/projects/"
+
+[params.social]
+github = "DanySpin97"
+instagram = "DanySpin97"
+linkedin = "DanySpin97"
+twitter = "DanySpin97"
+email = "danyspin97@protonmail.com"
+
+[params.meta]
+description = "DanySpin97's site"
+keywords = "minimalist,goa,hugo,developer,linux"
+
+[params.extra]
+copyright = "© 2017. Danilo Spinella. [Some Rights Reserved](http://creativecommons.org/licenses/by/4.0/)."
