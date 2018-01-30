@@ -8,9 +8,15 @@ enableRobotsTXT = true
 [params]
 author = "Danilo Spinella"
 intro = "Aspirant developer"
-description = "Engineering student. Linux enthusiast."
+description = "Engineering student. Linux enthusiast.<br/>Exherbo user. Terminal lover.<br/>Avid music listener."
 authorimage = "profile.jpg"
+dateformat = "Monday, Jan 2, 2006"
 
+[[menu.main]]
+    name= "blog"
+    identifier = "blog"
+    weight = 300
+    url = "/blog/"
 [[menu.main]]
     name = "projects"
     weight = 300
@@ -18,14 +24,13 @@ authorimage = "profile.jpg"
 
 [params.social]
 github = "DanySpin97"
-instagram = "DanySpin97"
 linkedin = "DanySpin97"
-twitter = "DanySpin97"
 email = "danyspin97@protonmail.com"
 
 [params.meta]
 description = "DanySpin97's site"
-keywords = "minimalist,goa,hugo,developer,linux"
+keywords = "minimalist,goa,hugo,developer,linux,exherbo,terminal"
 
 [params.extra]
-copyright = "© 2017. Danilo Spinella. [Some Rights Reserved](http://creativecommons.org/licenses/by/4.0/)."
+copyright = "© 2018 Danilo Spinella. [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)."
+highlightjs = true
