@@ -22,7 +22,7 @@ As an _Exherbo_ user, all the programs discussed will be available, so you can
 test them out. Also, fellow users will add these packages in _Gentoo_ and
 _Sabotage_. I bet that the _AUR_ already have them all.
 
-Please, feel free to comment and to propose apps on _Mastodon_ and _Reddit_,
+Please, feel free to comment and propose apps on _Mastodon_ and _Reddit_,
 where all the articles will be posted.
 
 In the meanwhile...take this nyancat.
