@@ -1,11 +1,20 @@
 # Projects
 
-[PhpBotFramework](http://danyspin97.github.io/PhpBotFramework)
+## Telegram
 
-[MyAddressBookBot](http://danyspin97.github.io/MyAddressBookBot)
+- [PhpBotFramework](http://danyspin97.github.io/PhpBotFramework)
+- [MyAddressBookBot](http://danyspin97.github.io/MyAddressBookBot)
+- [GiveawaysBot](http://github.com/DanySpin97/GiveawaysBot)
 
-[GiveawaysBot](http://github.com/DanySpin97/GiveawaysBot)
+## VIM plugins
 
-[TelegramBotsList](http://danyspin97.github.io/TelegramBotsList)
+- [ttab.vim](https://github.com/DanySpin97/ttab.vim)
 
-[K-Ink Kraken King](https://github.com/DanySpin97/KInk)
+## Videogames
+
+- [K-Ink Kraken King](https://github.com/DanySpin97/KInk)
+
+## Lists
+
+- [TelegramBotsList](http://danyspin97.github.io/TelegramBotsList)
+
