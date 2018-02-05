@@ -65,7 +65,18 @@ _ncpamixer_ is not a drop-in replacement for its GTK+ counterpart, but it's
 suitable for everyday usage: it is perfect to use along with a window manager
 and a shortcut assigned (I personally use super+p).
 
+# Related links
+
+- [ncpamixer]
+- [/r/commandline thread][reddit]
+- [pavucontrol]
+- [alsamixer]
+
+<iframe src="https://fosstodon.org/@danyspin97/99473144637804232/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400"></iframe><script src="https://fosstodon.org/embed.js" async="async"></script>
+
 [Firefox 52]: https://www.bleepingcomputer.com/news/software/some-firefox-52-users-on-linux-left-without-sound/
 [alsamixer]: https://en.wikipedia.org/wiki/Alsamixer
 [ncpamixer]: https://github.com/fulhax/ncpamixer
 [install]: https://github.com/fulhax/ncpamixer#install
+[reddit]: (https://www.reddit.com/r/commandline/comments/7vey2x/termish0_ncpamixer/?ref=share&ref_source=link)
+[pavucontrol]: https://freedesktop.org/software/pulseaudio/pavucontrol/
