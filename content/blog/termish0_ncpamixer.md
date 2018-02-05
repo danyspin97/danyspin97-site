@@ -24,7 +24,7 @@ interface, _pavucontrol_, which accomplish those easily.
 <br/>
 
 Is there a lightweight alternative to pavucontrol? Something like [alsamixer]
-to use from our beloved terminal? Well, yes; its name is _ncpamixer_.
+to use from our beloved terminal? Well, yes; its name is _[ncpamixer]_.
 
 ncpamixer, which stands for _ncurses PulseAudio Mixer_, offers basic
 PulseAudio server control from a terminal interface; even more, there is a
@@ -55,6 +55,10 @@ However, it cannot do (but _pavucontrol_ can):
 - do any advanced configuration
 - filter applications by category
 
+# Installation
+
+If you want to give it a try, [these][install] are the installation instructions.
+
 # Conclusion
 
 _ncpamixer_ is not a drop-in replacement for its GTK+ counterpart, but it's
@@ -63,3 +67,5 @@ and a shortcut assigned (I personally use super+p).
 
 [Firefox 52]: https://www.bleepingcomputer.com/news/software/some-firefox-52-users-on-linux-left-without-sound/
 [alsamixer]: https://en.wikipedia.org/wiki/Alsamixer
+[ncpamixer]: https://github.com/fulhax/ncpamixer
+[install]: https://github.com/fulhax/ncpamixer#install
