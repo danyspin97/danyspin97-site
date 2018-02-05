@@ -1,6 +1,8 @@
 ---
 title: "Termish[0] = ncpamixer"
 date: 2018-02-05T14:40:52+01:00
+categories: ["termish", "audio"]
+tags: ["terminal", "pulseaudio", "pavucontrol"]
 draft: false
 ---
 
