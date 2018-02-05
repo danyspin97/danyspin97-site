@@ -28,7 +28,7 @@ linkedin = "DanySpin97"
 email = "danyspin97@protonmail.com"
 
 [params.meta]
-description = "DanySpin97's site"
+description = "Personal site with portfolio and blog"
 keywords = "minimalist,goa,hugo,developer,linux,exherbo,terminal"
 
 [params.extra]
