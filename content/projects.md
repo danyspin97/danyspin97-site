@@ -1,6 +1,6 @@
 # Projects
 
-## Telegram
+## Telegram Bots
 
 - [PhpBotFramework](http://danyspin97.github.io/PhpBotFramework)
 - [MyAddressBookBot](http://danyspin97.github.io/MyAddressBookBot)
