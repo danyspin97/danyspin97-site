@@ -2,7 +2,6 @@ baseURL = "https://danyspin97.github.io/"
 languageCode = "en-us"
 title = "DanySpin97's site"
 theme = "hugo-goa"
-googleAnalytics = "UA-84714824-5"
 enableRobotsTXT = true
 
 [params]
@@ -33,4 +32,5 @@ keywords = "minimalist,goa,hugo,developer,linux,exherbo,terminal"
 
 [params.extra]
 copyright = "© 2018 Danilo Spinella. [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)."
+rss = true
 highlightjs = true
