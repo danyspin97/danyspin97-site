@@ -1,15 +1,29 @@
 baseURL = "https://danyspin97.github.io/"
 languageCode = "en-us"
 title = "DanySpin97's site"
-theme = "hugo-goa"
+theme = "cocoa"
 enableRobotsTXT = true
+
+[permalinks]
+blog  = "blog/:slug/"
 
 [params]
 author = "Danilo Spinella"
-intro = "Aspirant developer"
-description = "Engineering student. Linux enthusiast.<br/>Exherbo user. Terminal lover.<br/>Avid music listener."
-authorimage = "profile.jpg"
+selfintro = "OpenSource contributor"
+description = "Engineering student. Linux enthusiast. Exherbo user. Terminal lover. Avid music listener."
+github = "//github.com/DanySpin97"
+linkedin = "//linkedin.com/DanySpin97"
+email = "danyspin97@protonmail.com"
+# avatar = "profile.jpg"
 dateformat = "Monday, Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 MST"
+include_rss = true
+latestpostscount = 3
+i18n_flags = true
+cachebuster = true
+noshowreadtime = false
+mastodon = "//fosstodon.org/@danyspin97"
+highlightjs = true
 
 [[menu.main]]
     name= "blog"
@@ -21,16 +35,3 @@ dateformat = "Monday, Jan 2, 2006"
     weight = 300
     url = "/projects/"
 
-[params.social]
-github = "DanySpin97"
-linkedin = "DanySpin97"
-email = "danyspin97@protonmail.com"
-
-[params.meta]
-description = "Personal site with portfolio and blog"
-keywords = "minimalist,goa,hugo,developer,linux,exherbo,terminal"
-
-[params.extra]
-copyright = "© 2018 Danilo Spinella. [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)."
-rss = true
-highlightjs = true
