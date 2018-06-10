@@ -63,17 +63,10 @@ You are installing dotfiles but you also want to install all vim plugins so you 
 [yadm] is a reliable program that will manage your dotfiles with as little effort as possible, both if you're an advanced user or a novice. Its commands are the same as git, which mean you don't need to learn everything new. Its encrypt, alternate and boostrap features make it flexible and powerful. If you need a tool to manage dotfiles, this is definitely the best.
 
 [stack overflow dotfiles]: https://askubuntu.com/questions/94780/what-are-dot-files
-
 [dotfiles handler]: https://dotfiles.github.com/index.html#general-purpose-dotfile-utilities
-
 [Homemaker]: https://github.com/FooSoft/homemaker
-
 [yadm]: https://thelocehiliosan.github.io/yadm/
-
 [getting started]: https://thelocehiliosan.github.io/yadm/docs/getting_started
-
 [Alternate files]: https://thelocehiliosan.github.io/yadm/docs/alternates
-
 [Encryption]: https://thelocehiliosan.github.io/yadm/docs/encryption
-
 [Bootstrap]: https://thelocehiliosan.github.io/yadm/docs/bootstrap

@@ -72,8 +72,6 @@ and a shortcut assigned (I personally use super+p).
 - [pavucontrol]
 - [alsamixer]
 
-<iframe src="https://fosstodon.org/@danyspin97/99473144637804232/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400"></iframe><script src="https://fosstodon.org/embed.js" async="async"></script>
-
 [Firefox 52]: https://www.bleepingcomputer.com/news/software/some-firefox-52-users-on-linux-left-without-sound/
 [alsamixer]: https://en.wikipedia.org/wiki/Alsamixer
 [ncpamixer]: https://github.com/fulhax/ncpamixer

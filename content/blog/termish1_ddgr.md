@@ -69,8 +69,6 @@ _[ddgr]_ is available pretty much in every distro as shown [here][1].
 
 _[ddgr]_ is really a must for people who use DuckDuckGo and want a clean terminal utility; it worked flawlessly for me in the past months, both in features and stability. Plus, it can encode the results in JSON format, making effortless the implementation in other scripts.
 
-<iframe src="https://fosstodon.org/@danyspin97/99604238432944546/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400"></iframe><script src="https://fosstodon.org/embed.js" async="async"></script>
-
 [Google]: https://google.com
 [DuckDuckGo]: https://duckduckgo.com
 [googler]: https://github.com/jarun/googler
