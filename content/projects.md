@@ -1,25 +1,16 @@
-## [Dotfiles](https://github.com/DanySpin97/dotfiles)
+---
+title: Projects
+---
 
-## [Exheres repository](https://github.com/DanySpin97/exheres)
+- [liveunix](https://liveunix.org), a site collecting unix systems data
+- [Exheres repository](https://github.com/DanySpin97/exheres), contains maintained packages for Exherbo
+- [Dotfiles](https://github.com/DanySpin97/dotfiles), dotfiles and configuration for various programs
+- [TelegramBotsList](http://danyspin97.github.io/TelegramBotsList), a list containg all OpenSource Telegram bots
+- [ttab.vim](https://github.com/DanySpin97/ttab.vim), a vim plugin to add Tmux shortcuts
 
-## [s6-rc files](https://github.com/DanySpin97/rc)
-
-## Telegram Bots
-
-- [PhpBotFramework](http://danyspin97.github.io/PhpBotFramework)
-- [MyAddressBookBot](http://danyspin97.github.io/MyAddressBookBot) - [Site](https://danyspin97.github.io/MyAddressBookBot/)
-- [GiveawaysBot](http://github.com/DanySpin97/GiveawaysBot)
-- [BookmarkerBot](https://github.com/DanySpin97/BookmarkerBot)
-
-## VIM plugins
-
-- [ttab.vim](https://github.com/DanySpin97/ttab.vim)
-
-## Videogames
-
-- [K-Ink Kraken King](https://github.com/DanySpin97/KInk)
-
-## Lists
-
-- [TelegramBotsList](http://danyspin97.github.io/TelegramBotsList)
-
+### Old Projects
+- [PhpBotFramework](http://danyspin97.github.io/PhpBotFramework), Framework for Telegram Bot API, written in php
+- [MyAddressBookBot](http://danyspin97.github.io/MyAddressBookBot), a Telegram bot to store and browse username contacts
+- [GiveawaysBot](http://github.com/DanySpin97/GiveawaysBot), a Telgram bot to run giveaways
+- [BookmarkerBot](https://github.com/DanySpin97/BookmarkerBot), a Telegram bot to catalogue bookmarks
+- [K-Ink Kraken King](https://github.com/DanySpin97/KInk), a fast paced shoot'em up
