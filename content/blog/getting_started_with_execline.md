@@ -1,6 +1,6 @@
 ---
 title: Getting started with execline scripting
-date: 2018-08-21T14:40:52+01:00
+date: 2018-09-04T23:15:00+01:00
 categories: ["tutorial", "programming"]
 tags: ["s6", "scripting"]
 draft: false
