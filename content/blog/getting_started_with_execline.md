@@ -1,6 +1,6 @@
 ---
 title: Getting started with execline scripting
-date: 2018-09-04T23:15:00+01:00
+date: 2018-09-04T22:15:00+01:00
 categories: ["tutorial", "programming"]
 tags: ["s6", "scripting"]
 draft: false
@@ -38,7 +38,7 @@ Its goal is to provide a predictable syntax while remaining portable and easy on
 
 Let's have a look at it.
 
-```execline
+```
 importas home HOME cd $home ls
 ```
 
@@ -54,7 +54,7 @@ An `execline` script is a string, parsed as words with whitespaces in between.</
 
 Understanding that, we can rewrite the previous script in a more friendly way, by adding newlines here and there:
 
-```execline
+```
 importas home HOME
 
 cd $home
@@ -82,7 +82,7 @@ _**Note**: `execline` doesn't expand `~` to the home directory, so `cd ~` won't 
 
 `execline` built-ins take an arbitrary number of arguments and then execute the next program. The words left are the arguments of this new program executed. Therefore we can generalize the syntax as:
 
-```execline
+```
 built-in args prog...
 ```
 
@@ -99,7 +99,7 @@ There are two ways:
 
 Create a new file named `ls_home` and the following code in it:
 
-```execline
+```
 importas home HOME cd $home ls
 ```
 
@@ -138,7 +138,7 @@ This shebang will be used from now and omitted for shortness, unless noted.
 Another feature used heavily by shell scripting languages are [pipes](http://www.linfo.org/pipe.html).
 This is an example of pipes in `execline`:
 
-```execline
+```
 pipeline { ls }
 
 wc -l
@@ -156,7 +156,7 @@ ls | wc -l
 
 We can also use the `-w` flag to reverse the verse of the pipe. This is the pipe above looks like if we use `-w` flag:
 
-```execline
+```
 pipeline -w { wc -l }
 
 ls
@@ -164,7 +164,7 @@ ls
 
 Consider now three pipes one after another:
 
-```execline
+```
 # Gives us all the import in the current directory
 pipeline { grep -R "#include .*"}
 
@@ -184,7 +184,7 @@ This script, which we will call `uniq_results`, display how many unique C/C++ he
 The string passed to grep is hardcoded, it means that the script usefulness is limited. To improve `uniq_occurrences` we will read and use
 arguments passed to it.
 
-```execline
+```
 #!/bin/execlineb -S1
 
 # Gives us all the results in the current directory
@@ -223,7 +223,7 @@ We often need to execute external programs in a row, but `execline` doesn't allo
 
 > `background` reads a `prog1...` command in a block, spawns a child executing `prog1...` and then execs into `prog2...`
 
-```execline
+```
 foreground { sleep 10 }
 
 echo "I waited 10 seconds."
@@ -243,7 +243,7 @@ As stated in the `execline` documentation, there no variables. All we have is th
 
 `define` remind us of an assignment operator, which is what it exactly does.
 
-```execline
+```
 define home /home/foo
 
 mkdir ${home}/scripts
@@ -259,7 +259,7 @@ Another powerful source is the environment, as we have already seen with `import
 
 Supposing we would need to create a file named as the current date, and this file should be store inside .cache folder of the user calling the script:
 
-```execline
+```
 # Get the date and store it inside DATE variable
 backtick DATE { date +%d%m%y }
 
@@ -288,7 +288,7 @@ Another thing that is done way often is a testing a condition and executing some
 
 This is a simple built-in, it just execute a program, that could also be a chain loads of programs, and then continue with the script execution only if the exit status is zero.
 
-```execline
+```
 importas home HOME
 
 if -n { ls -d ${home}/.cache/used }
@@ -310,7 +310,7 @@ Let's improve the scripts above: we create the directory `~/.cache/used` if it d
 > - If `prog1` exits with a return code equal to 0, `ifelse` execs into `prog2`.
 > - Else `ifelse` execs into `prog3`.
 
-```execline
+```
 importas home HOME
 
 foreground
@@ -365,7 +365,7 @@ We have to remember that, even if the variable is added to the environment, we s
 
 Note also that `forstdin` reads from the standard input, so `pipeline` is needed here.
 
-```execline
+```
 # Print all the files and directory, and use them as
 # input for the next program
 pipeline { ls }
@@ -418,13 +418,13 @@ We don't usually need to close the file descriptor, so the `-c` flag is needed.
 
 To redirect `stderr` to `stderr` add the following before `prog`:
 
-```execline
+```
 fdmove -c 2 1
 ```
 
 To redirect `stdout` to `stderr` invert the file descriptor above:
 
-```execline
+```
 fdmove -c 1 2
 ```
 
@@ -434,13 +434,13 @@ There are two ways to describe a block; the first is curly braces, and this is t
 
 The second is to delimit only the end of a block with `""`.
 
-```execline
+```
 pipeline ls "" wc -l
 ```
 
 is equivalent to
 
-```execline
+```
 pipeline { ls } wc -l
 ```
 
