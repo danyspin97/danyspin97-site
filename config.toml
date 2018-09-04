@@ -1,21 +1,25 @@
 baseURL = "https://danyspin97.org/"
 languageCode = "en-us"
-title = "DanySpin97's site"
-theme = "cocoa"
+title = "danyspin97's site"
+author = "Danilo Spinella"
+theme = "cocoa-eh"
 enableRobotsTXT = true
+builddrafts = true
+canonifyurls = true
 
 [permalinks]
 blog  = "blog/:slug/"
 
 [params]
-author = "Danilo Spinella"
 selfintro = "OpenSource contributor"
 description = "Engineering student. Linux enthusiast. Exherbo user. Terminal lover. Avid music listener."
 github = "//github.com/DanySpin97"
 linkedin = "//linkedin.com/in/danyspin97"
 email = "danyspin97@protonmail.com"
 # avatar = "profile.jpg"
-dateformat = "Monday, Jan 2, 2006"
+logofile = "img/logo.png"
+faviconfile = "img/logo.png"
+dateform = "Jan 2, 2006"
 dateformfull = "Mon Jan 2 2006 15:04:05 MST"
 include_rss = true
 latestpostscount = 3
@@ -24,6 +28,8 @@ cachebuster = true
 noshowreadtime = false
 mastodon = "//fosstodon.org/@danyspin97"
 highlightjs = true
+progressively = false
+posts_navigation = true
 
 [[menu.main]]
     name= "blog"
