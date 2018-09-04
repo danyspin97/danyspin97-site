@@ -450,5 +450,5 @@ Thank you for reading this getting started tutorial for this interesting scripti
 
 The great and complete [documentation](http://skarnet.org/software/execline/) references other programs provided and a deep explanation of the design and the [grammar](http://skarnet.org/software/execline/grammar.html).
 
-You can find some `execline` scripts in the `s6-rc` example services[[n](https://github.com/skarnet/s6-rc/tree/master/examples/source)] and in the Exherbo `s6-rc` services[[n](https://gitlab.exherbo.org/exherbo-misc/s6-exherbo/i)].
+You can find some `execline` scripts in the `s6-rc` [example services](https://github.com/skarnet/s6-rc/tree/master/examples/source).
 
