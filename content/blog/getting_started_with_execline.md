@@ -44,7 +44,7 @@ importas home HOME cd $home ls
 
 A single chain load as an entire script; it seems really weird, doesn't it?
 
-`execline` rely completely on chain loading: it simply executes the first word and uses the
+`execline` relies completely on chain loading: it simply executes the first word and uses the
 remaining ones as `argv`. This makes `execline` perfect for critical scripts
 like init and rc scripts. It is primary used as scripting language by the [`s6`](http://skarnet.org/software/s6/) supervision suite and the [`s6-rc`](http://skarnet.org/software/s6-rc/) service manager.
 
@@ -74,7 +74,7 @@ In each line we find a program and its respective arguments. `ls` is an external
 
 So what the script does is, in order:
 
-- gets `HOME` value from the environment and assign its value to `home` literal
+- get `HOME` value from the environment and assign its value to `home` literal
 - change the directory to the `home` value
 - call `ls`
 
@@ -110,8 +110,8 @@ execlineb -P ls_home
 ```
 
 Yay! We have executed the script by calling `execlineb` directly.
-Though this could be a little cumbersome, expecially when we need to add arguments to `execlineb` call.
-Indeed, shebangs are often choosed for simplicity.
+Though this could be a little cumbersome, expecially when we need to add arguments to the `execlineb` call.
+Indeed, shebangs are often chosen for simplicity.
 
 Using your editor of choice, open `ls_home` and add the following as first line:
 
@@ -165,7 +165,7 @@ ls
 Consider now three pipes one after another:
 
 ```
-# Gives us all the import in the current directory
+# Returns all included headers in the current directory
 pipeline { grep -R "#include .*"}
 
 # sort the output of grep, uniq needs its input sorted
@@ -177,11 +177,11 @@ pipeline { uniq }
 wc -l
 ```
 
-This script, which we will call `uniq_results`, display how many unique C/C++ headers are used in the current directory.
+This script, which we will call `uniq_results`, displays how many unique C/C++ headers are used in the current directory.
 
 ## Script arguments
 
-The string passed to grep is hardcoded, it means that the script usefulness is limited. To improve `uniq_occurrences` we will read and use
+The string passed to grep is hardcoded, it means that the script usefulness is limited. To improve `uniq_results` we will read and use
 arguments passed to it.
 
 ```
@@ -213,7 +213,7 @@ There are other powerful and flexible ways to handle positional parameters; `exe
 
 ## Multiple execution
 
-We often need to execute external programs in a row, but `execline` doesn't allow the use of `newlines`, that are considered whitespace, nor semicolon. It instead provides two different built-ins: [`foreground`](http://skarnet.org/software/execline/foreground.html) and [`background`](http://skarnet.org/software/execline/background.html).
+We often need to execute external programs in a row, but `execline` doesn't allow the use of `newlines`, that are considered whitespace, nor semicolons. It instead provides two different built-ins: [`foreground`](http://skarnet.org/software/execline/foreground.html) and [`background`](http://skarnet.org/software/execline/background.html).
 
 > `foreground { prog1... } prog2...`
 
@@ -251,13 +251,13 @@ mkdir ${home}/scripts
 
 _**Note**: when a literal is preceded or followed by other strings, it needs to be wrapped inside curly braces as the example above; otherwise the `execline` parser won't apply substitution._
 
-Another powerful source is the environment, as we have already seen with `importas`. We could use it to store values and retrieve them in a second time, just as we would do with real variables. `define` assigns a value to a variable, thus this value cannot be calculated at runtime. In this last case, we should use [`backtick`](http://skarnet.org/software/execline/backtick.html) along with `importas`.
+Another powerful source is the environment, as we have already seen with `importas`. We can use it to store values and retrieve them later on, just as we would do with real variables. `define` assigns a value to a variable, thus this value cannot be calculated at runtime. In this last case, we should use [`backtick`](http://skarnet.org/software/execline/backtick.html) along with `importas`.
 
 > `backtick variable { prog1... } prog2...`
 
 > `backtick` reads `prog1...,` spawns a child executing it and saves its output, then it assigns this output to `variable` literal
 
-Supposing we would need to create a file named as the current date, and this file should be store inside .cache folder of the user calling the script:
+Suppose we have to create a file named as the current date, and this file should be store inside the `.cache` folder of the user calling the script:
 
 ```
 # Get the date and store it inside DATE variable
@@ -275,7 +275,7 @@ touch ${home}/.cache/used-${date}
 
 ## Conditional execution
 
-Another thing that is done way often is a testing a condition and executing something in case the condition was false, something else if it is true.
+Another thing that we often do is a testing a condition and executing something in case the condition was false, something else if it is true.
 
 `exeline` provides four different built-ins: [`if`](http://skarnet.org/software/execline/if.html), [`ifelse`](http://skarnet.org/software/execline/ifelse.html), [`ifte`](http://skarnet.org/software/execline/ifte.html) and [`ifthenelse`](http://skarnet.org/software/execline/ifthenelse.html). In this tutorial we will only see the first two.
 
