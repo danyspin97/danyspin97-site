@@ -4,22 +4,8 @@ date: 2018-09-04T22:15:00+01:00
 categories: ["tutorial", "programming"]
 tags: ["s6", "scripting"]
 draft: false
+toc: true
 ---
-
-## Index
-
-- [Preface](#preface)
-- [Overview](#overview)
-- [Words and whitespaces](#words-and-whitespaces)
-- [Execution](#execution)
-- [Pipes](#pipes)
-- [Script arguments](#script-arguments)
-- [Multiple execution](#multiple-execution)
-- [Variable management](#variable-management)
-- [Conditional execution](#conditional-execution)
-- [Iteration](#iteration)
-- [`stderr` and `stdout` redirection](#stderr-and-stdout-redirection)
-- [Ambivalent block syntax](#ambivalent-block-syntax)
 
 ## Preface
 
@@ -34,7 +20,7 @@ _**Note**: all the scripts have been tested with `execline` version 2.5.0.1._
 `execline` is scripting language written with security and simplicity in mind.
 Its goal is to provide a predictable syntax while remaining portable and easy on resources.
 
-[Why not just use /bin/sh?](http://skarnet.org/software/execline/dieshdiedie.html)
+Why not just use /bin/sh?[^1]
 
 Let's have a look at it.
 
@@ -46,7 +32,7 @@ A single chain load as an entire script; it seems really weird, doesn't it?
 
 `execline` relies completely on chain loading: it simply executes the first word and uses the
 remaining ones as `argv`. This makes `execline` perfect for critical scripts
-like init and rc scripts. It is primary used as scripting language by the [`s6`](http://skarnet.org/software/s6/) supervision suite and the [`s6-rc`](http://skarnet.org/software/s6-rc/) service manager.
+like init and rc scripts. It is primary used as scripting language by the `s6`[^2] supervision suite and the `s6-rc`[^3] service manager.
 
 ## Words and whitespaces
 
@@ -149,7 +135,7 @@ So for the bash shell, we can say that everything we call is either a _builtin_ 
 
 `execlineb` treats the arguments as one big `argv`, but there are some cases where we need to extract two command lines from it. Blocks have this purpose.
 
-From the [documentation](https://skarnet.org/software/execline/el_semicolon.html)
+From the documentation[^4]:
 
 > execline commands that need more than one linear set of arguments use blocks.
 
@@ -157,7 +143,7 @@ From the [documentation](https://skarnet.org/software/execline/el_semicolon.html
 
 ## Redirection
 
-As you could guess, there is no redirection operator; instead `execline` provides [`fdmove`](http://skarnet.org/software/execline/fdmove.html) to move [file descriptors](https://en.wikipedia.org/wiki/File_descriptor) and [`redirfd`](http://skarnet.org/software/execline/fdmove.html) to redirect a file descriptor to a file.
+As you could guess, there is no redirection operator; instead `execline` provides `fdmove`[^5] to move file descriptors[^6] and `redirfd`[^7] to redirect a file descriptor to a file.
 
 Integer value | Name | <stdio.h> file stream
 --- | --- | ---
@@ -218,7 +204,7 @@ redirfd -w 1 /dev/null prog...
 
 ## Pipes
 
-Another feature used heavily by shell scripting languages are [pipes](http://www.linfo.org/pipe.html).
+Another feature used heavily by shell scripting languages are pipes[^8].
 This is an example of pipes in `execline`:
 
 ```
@@ -293,11 +279,11 @@ Another useful flag is `-s nmin`. It works like `-S`, being `$@` value the only 
 - with `-S`, it contains all arguments
 - with `-s`, it contains all arguments minus the first nmin
 
-There are other powerful and flexible ways to handle positional parameters; `execline` documentation explains [them](http://skarnet.org/software/execline/el_pushenv.html) in details. Have also a look at [`shift`](http://skarnet.org/software/execline/shift.html) and [`dollarat`](http://skarnet.org/software/execline/dollarat.html) programs.
+There are other powerful and flexible ways to handle positional parameters; `execline` documentation explains them[^9] in details. Have also a look at `shift`[^10] and `dollarat`[^11] programs.
 
 ## Multiple execution
 
-We often need to execute external programs in a row, but `execline` doesn't allow the use of `newlines`, that are considered whitespace, nor semicolons. It instead provides two different commands: [`foreground`](http://skarnet.org/software/execline/foreground.html) and [`background`](http://skarnet.org/software/execline/background.html).
+We often need to execute external programs in a row, but `execline` doesn't allow the use of `newlines`, that are considered whitespace, nor semicolons. It instead provides two different commands: `foreground`[^12] and `background`[^13].
 
 > `foreground { prog1... } prog2...`
 
@@ -404,7 +390,7 @@ _**Note**: environment variables are real variables, they are just external to t
 
 We used `define` to emulate the assignment operator, assigning a value to a literal; thus this value cannot be calculated at runtime. If we need to assign the output of a command to a variable, we should use the environment instead.
 
-[`backtick`](http://skarnet.org/software/execline/backtick.html) is the builtin used to set an envorimental variable from another command output:
+`backtick`[^14] is the builtin used to set an envorimental variable from another command output:
 
 > `backtick variable { prog1... } prog2...`
 
@@ -430,7 +416,7 @@ touch ${home}/.cache/used-$date
 
 Another thing that we often do is a testing a condition and doing different things depending on its result (or exit code in shell scripting). In another words we execute something in case the condition was false, something else if it was true.
 
-`exeline` provides four different builtins: [`if`](http://skarnet.org/software/execline/if.html), [`ifelse`](http://skarnet.org/software/execline/ifelse.html), [`ifte`](http://skarnet.org/software/execline/ifte.html) and [`ifthenelse`](http://skarnet.org/software/execline/ifthenelse.html). In this tutorial we will only see the first two.
+`exeline` provides four different builtins: `if`[^15], `ifelse`[^16], `ifte`[^17] and `ifthenelse`[^18]. In this tutorial we will only see the first two.
 
 > `if { prog1... } prog2..`
 
@@ -441,7 +427,7 @@ Another thing that we often do is a testing a condition and doing different thin
 
 This is a simple builtin, it just execute a program, that could also be a chain loads of programs, and then continue with the script execution only if the exit status is zero.
 
-_**Note**: to test that a file exists the POSIX utility [`test`](https://www.computerhope.com/unix/test.htm) will be used in the following examples._
+_**Note**: to test that a file exists the POSIX utility `test`[^19] will be used in the following examples._
 
 ```
 importas home HOME
@@ -472,7 +458,7 @@ foreground {
 echo The script finished the execution
 ```
 
-Let's improve the scripts above: we create the directory `~/.cache/used` if it does not exist, and then we create a file with the current date in this directory. The script exit with code 1 if a file with the same date has already been created. We will use [`ifelse`](http://skarnet.org/software/execline/ifelse.html):
+Let's improve the scripts above: we create the directory `~/.cache/used` if it does not exist, and then we create a file with the current date in this directory. The script exit with code 1 if a file with the same date has already been created. We will use `ifelse`[^20]:
 
 > `ifelse { prog1... } { prog2... } prog3...`
 
@@ -512,7 +498,7 @@ exit 1
 
 ## Iteration
 
-[`loopwhilex`](http://skarnet.org/software/execline/loopwhilex.html) is the `execline` equivalent of `while`:
+`loopwhilex`[^21] is the `execline` equivalent of `while`:
 
 > `loopwhilex prog...`
 
@@ -520,14 +506,14 @@ exit 1
 > - As long as prog exits zero, loopwhile runs it again. 
 > - `loopwhilex` then exits with the last `prog` invocation's exit code.
 
-Since this is pretty straightforward, we will skip an example and we will instead focus on [`forstdin`](http://skarnet.org/software/execline/forstdin.html) and [`forbacktickx`](http://skarnet.org/software/execline/forbacktickx.html), which are the `execline` equivalent of `for` construction.
+Since this is pretty straightforward, we will skip an example and we will instead focus on `forstdin`[^22] and `forbacktickx`[^23], which are the `execline` equivalent of `for` construction.
 
 > `forstdin variable loop...`
 
 > - `forstdin` reads its standard input, splitting it automatically.
 > - For every argument `x` in the split output, `forstdin` runs `loop...` as a child process, with `variable=x` added to its environment.
 
-We have to remember that, even if the variable is added to the environment, we still need to import it in a literal, using [`importas`](http://skarnet.org/software/execline/importas.html), this time adding `-u` flag:
+We have to remember that, even if the variable is added to the environment, we still need to import it in a literal, using `importas`[^24], this time adding `-u` flag:
 
 > `-u` : Unexport. `envvar` will be removed from the environment after the substitution.
 
@@ -593,9 +579,40 @@ pipeline ls "" wc -l
 
 Thank you for reading this getting started tutorial for this interesting scripting language. 
 
-The great and complete [documentation](http://skarnet.org/software/execline/) references other programs provided and a deep explanation of the design and the [grammar](http://skarnet.org/software/execline/grammar.html).
+The great and complete documentation[^25] references other programs provided and a deep explanation of the design and the grammar[^26].
 
-You can find some `execline` scripts in the `s6-rc` [example services](https://github.com/skarnet/s6-rc/tree/master/examples/source) and in the s6-rc [services](https://gitlab.exherbo.org/exherbo-misc/s6-exherbo) used in Exherbo.
+You can find some `execline` scripts in the `s6-rc` example services[^27] and in the s6-rc services[^28] used in Exherbo.
 
-EDIT: Thanks to [Cogitri](https://github.com/Cogitri) and [Heliocat](http://heliocat.net/) for their suggestions on improving this guide.
+EDIT: Thanks to Cogitri[^29] and Heliocat[^30] for their suggestions on improving this guide.
+
+[^1]: http://skarnet.org/software/execline/dieshdiedie.html
+[^2]: http://skarnet.org/software/s6/
+[^3]: http://skarnet.org/software/s6-rc/)
+[^4]: https://skarnet.org/software/execline/el_semicolon.html
+[^5]: http://skarnet.org/software/execline/fdmove.html
+[^6]: https://en.wikipedia.org/wiki/File_descriptor
+[^7]: http://skarnet.org/software/execline/fdmove.html
+[^8]: http://www.linfo.org/pipe.html
+[^9]: http://skarnet.org/software/execline/el_pushenv.html
+[^10]: http://skarnet.org/software/execline/shift.html
+[^11]: http://skarnet.org/software/execline/dollarat.html
+[^12]: http://skarnet.org/software/execline/foreground.html
+[^13]: http://skarnet.org/software/execline/background.html
+[^14]: http://skarnet.org/software/execline/backtick.html
+[^15]: http://skarnet.org/software/execline/if.html
+[^16]: http://skarnet.org/software/execline/ifelse.html
+[^17]: http://skarnet.org/software/execline/ifte.html
+[^18]: http://skarnet.org/software/execline/ifthenelse.html
+[^19]: https://www.computerhope.com/unix/test.htm
+[^20]: http://skarnet.org/software/execline/ifelse.html
+[^21]: http://skarnet.org/software/execline/loopwhilex.html
+[^22]: http://skarnet.org/software/execline/forstdin.html
+[^23]: http://skarnet.org/software/execline/forbacktickx.html
+[^24]: http://skarnet.org/software/execline/importas.html
+[^25]: http://skarnet.org/software/execline/
+[^26]: http://skarnet.org/software/execline/grammar.html
+[^27]: https://github.com/skarnet/s6-rc/tree/master/examples/source
+[^28]: https://gitlab.exherbo.org/exherbo-misc/s6-exherbo
+[^29]: https://github.com/Cogitri
+[^30]: http://heliocat.net/
 
