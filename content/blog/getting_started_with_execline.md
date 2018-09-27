@@ -4,6 +4,7 @@ date: 2018-09-04T22:15:00+01:00
 categories: ["tutorial", "programming"]
 tags: ["s6", "scripting"]
 draft: false
+best: true
 toc: true
 ---
 
