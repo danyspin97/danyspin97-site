@@ -30,7 +30,7 @@ mastodon = "//fosstodon.org/@danyspin97"
 highlightjs = true
 progressively = false
 posts_navigation = true
-copyright = "CC-SA4.0 © 2018 Danilo Spinella"
+copyright = "CC BY-SA 4.0 © 2018 Danilo Spinella"
 
 [[menu.main]]
     name= "blog"
@@ -39,5 +39,9 @@ copyright = "CC-SA4.0 © 2018 Danilo Spinella"
     url = "/blog/"
 [[menu.main]]
     name = "projects"
-    weight = 300
+    weight = 250
     url = "/projects/"
+[[menu.main]]
+    name = "talks"
+    weight = 200
+    url = "/talks/"
