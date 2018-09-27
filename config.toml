@@ -30,6 +30,7 @@ mastodon = "//fosstodon.org/@danyspin97"
 highlightjs = true
 progressively = false
 posts_navigation = true
+copyright = "CC-SA4.0 © 2018 Danilo Spinella"
 
 [[menu.main]]
     name= "blog"
