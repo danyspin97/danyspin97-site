@@ -11,8 +11,8 @@ canonifyurls = true
 blog  = "blog/:slug/"
 
 [params]
-selfintro = "OpenSource contributor"
-description = "Engineering student. Linux enthusiast. Exherbo user. Terminal lover. Avid music listener."
+#selfintro = "Engineering student"
+description = "Engineering student. OpenSource contributor. Linux enthusiast. Exherbo user. Terminal lover. Avid music listener."
 github = "danyspin97"
 linkedin = "danyspin97"
 email = "danyspin97@protonmail.com"
@@ -30,7 +30,6 @@ mastodon = "//fosstodon.org/@danyspin97"
 highlightjs = true
 progressively = false
 posts_navigation = true
-# tableofcontents = true
 
 [[menu.main]]
     name= "blog"
@@ -41,4 +40,3 @@ posts_navigation = true
     name = "projects"
     weight = 300
     url = "/projects/"
-
