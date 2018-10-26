@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ .Title }}</title>
+        <meta charset="utf-8">
+        <style>
+            @import url('/css/{{ .File.TranslationBaseName }}.css')
+        </style>
+        <link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet">
+    </head>
+    <body>
+        <textarea id="source">
+{{ .RawContent }}
+        </textarea>
+        <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+        </script>
+        <script>
+            remark.macros.resize = function (size) {
+                var url = this;
+                return '<img src="' + url + '" width="' + size + '" />';
+            };
+            remark.macros.i = function () {
+                var className = this;
+                return '<i class="' + className + '"></i>';
+            };
+            var slideshow = remark.create({
+                ratio: '16:9',
+                countIncrementalSlides: false,
+            });
+        </script>
+    </body>
+</html>
