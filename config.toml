@@ -39,7 +39,7 @@ copyright = "CC BY-SA 4.0 © 2018 Danilo Spinella"
     url = "/blog/"
 [[menu.main]]
     name = "projects"
-    weight = 250
+    weight = 200
     url = "/projects/"
 [[menu.main]]
     name = "talks"
