@@ -1,7 +1,7 @@
 ---
-title: 'Gaming On Linux'
+title: 'Gaming On GNU+Linux'
 date: "2018-10-27T11:00:00"
-categories: ["linuxday"]
+categories: ["GNU+Linuxday"]
 tags: ["gaming", "wine", "dxvk"]
 ---
 class: center, middle
@@ -9,7 +9,7 @@ name: start
 
 ![:resize 250](/img/gaming_on_linux/less-is-more.png)
 
-# Gaming on Linux
+# Gaming on GNU+Linux
 
 .footer[Linux Day 2018, Reggio Calabria]
 
@@ -44,14 +44,14 @@ class: center, middle
 
 Windows ![:i](fab fa-windows)
 
-Linux ![:i](fab fa-linux)
+GNU+Linux ![:i](fab fa-linux)
 
 MacOS ![:i](fab fa-apple)
 
 ---
 class: middle, left
 
-# Giocare su Linux
+# Giocare su GNU+Linux
 
 Nativo
 
@@ -65,14 +65,14 @@ class: center, middle
 # Giochi nativi
 
 Giochi che sono compilati</br>
-e predisposti a funzionare su Linux
+e predisposti a funzionare su GNU+Linux
 
 ---
 class: center, middle
 
 # SteamOS ![:i](fab fa-steam)
 
-Sistema operativo basato su Linux</br>per le Steam Machine
+Sistema operativo basato su GNU+Linux</br>per le Steam Machine
 
 ---
 class: center, middle
@@ -159,7 +159,7 @@ class: center, middle
 
 # Lutris
 
-Una piattaforma open per il gaming su Linux
+Una piattaforma open per il gaming su GNU+Linux
 
 ---
 
@@ -169,7 +169,7 @@ background-image: url(https://lutris.net/static/images/client_screen.jpg)
 
 # Giochi supportati
 
-Linux e Steam
+GNU+Linux e Steam
 
 Windows e Windows Steam (Wine + DXVK)
 
@@ -181,7 +181,7 @@ Migliaia di installer scritti dalla comunità
 class: center, middle
 
 # SteamPlay ![:i](fab fa-steam)
-Giochi di Windows che funzionano su Linux</br>
+Giochi di Windows che funzionano su GNU+Linux</br>
 _out of the box_
 
 ---
@@ -197,7 +197,7 @@ DXVK preinstallato
 
 Contribuisce a Wine
 
-Le metriche vengono conteggiate come Linux
+Le metriche vengono conteggiate come GNU+Linux
 
 ---
 class: center, middle
@@ -209,11 +209,11 @@ class: center, middle
 ---
 class: center, middle
 
-# Perchè giocare su Linux?
+# Perchè giocare su GNU+Linux?
 
 --
 
-Perchè è Linux.
+Perchè è GNU+Linux.
 
 ---
 
@@ -223,7 +223,7 @@ SteamOS
 
 Ubuntu GamePack
 
-Sparky Linux GameOver Edition
+Sparky GNU+Linux GameOver Edition
 
 Manjaro Gaming
 
@@ -247,7 +247,7 @@ Windows: 96.29%
 
 OSX: 2.93%
 
-Linux: 0.78%
+GNU+Linux: 0.78%
 
 .footer[Steam Survey Settembre 2018]
 
@@ -272,3 +272,4 @@ _Attribution-ShareAlike 4.0 International</br>
 
 ---
 template: start
+
