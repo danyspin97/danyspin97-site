@@ -179,7 +179,7 @@ class: center, middle
 ---
 class: center, middle
 
-# Hacking ![:i](far fa-code)
+# Hacking ![:i](fas fa-code)
 
 ---
 class: center, middle
