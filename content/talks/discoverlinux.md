@@ -168,7 +168,7 @@ class: top, middle
 
 Incentrati sull'utilizzo della tastiera ![:i](far fa-keyboard)
 
-Occupano tutto lo spazio disponibile a schermo
+Occupano tutto lo spazio disponibile a schermo ![:i](fas fa-desktop)
 
 ---
 class: center, middle
