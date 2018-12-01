@@ -101,12 +101,12 @@ Suppose we want to include and link our program against `OpenSSL`, a broadly use
 What it should be done instead is:
 
 ```makefile
-OPENSSL_INCLUDE?=-I/usr/include/openssl
-OPENSSL_LIBS?=-lssl -lcrypto
+OPENSSL_INCLUDE ?= -I/usr/include/openssl
+OPENSSL_LIBS ?= -lssl -lcrypto
 
-CFLAGS?=-O2 -pipe
-CFLAGS+=$(OPENSSL_INCLUDE)
-LIBS=$(OPENSSL_LIBS)
+CFLAGS ?= -O2 -pipe
+CFLAGS += $(OPENSSL_INCLUDE)
+LIBS = $(OPENSSL_LIBS)
 ```
 
 While this approach result in successful compilation, by overriding values when needed, it is really cumbersome and error-prone. A better way to include external libraries is to use `pkg-config`.
