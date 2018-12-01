@@ -123,10 +123,12 @@ PKG_CONFIG ?= pkg-config
 CFLAGS ?= -O2 -pipe
 CFLAGS += -std=99
 CFLAGS += $(shell ${PKG_CONFIG} --cflags openssl)
-LIBS = $(shell ${PKG_CONFIG} --libs openssl)
+LIBS := $(shell ${PKG_CONFIG} --libs openssl)
 ```
 
 Note how `pkg-config` executable can be overriden from the environment, again for supporting cross-compiling.
+
+Immediate set should be used with `LIBS` to avoid spawning `pkg-config` every time the variable is evaluated. _Thanks to u/dima55[^11] for the tip._
 
 ## Miscellaneous
 
@@ -258,3 +260,4 @@ Following these rules and standards you will have a better `Makefile`, along wit
 [^8]: https://www.gnu.org/prep/standards/html_node/Directory-Variables.html
 [^9]: https://reproducible-builds.org/
 [^10]: https://wiki.debian.org/ReproducibleBuilds
+[^11]: https://www.reddit.com/user/dima55
