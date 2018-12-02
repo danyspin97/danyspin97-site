@@ -4,15 +4,15 @@ date: 2018-11-29T09:49:01+02:00
 draft: false
 ---
 
-`Makefile`s are widely used to build a lot of languages and projects, with C/C++ projects being the majority. Whatever you are developing or testing a software, it's highly probable that you will encounter them.
+`Makefile`s are widely used to build a lot of languages and projects, with C/C++ projects being the majority. Whenever you are developing or testing software, it's highly probable that you will encounter them.
 
-This post will try to address some common error in `Makefile`s, as well as good practices and cross-compiling support.
+This post will try to address some common errors in `Makefile`s, as well as good practices and cross-compiling support.
 
 _**Prerequisites**: good understanding of `Makefile`s, UNIX directory hierarchy and compilation process._
 
 ## Variable setting
 
-In this post we will use two ways (of the five available[^1]) to set a variable in `Makefile`. Here is it is a recap from StackOverflow[^2]:
+In this post we will use two ways (of the five available[^1]) to set a variable in `Makefile`. Here is a recap from StackOverflow[^2]:
 
 Lazy Set
 
@@ -46,7 +46,7 @@ CC ?= gcc
 LD ?= gcc
 ```
 
-While it is usually safe to assume that sensible values have been set for `CC` and `LDD`, it does not harm to set them if and _only_ if they are not already set in the environment, using the operator `?=`.
+While it is usually safe to assume that sensible values have been set for `CC` and `LDD`, it does no harm to set them if and _only_ if they are not already set in the environment, using the operator `?=`.
 
 Using the assignment operator `=` will instead override `CC` and `LDD` values from the environment; it means that we choose the default compiler and it cannot be changed without editing the Makefile. This leads to two problems:
 
@@ -55,7 +55,7 @@ Using the assignment operator `=` will instead override `CC` and `LDD` values fr
 
 ## Compiler flags
 
-`make` utility also use variables that are defined by implicit rules[^3] and between these variables, some defines extra build flags:
+`make` utility also use variables that are defined by implicit rules[^3] and between these variables, some define extra build flags:
 
 - `CFLAGS`: flags for the `C` compiler
 - `CXXFLAGS`: flags for the `C++` compiler
