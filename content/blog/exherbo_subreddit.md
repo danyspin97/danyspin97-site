@@ -8,10 +8,10 @@ I am delighted to announce the opening of the **unofficial Exherbo subreddit**[^
 You can discuss topic relavant to the distro, take up any problem that you have
 encountered or share your thoughts and setups.
 
-Note that Exherbo development take place on our _Gitlab instance_[^3] and the
+Note that Exherbo development takes place on our _Gitlab instance_[^3] and the
 critical discussions still happen on _#exherbo_ IRC channel on _Freenode_[^4].
 
-Furthermore, distro documentation[^5] is currently under reorganisation and we
+Furthermore, distro documentation[^5] is currently under reorganisation, and we
 encourage you to open an _issue_ (or even better a _Merge Request_!) telling us
 which parts you don’t find and which parts are hard to grasp.
 
