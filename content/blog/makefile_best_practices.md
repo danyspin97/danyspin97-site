@@ -2,6 +2,7 @@
 title: "Makefiles, Best Practices"
 date: 2018-11-29T09:49:01+02:00
 draft: false
+best: true
 ---
 
 `Makefile`s are widely used to build a lot of languages and projects, with C/C++ projects being the majority. Whenever you are developing or testing software, it's highly probable that you will encounter them.

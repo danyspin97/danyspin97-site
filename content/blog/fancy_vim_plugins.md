@@ -3,6 +3,7 @@ title: "Fancy Vim Plugins"
 date: 2018-12-24T12:30:00+01:00
 tags: [ vim, vimplugins ]
 draft: false
+best: true
 ---
 
 ***Prerequisites:*** _basic knowledge of vim editor, minimal plugin configuration_.
