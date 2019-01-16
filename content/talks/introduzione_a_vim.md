@@ -1,5 +1,5 @@
 ---
-title: "Introduzione a VIM"
+title: "Introduzione a VIM 🇮🇹"
 date: "2017-10-28T12:30:00"
 categories: ["linuxday"]
 tags: ["vim"]

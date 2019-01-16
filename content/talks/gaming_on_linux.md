@@ -1,5 +1,5 @@
 ---
-title: 'Gaming On Linux'
+title: 'Gaming On Linux 🇮🇹'
 date: "2018-10-27T11:00:00"
 categories: ["linuxday"]
 tags: ["gaming", "wine", "dxvk"]

@@ -1,5 +1,5 @@
 ---
-title: 'Discover Linux'
+title: 'Discover Linux 🇮🇹'
 date: "2018-10-27T09:30:00"
 categories: ["linuxday"]
 ---

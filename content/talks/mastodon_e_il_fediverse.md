@@ -1,5 +1,5 @@
 ---
-title: "Mastodon e il Fediverse"
+title: "Mastodon e il Fediverse 🇮🇹"
 date: "2018-10-27T10:30:00"
 categories: ["linuxday"]
 tags: ["mastodon", "fediverse"]
