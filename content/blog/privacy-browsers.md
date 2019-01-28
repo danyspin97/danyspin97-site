@@ -1,14 +1,15 @@
 ---
 title: "Web Browsers and Privacy in 2019"
 date: 2019-01-24T21:50:07+01:00
-draft: false
+categories: ["privacy"]
+tags: ["browsers", "libre"]
 ---
 
-An important piece in everyday life is the browser, considering the new trend of storing data and accessing applications in the cloud.
+An important piece in everyday life is the **browser**, considering the new trend of storing data and accessing applications in the _cloud_.
 
-Among the browsers landscape, the choice is actually finite because developing and maintaining one is expensive. But, which browser should you choose? One that offers speed or one that is secure? Does it respect your privacy?
+Among the browsers landscape, the choice is actually finite because developing and maintaining one is _expensive_. But, which browser should you choose? One that offers **speed** or one that is **secure**? Does it respect your **privacy**?
 
-In the current post, we will showcase browsers with a user-friendly GUI which both novices and experts can use. Firefox and Google Chrome will be highlighted as well as their forks and brand new browsers; attenction is paid to the consumer privacy.
+In the current post, we will showcase browsers with a user-friendly GUI which both _novices_ and _experts_ can use. Firefox and Google Chrome will be highlighted as well as their forks and brand new browsers; attenction is paid to the consumer privacy.
 
 ***Prerequisistes***: _None. Both beginners and advanced users can enjoy this post; it tries to explain every technology that is needed to discuss the various browsers_ and their differences.
 
@@ -18,55 +19,55 @@ In the current post, we will showcase browsers with a user-friendly GUI which bo
 ## Google Chrome [^1]
 
 
-Google Chrome has been the most used browsers in the last year with a wide gap from the other alternatives. Why? Because rendering a page is really fast and it is integrated with Google services.
+_Google Chrome_ has been the most used browsers in the last year with a wide gap from the other alternatives. Why? Because rendering a page is really fast and it is integrated with Google services.
 
 But it’s a Google application, you can’t expect that it will respect your privacy; settings don’t help either. And it isn’t an open soure browser.
 
 ### Chromium [^2]
 
-The rendering engine (the part that reads the HTML page and prints the formatted output) of Google Chrome is called Chromium and is also distributed as a separate browser. It’s basically Google Chrome minus _some_ extensions and plugins. Privacy is a little better but it’s still _Googlish_.
+The rendering engine (the part that reads the HTML page and prints the formatted output) of Google Chrome is called _Chromium_ and is also distributed as a separate browser. It’s basically Google Chrome minus _some_ extensions and plugins. Privacy is a little better but it’s still _Googlish_.
 
 #### Iridium [^32]
 
-Here we are at the first privacy-aware browser: Iridium is a fork of Chromium, private and secure by default. The project has been released recently, but it seems already abandoned: the latest commit to its codebase is dated in November 2018. No fixes or security update since then.
+Here we are at the first privacy-aware browser: _Iridium_, a fork of Chromium, private and secure by default. The project has been released recently, but it seems already **abandoned**: the latest commit to its codebase is dated in November 2018. No fixes or security update since then.
 
 #### ungoogled-chromium [^3]
 
-_ungoogled-chromium_, is a fork of chromium with privacy improvements where Google traces have been removed. It is a drop-in replacement so you can download the browser and start using the same interface you’re used to.
+_ungoogled-chromium_, is a fork of chromium with privacy improvements where Google traces have been removed. It is a **drop-in replacement** so you can download the browser and start using the same interface you’re used to.
 
-Download![^4]
+_Download!_[^4]
 
 ## Mozilla Firefox [^5]
 
-Another pillar of privacy-aware browsers is Mozilla Firefox. It is fast (especially with the new Quantum engine[^8]) and easy to use. The only problem is that Mozilla often makes opinionated choices [^6][^7]. But Firefox it’s open source and it would be a huge loss to waste its code; this is why we will overview some of its forks.
+Another pillar of privacy-aware browsers is _Mozilla Firefox_. It is fast (especially with the new Quantum engine[^8]) and easy to use. The only problem is that Mozilla often makes **opinionated choices** [^6][^7]. But Firefox it’s open source and it would be a huge loss to waste its code; this is why we will overview some of its forks.
 
 It’s important to state that Firefox isn’t privacy-aware by default, but the opt-out and relevant settings are just few clicks away, and all the sneaky extensions enabled by default (like Mr. Robot extensions[^7]) can be disabled.
 
 If you still want to use Firefox, follow PrivacyToolsIO guide[^15].
 
-Download![^5]
+_Download!_[^5]
 
 ### Basilisk [^12]
 
 ![](https://www.basilisk-browser.org/bas-logo-300w.png)
 
-Basilisk is a Firefox fork made right before the Quantum update[^8] to demonstrate the Unified XUL Platform[^13][^20]. But what is XUL[^19][^14] and why should you care about?
+_Basilisk_ is a Firefox fork made right before the Quantum update[^8] to demonstrate the Unified XUL Platform[^13][^20]. But what is XUL[^19][^14] and why should you care about?
 
 > XUL (XML User Interface Language) is Mozilla's XML-based language for building user interfaces of applications like Firefox.
 
 It is a subset of XML made for creating add ons that change Firefox user interface; Mozilla deprecated XUL-based add ons at the end of the 2017[^18]. Basilisk developers still believe in a future of this technology and want to improve it.
 
-The rendering engine it’s called Goanna[^40] and it’s a fork from an old version of Firefox (v25) that have diverged significantly over the years.
+The rendering engine it’s called _Goanna_[^40] and it’s a fork from an old version of Firefox (v25) that have diverged significantly over the years.
 
-The project seems interesting, but after a bit of digging, I’ve found this issue[^21] in the OpenBSD work in progress ports tree. Basilisk developers (they also develop Pale Moon[^22]) opened it to make the port comply with the licence, and the terms used are not polite at all. Package and ports maintainers are often volunteers so there is no point in making such an approach for whatever reason. Because of this, Basilisk developers don’t seem they deserve the users’ trust, I suggest to use some more trustworthy project instead.
+The project seems interesting, but after a bit of digging, I’ve found this issue[^21] in the OpenBSD work in progress ports tree. Basilisk developers (they also develop Pale Moon[^22]) opened it to make the port comply with the licence, and the terms used are not polite at all. Package and ports maintainers are often volunteers so there is no point in making such an approach for whatever reason. Because of this, Basilisk developers don’t seem to **deserve the users’ trust**, I suggest to use some more trustworthy project instead.
 
-***Note***: _A OpenBSD port is a set of files (_Makefiles_) that describes where to fetch the source of a software and how to compile/install it. The pre-compiled binaries offered by OpenBSD are built using the ports_.
+***Note***: _A OpenBSD port is a set of files (Makefiles) that describes where to fetch the source of a software and how to compile/install it. The pre-compiled binaries offered by OpenBSD are built using the ports_.
 
 ### GNU Icecat [^9]
 
 ![](https://www.gnu.org/software/gnuzilla/icecat-128.png)
 
-Icecat browser targets people who care about their privacy but code freedom too. It is based on Firefox ESR (Extended Support Release) and consists in a set of patches that remove all non-free code and enhance privacy.
+_Icecat_ browser targets people who care about their privacy but **code freedom** too. It is based on Firefox ESR (Extended Support Release) and consists in a set of patches that remove all non-free code and enhance privacy.
 
 Some security extensions like LibreJS[^10] and Searxes’ Third-party Request Blocker[^11] are shipped with Icecat but they can be disabled with a click in the homepage, restoring the usual surfing experience (these two extensions break many sites).
 
@@ -78,82 +79,82 @@ Download version _60.3.0_![^16] \(File: icecat-60.3.0.en-US.gnulinux-x86_64.tar.
 
 ![](https://raw.githubusercontent.com/intika/Librefox/master/capture.png)
 
-As strange as it sounds, Librefox is not a fork. It instead consists in a bunch of configuration files applied to vanilla Firefox. Privacy extensions and sane settings are shipped with it, unneeded features are removed (like crash reporter and updater). An optional Dark theme[^41] crafted by Librefox team is available.
+As strange as it sounds, _Librefox_ is not a fork. It instead consists in a bunch of configuration files applied to vanilla Firefox. Privacy extensions and sane settings are shipped with it, unneeded features are removed (like crash reporter and updater). An optional Dark theme[^41] crafted by Librefox team is available.
 
-The first version of Librefox has been relased in November 2018, so it’s a pretty new and interesting project. As of January 2019, Librefox distributes the configurations files that need to be applied manually to vanilla Firefox, by unpacking them in the installation directory. Developers stated that a complete build is planned[^25].
+The first version of Librefox has been relased in November 2018, so it’s a pretty new and interesting project. As of January 2019, Librefox distributes the configurations files that need to be **applied manually** to vanilla Firefox, by unpacking them in the installation directory. Developers stated that a complete build is planned[^25].
 
-Download![^26]
+_Download!_[^26]
 
 ### Pale Moon [^23]
 
-Pale Moon is a fork of Firefox dated back in the 2009. It supports XUL and offers the old Firefox UI. The rendering engine is the same of Basilisk so they are almost the same in terms of speed.
+_Pale Moon_ is a fork of Firefox dated back in the 2009. It supports XUL and offers the old Firefox UI. The rendering engine is the same of Basilisk so they are almost the same in terms of speed.
 
-For reason stated above about its developers, I suggest using other more trustworthy alternatives.
+For **reason stated above** about its developers, I suggest using other more trustworthy alternatives.
 
 ### Waterfox [^27]
 
-Waterfox’s philosophy is close to Librefox, but dates back in the 2011; it has a dedicated website with all the relative informations and the full build download.
+_Waterfox_’s philosophy is close to Librefox, but dates back in the 2011; it has a dedicated website with all the relative informations and the full build download.
 
-It allows the installation of every plugin (unlike Icecat) but its version lags behind: at the time of writing the last release is 56.2.6, while Firefox latest stable release is 64.0.2.
+It allows the installation of every plugin (unlike Icecat) but its **version lags behind**: at the time of writing the last release is 56.2.6, while Firefox latest stable release is 64.0.2.
 
-Download![^28]
+_Download!_[^28]
 
 ## Dooble [^38]
 
 ![](https://textbrowser.github.io/dooble/images/dooble.png)
 
-Dooble is a Qt browser written with privacy in mind that uses QtWebEngine (Chromium integration in Qt libraries).
+_Dooble_ is a Qt browser written with privacy in mind that uses QtWebEngine (Chromium integration in Qt libraries).
 
-Download![^39]
+_Download!_[^39]
 
 ## Falkon [^31]
 
 ![](https://www.falkon.org/images/screenshot.png)
 
-Falkon, which changed name in the latest release, is the former Qupzilla, a Qt based browser made by KDE; it uses QtWebEngine.
+_Falkon_, which changed name in the latest release, is the former _Qupzilla_, a Qt based browser made by KDE; it uses QtWebEngine.
 
-Download! [^32]
+_Download!_ [^32]
 
 ## GNOME Web [^29]
 
 ![](https://wiki.gnome.org/Apps/Web?action=AttachFile&do=get&target=epiphany-3-24.jpg)
 
-GNOME Web, formerly known as Ephiphany, is the browser of choice for GNOME desktop and Elementary OS. It features a clean interface (which pair perfectly with the above desktops) and uses Webkit[^30] (Apple open-source browser engine). The latter is also its biggest flaw: Webkit it’s slower than its competitors (both Firefox browser engine and Chromium).
+_GNOME Web_, formerly known as _Ephiphany_, is the browser of choice for GNOME desktop and Elementary OS. It features a clean interface (which pair perfectly with the above desktops) and uses Webkit[^30] (Apple open-source browser engine). The latter is also its biggest flaw: **Webkit is slower** than its competitors (both Firefox browser engine and Chromium).
 
 Another worth mentioning feature is the desktop integration with GNOME:
 
 ![](https://wiki.gnome.org/Apps/Web?action=AttachFile&do=get&target=epiphany-web-apps.jpg)
 
-Install it from your distro repository!
+_Install it from your distro repository!_
 
 ## Konqueror [^35]
 
 ![](https://docs.kde.org/trunk5/en/applications/konqueror/konqorg.png)
 
-Another Qt browser that’s developed by the KDE team. Its peculiarity is its support for both QtWebEngine engine and KHtml[^36] engine. Right-click and then choose “Render with KHtml” or “Render with WebEngine”, this is all it takes to switch between the rendering engines.
+Another Qt browser that’s developed by the KDE team. Its peculiarity is its support for both QtWebEngine engine and KHtml[^36] engine. Right-click and then choose “_Render with KHtml_” or “_Render with WebEngine_”, this is all it takes to switch between the rendering engines.
 
-The KHtml browser engine was choosed by Apple as starting point for its WebKit, but it’s currently unusable because of inability to render Html5 properly.
+The _KHtml_ browser engine was choosed by Apple as starting point for its WebKit, but it’s currently **unusable** because of inability to render Html5 properly.
 
-Install it from your distro repository!
+_Install it from your distro repository!_
 
 ## Midori [^37]
 
 ![](https://upload.wikimedia.org/wikipedia/commons/9/95/Midori_Screenshot.png)
 
-Midori is a lightweight browser, originally developed for the XFCE desktop (indeed its UI reminds this desktop); it uses WebKit.
+_Midori_ is a lightweight browser, originally developed for the XFCE desktop (indeed its UI reminds this desktop); it uses WebKit.
 
 ## RAM usage
 
 ![](http://i.imgur.com/v2RiPUU.jpg)
-****Google literally eating RAM*******
+*Google literally eating RAM*
 
-In term of system resources, browsers have made huge improvments in the last years, especially Firefox. If we ordered browsers in terms of RAM usage (from highest to lowest), it would be: Google Chrome, Firefox and then all the others.
+In term of system resources, browsers have made **huge improvments** in the last years, especially Firefox. If we ordered browsers in terms of RAM usage (from highest to lowest), it would be: Google Chrome, Firefox and then all the others.
 
-QtWebEngine, even though it is based on Chromium, doens’t consume the same amount of RAM; considering that browsers using this engine also have a lightweight GUI, they are perfect for low-end machines. Along with WebKit browers as well.
+QtWebEngine, even though it is based on Chromium, doens’t _consume the same amount of RAM_; considering that browsers using this engine also have a lightweight GUI, they are perfect for low-end machines. Along with WebKit browers as well.
 
 ## Notes about add ons
 
-Firefox has recently deprecated support for its extensions API to support the Chrome extensions API; as a result, Chrome and Firefox (including their forks) share the extension format. This is not true for all the other browsers listed in this post: each one supports its own format and has its own add ons (usually not more than 10).
+Firefox has recently deprecated support for its extensions API to support the Chrome extensions API; as a result, Chrome and Firefox (including their forks) **share the extension format**. This is not true for all the other browsers listed in this post: each one supports its own format and has its own add ons (usually not more than 10).
 
 ### Bonus: Privacy-aware addons [^17]
 
