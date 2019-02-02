@@ -39,7 +39,7 @@ _Download!_[^4]
 
 ## Mozilla Firefox [^5]
 
-Another pillar of privacy-aware browsers is _Mozilla Firefox_. It is fast (especially with the new Quantum engine[^8]) and easy to use. The only problem is that Mozilla often makes **opinionated choices** [^6][^7]. But Firefox it’s open source and it would be a huge loss to waste its code; this is why we will overview some of its forks.
+Another pillar of privacy-aware browsers is _Mozilla Firefox_. It is fast (especially with the new Quantum engine[^8]) and easy to use. The only problem is that Mozilla often makes **opinionated choices** [^6][^7]. But Firefox is open source and it would be a huge loss to waste its code; this is why we will overview some of its forks.
 
 It’s important to state that Firefox isn’t privacy-aware by default, but the opt-out and relevant settings are just few clicks away, and all the sneaky extensions enabled by default (like Mr. Robot extensions[^7]) can be disabled.
 
