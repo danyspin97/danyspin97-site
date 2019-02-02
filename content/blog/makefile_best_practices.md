@@ -11,6 +11,26 @@ This post will try to address some common errors in `Makefile`s, as well as good
 
 _**Prerequisites**: good understanding of `Makefile`s, UNIX directory hierarchy and compilation process._
 
+## Make versions
+
+POSIX Make standard syntax[^12] is often extended by the different implementations. In this post we will use GNU Make[^13] (`gmake`) and its extensions.
+
+Each Make dialect searches for a specific file when executed and fallbacks to a  general `Makefile` if it doesn’t succeed; for GNU Make, this file is `GNUMakefile`. When using a dialect over the POSIX interface, consider to name the `Makefile` accordingly; this way it’s clear which implementation is needed.
+
+In most Linux systems and OSX systems, `make` is a symlink to `gmake`. You can check the version of make on your system by running:
+
+```plain
+$ make --version
+GNU Make 4.2.1
+Built for x86_64-pc-linux-gnu
+Copyright (C) 1988-2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+```
+
+For simplicity, from now on we will refer to `GNUMakefile` and `gmake` as respectively `Makefile` and `make`.
+
 ## Variable setting
 
 In this post we will use two ways (of the five available[^1]) to set a variable in `Makefile`. Here is a recap from StackOverflow[^2]:
@@ -49,10 +69,20 @@ LD ?= gcc
 
 While it is usually safe to assume that sensible values have been set for `CC` and `LDD`, it does no harm to set them if and _only_ if they are not already set in the environment, using the operator `?=`.
 
-Using the assignment operator `=` will instead override `CC` and `LDD` values from the environment; it means that we choose the default compiler and it cannot be changed without editing the Makefile. This leads to two problems:
+Using the assignment operator `=` will instead override `CC` and `LDD` values from the environment; it means that we choose the default compiler and it cannot be changed without editing the Makefile or appending these variables in the command line. This leads to two problems:
 
 - The user has set `CC=clang` in the environment but `gcc` will be used anyway, even if it isn't installed.
 - A cross-compile environment has set `CC` to a link of the actual target architecture compiler, like for example `arm-pc-linux-cc`, but `gcc` of the host will be used.
+
+If the user has acknowledged these problems (i.e. the compilation fails because gcc is not installed), he can append `CC=clang` to the `make` call:
+
+```
+$ make CC=clang
+```
+
+This solution works as intended (`clang` compiles the sources), whatever the Makefile uses `=` or `?=` operators but it adds workload on the user: a reading of the `Makefile` is needed to check the variables to append on the command line. It’s also error-prone because it’s easy to skip one variable assignment in a large project while it is safe to assume that the environment already contains correct values.
+
+For these reasons, this solution is considered sub-optimal, especially for package maintaining, and therefore its usage is discouraged.
 
 ## Compiler flags
 
@@ -75,20 +105,27 @@ We would be tempted to do:
 CFLAGS = -ansi -std=99
 ```
 
-But this would discard the user defined flags. You could instead do:
+But this would discard the environment `CFLAGS`, which might contain user defined value. You should instead do:
 
 ```Makefile
 CFLAGS := ${CFLAGS} -ansi -std=99
 ```
+***Note:*** _The Immediate set (`:=`) is used because the Lazy set (`=`) would result in a recursive loop_.
 
-or, if you have a long `CFLAGS`:
+Or, if you have a long `CFLAGS`:
+
+```Makefile
+CFLAGS += -ansi -std=99
+```
+
+In this last example, we append our values to environment `CFLAGS`; if it isn’t defined, it will be expanded to no text. The resulting `CFLAGS` will still be a _recursively expanded variable_[^14].
+
+We can optimize a little by converting `CFLAGS` from a recursive variable to a simple one.
 
 ```Makefile
 CFLAGS := ${CFLAGS}
 CFLAGS += -ansi -std=99
 ```
-
-**Note**: _we use the Immediate set (`:=`) because the Lazy set (`=`) would result in a recursive loop_.
 
 ## Libraries
 
@@ -107,7 +144,7 @@ OPENSSL_LIBS ?= -lssl -lcrypto
 
 CFLAGS ?= -O2 -pipe
 CFLAGS += $(OPENSSL_INCLUDE)
-LIBS = $(OPENSSL_LIBS)
+LIBS := $(OPENSSL_LIBS)
 ```
 
 While this approach result in successful compilation, by overriding values when needed, it is really cumbersome and error-prone. A better way to include external libraries is to use `pkg-config`.
@@ -137,9 +174,9 @@ Other executables often used when compiling are `ar`, `ranlib` and `as`; don't c
 store their name in variables and use these variables instead.
 
 ```makefile
-AR = ar
-RANLIB = ranlib
-AS = as
+AR ?= ar
+RANLIB ?= ranlib
+AS ?= as
 ```
 From `make` documentation[^7]:
 
@@ -262,3 +299,6 @@ Following these rules and standards you will have a better `Makefile`, along wit
 [^9]: https://reproducible-builds.org/
 [^10]: https://wiki.debian.org/ReproducibleBuilds
 [^11]: https://www.reddit.com/user/dima55
+[^12]: https://pubs.opengroup.org/onlinepubs/9699919799/utilities/make.html
+[^13]: https://www.gnu.org/software/make/manual/make.html
+[^14]: https://www.gnu.org/software/make/manual/html_node/Flavors.html#Flavors
