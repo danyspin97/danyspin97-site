@@ -90,7 +90,7 @@ For these reasons, this solution is considered sub-optimal, especially for packa
 
 - `CFLAGS`: flags for the `C` compiler
 - `CXXFLAGS`: flags for the `C++` compiler
-- `CPPFLAGS`: for preprocessor flags for `C/C++` and `Fortran` compilers
+- `CPPFLAGS`[^15]: for preprocessor flags for `C/C++` and `Fortran` compilers
 
 _**Note**: there is a variable named `CCFLAGS` that some projects are using; it defines extra flags for both the `C`/`C++` compilers. This variable is not defined by the implicit rules, please avoid it if you can_.
 
@@ -193,11 +193,10 @@ Before talking about the different components to install, we should discuss brie
 It is important to specify which `PREFIX` the `bin` directory should be installed in:
 
 ```makefile
-PREFIX ?= /usr
+PREFIX ?= /usr/local
 ```
 
-You can either choose `/usr` and `/usr/local`.
-
+The default value should be `/usr/local`[^16].
 
 ### BINDIR
 
@@ -302,3 +301,5 @@ Following these rules and standards you will have a better `Makefile`, along wit
 [^12]: https://pubs.opengroup.org/onlinepubs/9699919799/utilities/make.html
 [^13]: https://www.gnu.org/software/make/manual/make.html
 [^14]: https://www.gnu.org/software/make/manual/html_node/Flavors.html#Flavors
+[^15]: https://stackoverflow.com/questions/2754966/cflags-vs-cppflags
+[^16]: https://refspecs.linuxfoundation.org/FHS_3.0/fhs/ch04s09.html
