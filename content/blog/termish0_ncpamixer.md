@@ -7,7 +7,7 @@ draft: false
 ---
 
 Welcome to the first post of *Termish*. Please, read what this is about
-[here](/blog/termish_malloc/), if you haven't already.
+[here](/blog/termish--malloc255--size/), if you haven't already.
 
 Let's talk about _PulseAudio_, a popular sound server that is widely used in
 Linux Desktop for its features out of the box. If you don't know which your
