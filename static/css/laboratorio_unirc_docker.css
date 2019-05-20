@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:500');
+@import url('https://fonts.googleapis.com/css?family=Cantarell:400,400i,700,700i');
+@import url('http://overpass-30e2.kxcdn.com/overpass-mono.css');
+
+body {
+  font-family: 'Cantarell';
+  color: #FFFFFF;
+}
+h1, h2, h3 {
+  font-family: 'Dosis';
+  font-weight: normal;
+}
+
+.remark-code, .remark-inline-code {
+  font-family: 'Overpass Mono';
+}
+
+.remark-slide-content h1 {
+  font-size: 70px;
+}
+.remark-slide-content h2 {
+  font-size: 47px;
+}
+
+.remark-slide-content .big {
+    font-size: 45px;
+}
+
+.remark-fading { z-index: 9; } 
+ /* Thanks to http://www.partage-it.com/animez-vos-presentations-remark-js/  (in French) */
+.remark-slide-container {transition: opacity 0.45s ease-out;opacity: 0;}
+.remark-visible {transition: opacity 0.45s ease-out;opacity: 1;}
+
+.remark-slide-content {
+  background-size: contain;
+  background: #000000;
+}
