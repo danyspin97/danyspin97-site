@@ -1,7 +1,7 @@
 ---
 title: 'Laboratorio pratico di Docker 🇮🇹'
 date: "2019-05-20T14:30:00"
-categories: ["workshop"
+categories: ["workshop"]
 tags: ["docker", "university", "java"]
 ---
 class: center, middle
