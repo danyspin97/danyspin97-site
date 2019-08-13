@@ -1,6 +1,9 @@
 ---
-title: "Security and privacy in desktop UNIX"
-date: 2019-08-10T12:00:00+02:00
+title: "Security and privacy on UNIX desktop"
+date: 2019-08-13T16:30:00+02:00
+category: ["security", "privacy"]
+tag: ["stubby", "dns", "dnsmasq", "hblock"]
+hacker_news_id: "20686166"
 ---
 
 Security and privacy are two important factors of the IT field. A lot of effort
