@@ -10,7 +10,7 @@ After 10 long days, I’m ready to share my new journey with Dlang.
 ## Build system
 
 D documentation was really interesting and the language seemed promising.
-But I neened to start somewhere and I’ve chosen to start by creating the
+But I needed to start somewhere and I’ve chosen to start by creating the
 boilerplate files and building them; after all I want to create a **shared
 library** (_libtt_) and an **executable linked to it** (_tt_). This is straightforward in C/C++ but I have no idea about D.
 
@@ -215,7 +215,7 @@ On the next days I’ll write the good for the service parser too, and actually
 experiment with the **service dependencies checker**, which I think will be one of
 the critical parts.
 
-_Stay tuned!i_
+_Stay tuned!_
 
 [^6]: https://github.com/dlang/dub
 [^2]: https://mesonbuild.com
