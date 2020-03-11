@@ -45,3 +45,7 @@ extracssfiles = ["css/image.css"]
     name = "talks"
     weight = 300
     url = "/talks/"
+
+[markup.goldmark.renderer]
+unsafe= true
+
