@@ -11,7 +11,7 @@ Devember as long finished, but not all the projects started during the challenge
 
 [tt]: https://github.com/danyspin97/tt
 
-***Notes***: _If you do not know what _tt_ is, I really invite you to read the previous two posts([link1][devember1], [link2][devember2]) on the matter, as this one is a continuation. Nevertheless, it is not a requirement for reading this post_.
+***Notes***: _If you do not know what tt is, I really invite you to read the previous two posts([link1][devember1], [link2][devember2]) on the matter, as this one is a continuation. Nevertheless, it is not a requirement for reading this post_.
 
 [devember1]: https://danyspin97.org/blog/devember-2019-rewriting-66/
 [devember2]: https://danyspin97.org/blog/devember-2019-first-ten-days/
