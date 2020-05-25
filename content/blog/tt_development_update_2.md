@@ -47,7 +47,7 @@ However the quotes are still required in the `[config]` section to emphasize
 that key/value pairs in this section will be written into the environment. This
 is important because the environment keys are stricter than usual: only
 `[A-ZA-z0-9_]` is supported and the first character cannot be a number.
-Another advantage is that here trailing spaces can be spot at a first glance,
+Another advantage is that here trailing spaces can be spotted at a first glance,
 as they might be a problem with some service/user configuration.
 
 ```
@@ -198,7 +198,7 @@ Specifically, these are the features that I have lost from the switch:
 - Good command line arguments parser
 - JSON serialization
 - Logging
-- String formattation
+- String formatting
 - Unit testing
 
 None of the above functionalities are trivial to implement, so I have to resort
@@ -208,7 +208,9 @@ libraries**.
 ### Taywe/args
 For parsing command line arguments I have chosen [Taywe/args]() header-only
 library. I need a parser that is able to declare subcommands and assign
-specific options to them. Most cli arguments parser that I have tried to declare a static object and let the developer reuse that in different classes/sources.
+specific options to them. I have tried many cli arguments parsers and I have
+found out that most of them declare a static parser object; then this object
+can be reused that in different classes/sources.
 _Taywe/args_ lets you instead **configure the subcommand called by the user at runtime**, which is really similar to what was done in Dlang.
 
 From file `main.cpp` (simplified code):
@@ -263,18 +265,18 @@ TEST_CASE("SectionLineParser") {
 ## Other libraries
 
 The above libraries have been already integrated into the codebase. For the
-other features missing I have been considered other libraries such as
+other missing features I have been considering other libraries such as
 [fmt](https://github.com/fmtlib/fmt) and
 [spdlog](https://github.com/gabime/spdlog). However, they will be introduced
 in next updates as they have been integrated and used properly.
 
-## Static analisys and tools
+## Static analysis and tools
 
 C++ is a widely adopted language, so there are many tools to ease its
 development. The rewrite ensured a better meson support (yay!) and the
-possibility to run static analisys tools.
+possibility to run static analysis tools.
 
-Among the static analisys tools used locally there are
+Among the static analysis tools used locally there are
 [_clang-tidy_](https://clang.llvm.org/extra/clang-tidy/) and
 [_oclint_](https://github.com/oclint/oclint). They showed a lot of improvements
 for the codebase and some logic error too. _oclint_ also check **path complexity**,
