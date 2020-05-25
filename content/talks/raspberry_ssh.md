@@ -1,6 +1,6 @@
 ---
 title: 'Raspberry Pi e SSH🇮🇹'
-date: "2020-05-18T08:00:00"
+date: "2020-05-17T20:30:00"
 categories: ["workshop"]
 tags: ["raspberry", "fablabrc", "security"]
 ---
@@ -24,8 +24,6 @@ class: left, top
 Cos'è il Raspberry Pi
 
 Protocollo SSH
-
-Firewall su Linux
 
 ---
 class: center, middle
@@ -175,7 +173,7 @@ Alice e Bob si accordano su una chiave da utilizzare per cifrare la connessione
 ---
 class: center, middle
 
-D'ore in poi verrà utilizzata la crittografia asimmetrica
+D'ora in poi verrà utilizzata la crittografia asimmetrica
 
 ---
 class: center, middle
