@@ -13,22 +13,21 @@ blog  = "blog/:slug/"
 [params]
 description = "A passionate engineering student who writes about Unix related topics and tech stuff."
 github = "danyspin97"
-linkedin = "danyspin97"
 email = "danyspin97@protonmail.com"
 logofile = "img/logo.png"
 faviconfile = "img/logo.png"
 dateform = "Jan 2, 2006"
 dateformfull = "Mon Jan 2 2006 15:04:05 MST"
 include_rss = true
-latestpostcount = 3
+latestpostcount = 4
 i18n_flags = true
 cachebuster = true
 noshowreadtime = false
-mastodon = "//pleroma.liveunix.org/@danyspin97"
+#mastodon = "//pleroma.liveunix.org/@danyspin97"
 highlightjs = true
 progressively = false
 posts_navigation = true
-copyright = "CC BY-SA 4.0 © 2019 Danilo Spinella"
+copyright = "CC BY-SA 4.0 © ${year} Danilo Spinella"
 copyrightUrl = "https://creativecommons.org/licenses/by-sa/4.0/"
 extracssfiles = ["css/image.css"]
 
