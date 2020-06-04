@@ -5,27 +5,84 @@
             <div class="posts">
                 <div class="page-heading">{{ .Title }}</div>
 
-                {{ range where .Data.Pages "Title" .Title }}
-                <div class="markdown">
-                  <p>{{ .Content }}</p>
-                </div>
-                {{ end }}
+                <span style="display:inline;"><a id="button-date" href="javascript:show('date');hideAllExcept('date');">By date</a></span>
+                <span style="display:inline;"><a id="button-title" href="javascript:show('title');hideAllExcept('title');">&emsp;By title</a></span>
 
-                {{ $sectionTitle := .Title }}
-                <ul>
-                    {{ range .Data.Pages.GroupByDate "2006" "desc"}}
-                      {{ if not (and (eq (len .Pages) 1) (eq (index .Pages 0).Title $sectionTitle)) }}
-                        <li class="groupby">{{ .Key }}</li>
-                        {{ range sort .Pages "Date" "desc" }}
-                          {{ if (not (eq $sectionTitle .Title)) }}
-                            {{ partial "li.html" . }}
+                <div id="sortby-date">
+                    {{ range where .Data.Pages "Title" .Title }}
+                    <div class="markdown">
+                      <p>{{ .Content }}</p>
+                    </div>
+                    {{ end }}
+
+                    {{ $sectionTitle := .Title }}
+                    <ul>
+                        {{ range .Data.Pages.GroupByDate "2006" "desc"}}
+                          {{ if not (and (eq (len .Pages) 1) (eq (index .Pages 0).Title $sectionTitle)) }}
+                            <li class="groupby">{{ .Key }}</li>
+                            {{ range sort .Pages "Date" "desc" }}
+                              {{ if (not (eq $sectionTitle .Title)) }}
+                                {{ partial "li.html" . }}
+                              {{ end }}
+                            {{ end }}
                           {{ end }}
                         {{ end }}
-                      {{ end }}
-                    {{ end }}
-                </ul>
+                    </ul>
+                </div>
+                <div id="sortby-title" style="display:none;">
+                    <ul>
+                        <li class="groupby">A-Z</li>
+                        {{ range .Pages.ByTitle }}
+                            {{ if (not (eq $sectionTitle .Title)) }}
+                              {{ partial "li.html" . }}
+                            {{ end }}
+                        {{ end }}
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 </div>
+<script>
+function show (id) {
+  var computedDisplay, element, index;
+  var color = document.getElementById('button-' + id).style.color;
+  if (color !== "#428bca") {
+    document.getElementById('button-' + id).style.color = "#428bca";
+  }
+  var elements = document.getElementById('sortby-' + id);
+
+  elements = elements.length ? elements : [elements];
+  for (index = 0; index < elements.length; index++) {
+    element = elements[index];
+
+    // Remove the element's inline display styling
+    element.style.display = '';
+    computedDisplay = window.getComputedStyle(element, null).getPropertyValue('display');
+
+    if (computedDisplay === 'none') {
+        element.style.display = specifiedDisplay || 'block';
+    }
+  }
+}
+function hide (elements) {
+  elements = elements.length ? elements : [elements];
+  for (var index = 0; index < elements.length; index++) {
+    elements[index].style.display = 'none';
+  }
+}
+function hideAllExcept(divToShow) {
+  var ids = ['date', 'title']; //, 'category', 'tag'];
+  for (const id of ids) {
+    if (divToShow !== id) {
+        hide(document.getElementById('sortby-' + id));
+        document.getElementById('button-' + id).style.color = "#666666";
+    }
+  }
+}
+var ids = ['title']; //, 'category', 'tag'];
+for (const id of ids) {
+  document.getElementById('button-' + id).style.color = "#666666";
+}
+</script>
 {{ partial "footer.html" . }}
