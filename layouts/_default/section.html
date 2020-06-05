@@ -5,8 +5,9 @@
             <div class="posts">
                 <div class="page-heading">{{ .Title }}</div>
 
-                <span style="display:inline;"><a id="button-date" href="javascript:show('date');hideAllExcept('date');">By date</a></span>
-                <span style="display:inline;"><a id="button-title" href="javascript:show('title');hideAllExcept('title');">&emsp;By title</a></span>
+                <span style="display:inline;"><a id="button-date" href="javascript:show('date');hideAllExcept('date');"><i class="fa fa-calendar" aria-hidden="true"></i> By date</a></span>
+                &emsp;
+                <span style="display:inline;"><a id="button-title" href="javascript:show('title');hideAllExcept('title');"><i class="fa fa-sort-alpha-asc" aria-hidden="true"></i> By title</a></span>
 
                 <div id="sortby-date">
                     {{ range where .Data.Pages "Title" .Title }}
