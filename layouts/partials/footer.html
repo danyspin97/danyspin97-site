@@ -109,7 +109,7 @@
         {{ end }}
 
         {{ if .Site.RSSLink }}
-            <a href="{{ .Site.RSSLink }}">
+            <a href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}">
                 <i class="fa fa-rss fa-lg"></i>
             </a>
         {{ end }}
