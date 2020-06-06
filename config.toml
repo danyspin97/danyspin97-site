@@ -1,6 +1,6 @@
 baseURL = "https://danyspin97.org/"
 languageCode = "en-us"
-title = "Danilo Spinella's site"
+title = "danyspin97's site"
 author = "Danilo Spinella"
 theme = "cocoa-eh"
 enableRobotsTXT = true
