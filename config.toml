@@ -29,7 +29,7 @@ progressively = false
 posts_navigation = true
 copyright = "CC BY-SA 4.0 © {year} Danilo Spinella"
 copyrightUrl = "https://creativecommons.org/licenses/by-sa/4.0/"
-extracssfiles = ["css/image.css"]
+extracssfiles = ["css/image.css", "css/bigger-header.css"]
 
 [[menu.main]]
     name= "blog"
