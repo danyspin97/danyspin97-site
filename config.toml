@@ -13,7 +13,7 @@ blog  = "blog/:slug/"
 [params]
 description = "A passionate engineering student who writes about Unix related topics and tech stuff."
 github = "danyspin97"
-email = "danyspin97@protonmail.com"
+email = "me@danyspin97.org"
 logofile = "img/logo.png"
 faviconfile = "img/logo.png"
 dateform = "Jan 2, 2006"
