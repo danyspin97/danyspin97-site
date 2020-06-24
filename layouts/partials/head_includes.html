@@ -18,9 +18,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
 
 {{ if .Site.Params.highlightjs }}
-  <style type="text/css" media="screen">
-    {{ partial "css/highlight.min.css" . | safeCSS }}
-  </style>
+  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/ascetic.css"></link>
 {{ end }}
 
 {{ if .Site.Params.progressively }}
