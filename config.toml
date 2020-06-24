@@ -46,6 +46,9 @@ extracssfiles = ["css/image.css", "css/bigger-header.css"]
     url = "/talks/"
 
 [markup]
+  [markup.goldmark.renderer]
+    # Needed for Forkawesome
+    unsafe = true
   [markup.highlight]
     codeFences = true
     guessSyntax = false
