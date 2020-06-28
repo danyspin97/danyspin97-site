@@ -26,8 +26,8 @@ noshowreadtime = false
 highlightjs = true
 progressively = false
 posts_navigation = true
-copyright = "CC BY-SA 4.0 © 2018-{year} Danilo Spinella"
-copyrightUrl = "https://creativecommons.org/licenses/by-sa/4.0/"
+copyright = "Copyright © 2018-{year} Danilo Spinella"
+copyrightUrl = "https://github.com/DanySpin97/danyspin97-site/blob/master/LICENSE"
 extracssfiles = ["css/image.css", "css/bigger-header.css"]
 
 [[menu.main]]
