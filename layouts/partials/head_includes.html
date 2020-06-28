@@ -39,6 +39,10 @@
   </style>
 {{ end }}
 
+<style type="text/css" media="screen">
+    {{ partial "css/additions.css" . | safeCSS }}
+</style>
+
 {{ range .Site.Params.extracssfiles }}
   <link rel="stylesheet" href="{{ . | relURL }}">
 {{ end }}

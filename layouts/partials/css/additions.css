@@ -1,0 +1,19 @@
+summary {
+    font-family:'Helvetica Neue', 'Arial', sans-serif;
+}
+
+/* https://stackoverflow.com/questions/10813581/replace-the-expand-icon-of-html5-details-tag */
+summary::-webkit-details-marker {
+    display: none
+}
+
+summary:after {
+    float: left;
+    height: 15px;
+    width: 15px;
+    content: "\f067";
+}
+
+details[open] summary:after {
+    content: "\f068";
+}
