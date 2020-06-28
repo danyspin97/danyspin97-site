@@ -23,7 +23,6 @@ latestpostcount = 4
 i18n_flags = true
 cachebuster = true
 noshowreadtime = false
-#mastodon = "//pleroma.liveunix.org/@danyspin97"
 highlightjs = true
 progressively = false
 posts_navigation = true
