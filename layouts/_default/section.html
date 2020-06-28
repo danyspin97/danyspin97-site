@@ -9,6 +9,12 @@
                 &emsp;
                 <span style="display:inline;"><a id="button-title" href="javascript:show('title');hideAllExcept('title');"><i class="fa fa-sort-alpha-asc" aria-hidden="true"></i> By title</a></span>
 
+                &emsp;
+                <span style="display:inline;"><a id="button-category" href="javascript:show('category');hideAllExcept('category');"><i class="fa fa-asterisk" aria-hidden="true"></i> By category</a></span>
+
+                &emsp;
+                <span style="display:inline;"><a id="button-tag" href="javascript:show('tag');hideAllExcept('tag');"><i class="fa fa-at" aria-hidden="true"></i> By tag</a></span>
+
                 <div id="sortby-date">
                     {{ range where .Data.Pages "Title" .Title }}
                     <div class="markdown">
@@ -38,6 +44,51 @@
                               {{ partial "li.html" . }}
                             {{ end }}
                         {{ end }}
+                    </ul>
+                </div>
+                <div id="sortby-category" style="display:none;">
+                    {{ $currentCategory := "" }}
+                    <ul>
+                        {{ range .Pages.ByParam "categories" }}
+                            {{ if isset .Page.Params "categories" }}
+                                {{ $category := (index .Page.Params.categories 0) }}
+                                {{ if not (eq $category $currentCategory) }}
+                                    {{ $currentCategory = $category }}
+                                    <li class="groupby">{{ humanize $currentCategory }}</li>
+                                {{ end }}
+                                {{ partial "li.html" . }}
+                            {{ end }}
+                        {{ end }}
+                    </ul>
+                </div>
+                <div id="sortby-tag" style="display:none;">
+                    {{ $tagDict := dict }}
+                    {{ range .Pages.ByDate }}
+                            {{ $currentPage := .Page }}
+                            {{ range .Page.Params.tags }}
+                                {{ if not (isset $tagDict .) }}
+                                    {{ $tagDict = merge $tagDict (dict . (slice $currentPage)) }}
+                                {{ else }}
+                                    {{ $array := (index $tagDict .) }}
+                                    {{ $array = $array | append $currentPage }}
+                                    {{ $tagDict = merge $tagDict (dict . $array) }}
+                                {{ end }}
+                            {{ end }}
+                    {{ end }}
+
+                    <ul>
+                        {{ range $tag, $pages := $tagDict }}
+                            </li>
+                            <li class="groupby">
+                            <details>
+                            <summary>
+                                {{ humanize $tag }}
+                            </summary>
+                            {{ range $pages }}
+                                {{ partial "li.html" . }}
+                            {{ end }}
+                        {{ end }}
+                                </li>
                     </ul>
                 </div>
             </div>
@@ -74,7 +125,7 @@ function hide (elements) {
   }
 }
 function hideAllExcept(divToShow) {
-  var ids = ['date', 'title']; //, 'category', 'tag'];
+  var ids = ['date', 'title', 'category', 'tag'];
   for (const id of ids) {
     if (divToShow !== id) {
         hide(document.getElementById('sortby-' + id));
@@ -82,7 +133,7 @@ function hideAllExcept(divToShow) {
     }
   }
 }
-var ids = ['title']; //, 'category', 'tag'];
+var ids = ['title', 'category', 'tag'];
 for (const id of ids) {
   document.getElementById('button-' + id).style.color = "#666666";
 }
