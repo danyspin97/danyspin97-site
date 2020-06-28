@@ -41,7 +41,7 @@ fact the README says:
 
 > An ncurses mixer for PulseAudio inspired by pavucontrol.
 
-# Features
+## Features
 
 _ncpamixer_ implements the following features:
 
@@ -55,17 +55,17 @@ However, it cannot do (but _pavucontrol_ can):
 - do any advanced configuration
 - filter applications by category
 
-# Installation
+## Installation
 
 If you want to give it a try, [these][install] are the installation instructions.
 
-# Conclusion
+## Conclusion
 
 _ncpamixer_ is not a drop-in replacement for its GTK+ counterpart, but it's
 suitable for everyday usage: it is perfect to use along with a window manager
 and a shortcut assigned (I personally use super+p).
 
-# Related links
+## Related links
 
 - [ncpamixer]
 - [/r/commandline thread][reddit]

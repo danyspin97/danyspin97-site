@@ -17,7 +17,7 @@ to rewrite 66. I was planning to explain this from some time and I've taken to
 opportunity to do so now. If you are only interested in the program itself and
 what I'll do in this Devember, skip to [development](#tt)._
 
-# Why?
+## Why?
 
 Regardless of whatever “sytemd sucks”[^3][^4] or not, I want to have an
 alternative to it. I want to be able to have at least some choiches for what
@@ -30,7 +30,7 @@ straightforward. This does not involve the design (which have been already
 covered in deep by _skarnet_ here[^5]) but only usability. Yup, I am really
 picky regarding the programs to use.
 
-# s6/s6-rc
+## s6/s6-rc
 
 At the start of the 2018 I've learnt about s6 suite[^9] and s6-rc[^10]. I wanted
 to try them on my newly installed _Exherbo Linux_ system, so I have adapted the
@@ -51,7 +51,7 @@ it. And here it comes *s6-frontend*, the user interface not written yet. Skarnet
 has recently confirmed that he will write it in the 2021 so it won't be ready
 any time soon.
 
-# 66
+## 66
 
 Exherbo was not the only distribution adopting s6 and and among the other ones
 there was **obarun**[^13], developed by the omonimus creator as a fork of Arch
@@ -90,7 +90,7 @@ Now that I had the possibility, I could also **rewrite it from scratch**, pickin
 I wish the best to obarun with both 66 and his distribution, for which he have
 worked years trying to offer a valid systemd and Arch Linux alternative_.
 
-# tt
+## tt
 
 **tt** (which should have been 77 or t7 but I don't like numbers in binaries
 names, if not strictly necessaries) is a wrapper, or better, **a frontend to

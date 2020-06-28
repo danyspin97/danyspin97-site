@@ -16,11 +16,11 @@ It is too long for something we do so often, isn't it?
 
 There are two different terminal utilities which improve this simple course of action, respectively for _[Google]_ and _[DuckDuckGo]_ : **[googler]** and **[ddgr]**. </br> We are going to talk about the latter.
 
-# Overview
+## Overview
 
 _[ddgr]_ is a python3 script, ~1800 lines of code as of version `1.2`, which take your query and show you the results. It doesn't waste _precious_ space on your screen: there are only your prompt and you.
 
-## How it works
+### How it works
 
 There are two ways to call _ddgr_: with or without the search query as an argument. Both lead to the prompt, which is called _omniprompt_, where you can:
 
@@ -41,7 +41,7 @@ But lets _ddgr_ talk for itself. Here's an asciinema:
 
 <script src="https://asciinema.org/a/151849.js" id="asciicast-151849" async></script>
 
-## Features
+### Features
 
 Quoting the exhaustive list of [features] from readme:
 
@@ -61,11 +61,11 @@ Quoting the exhaustive list of [features] from readme:
 - Minimal dependencies
 
 
-## Installation
+### Installation
 
 _[ddgr]_ is available pretty much in every distro as shown [here][1].
 
-# Conclusion
+## Conclusion
 
 _[ddgr]_ is really a must for people who use DuckDuckGo and want a clean terminal utility; it worked flawlessly for me in the past months, both in features and stability. Plus, it can encode the results in JSON format, making effortless the implementation in other scripts.
 
