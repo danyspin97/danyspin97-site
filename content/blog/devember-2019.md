@@ -1,8 +1,8 @@
 ---
 title: "Devember 2019: Rewriting 66"
 date: 2019-11-25T15:15:00+01:00
-categories: [”development”]
-tags: [’exherbo’, ‘init-diversity’, ‘devember’, ‘dlang’]
+categories: [development]
+tags: ['exherbo', 'init-diversity', 'devember', 'dlang']
 ---
 
 **Prerequisites**: _Basic knowledge of a Unix system architecture; init diversity initiative._
