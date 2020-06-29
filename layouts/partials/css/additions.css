@@ -7,11 +7,17 @@ summary::-webkit-details-marker {
     display: none
 }
 
+/* https://stackoverflow.com/a/54878005 */
+details > summary {
+    display:block;
+}
+
 summary:after {
     float: left;
     height: 15px;
     width: 15px;
     content: "\f067";
+    font-family: 'ForkAwesome';
 }
 
 details[open] summary:after {
