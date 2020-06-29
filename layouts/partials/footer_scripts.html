@@ -10,41 +10,9 @@
   <script src="{{ .Site.BaseURL }}js/social-share-kit.min.js" defer></script>
 {{ end }}
 
-{{ if .Site.Params.fathomurl }}
-<!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
-<script>
-(function(f, a, t, h, o, m){
-	a[h]=a[h]||function(){
-		(a[h].q=a[h].q||[]).push(arguments)
-	};
-	o=f.createElement('script'),
-	m=f.getElementsByTagName('script')[0];
-	o.async=1; o.src=t; o.id='fathom-script';
-	m.parentNode.insertBefore(o,m)
-})(document, window, '//{{ .Site.Params.fathomurl }}/tracker.js', 'fathom');
-fathom('trackPageview');
-</script>
-<!-- / Fathom -->
-{{ end }}
-
-{{ template "_internal/google_analytics_async.html" . }}
-
 <script>
   window.onload = function() {
-    {{ if .Site.Params.highlightjs }}
       hljs.initHighlighting();
-    {{ end }}
-    {{ if .Site.Params.progressively }}
-      progressively.init({delay: 30, throttle: 50});
-    {{ end }}
-    {{ if .Site.Params.share }}
-      SocialShareKit.init({
-        twitter: {
-            text: '',
-            {{ if .Site.Params.twitter }}via: '{{ .Site.Params.twitter }}'{{ end }}
-        }
-      });
-    {{ end }}
   };
 </script>
 
