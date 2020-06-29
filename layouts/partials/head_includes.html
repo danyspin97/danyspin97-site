@@ -10,16 +10,23 @@
   {{ partial "css/min769px.css" . | safeCSS }}
 </style>
 
-<noscript>
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,700,700i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700" rel="stylesheet">
-</noscript>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
 
 {{ if .Site.Params.highlightjs }}
   <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/ascetic.css"></link>
 {{ end }}
+
+<style type="text/css" media="screen">
+    {{ partial "css/merriweather.css" . | safeCSS }}
+</style>
+
+<style type="text/css" media="screen">
+    {{ partial "css/raleway.css" . | safeCSS }}
+</style>
+
+<style type="text/css" media="screen">
+    {{ partial "css/ubuntu-mono.css" . | safeCSS }}
+</style>
 
 {{ if .Site.Params.progressively }}
   <style type="text/css" media="screen">
