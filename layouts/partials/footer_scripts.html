@@ -16,6 +16,24 @@
   };
 </script>
 
+<script>
+  var remark_config = {
+    host: "https://remark42.danyspin97.org", // hostname of remark server, same as REMARK_URL in backend config, e.g. "https://demo.remark42.com"
+    site_id: 'danyspin97.org',
+    components: ['embed', 'counter'], // optional param; which components to load. default to ["embed"]
+                           // to load all components define components as ['embed', 'last-comments', 'counter']
+  };
+
+  (function(c) {
+    for(var i = 0; i < c.length; i++){
+      var d = document, s = d.createElement('script');
+      s.src = remark_config.host + '/web/' +c[i] +'.js';
+      s.defer = true;
+      (d.head || d.body).appendChild(s);
+    }
+  })(remark_config.components || ['embed']);
+</script>
+
 {{ if .Site.Params.uselatex }}
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
