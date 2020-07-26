@@ -261,7 +261,7 @@ $ make install
 Now add the following lines at the top of your `~/.bashrc`:
 
 ```sh
-[[ $- == *i* ]] && source ~/.local/share/ble.sh --noattach
+[[ $- == *i* ]] && source ~/.local/share/blesh/ble.sh --noattach
 ```
 
 And the following lines at the end of the same file:
