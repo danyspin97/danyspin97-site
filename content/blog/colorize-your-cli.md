@@ -108,7 +108,7 @@ You can install it using the package manager, as it is available in almost every
 To enable it in `bash`, add the following at the end of your `~/.bashrc`:
 
 ```
-[[ -s "/etc/grc.bashrc" ]] && source /etc/grc.bashrc
+[[ -s "/etc/profile.d/grc.bashrc" ]] && source /etc/profile.d/grc.bashrc
 ```
 
 To enable it in `zsh` or `fish`, respectively source `/etc/grc.zsh` or
