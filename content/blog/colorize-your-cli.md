@@ -92,7 +92,7 @@ Let's take as example a well known and widely used program: `df`.
 ![](/img/colorize-your-cli/df-plain.png)
 
 As you can see, it's clear but plain and somehow hard to follow. Let's use
-[**Generic Colourizer**](https://github.com/pengwynn/grc) to improve its output:
+[**Generic Colourizer**](https://github.com/garabik/grc) to improve its output:
 
 ![](/img/colorize-your-cli/df-grc.png)
 
