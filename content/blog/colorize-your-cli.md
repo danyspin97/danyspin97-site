@@ -3,6 +3,7 @@ title: "Colorize your CLI"
 date: 2020-07-26T15:30:00+01:00
 categories: ["showcase"]
 tags: ['cli']
+hacker_news_id: "23957325"
 ---
 
 ***Prerequisites***: _basic understanding of CLI and of common programs_.
