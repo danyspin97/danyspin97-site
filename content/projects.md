@@ -2,9 +2,13 @@
 title: Projects
 ---
 
-<i class="fa fa-star"></i> [tt](https:://github.com/danyspin97/tt), a init/rc manager inspired by 66 and based on s6 suite 
+<i class="fa fa-star"></i> [tt](https://github.com/danyspin97/tt), a init/rc manager inspired by 66 and based on s6 suite 
 
-<i class="fa fa-user"></i> [Eclectic Linux](https::/github.com/eclectic-linux/design) Mixed distribution based on Exherbo
+<i class="fa fa-sliders"></i> [benice](https://git.sr.ht/~danyspin97/benice),
+a program that applies CPU and I/O policies on processes
+
+<i class="fa fa-user"></i> [Diverse Linux](https://gitlab.exherbo.org/diverse/diverse-design),
+ an opinionated spin of Exherbo Linux
 
 <i class="fa fa-sync"></i> [Exheres repository](https://github.com/DanySpin97/exheres), my repository of Exherbo packages
 
@@ -17,7 +21,10 @@ title: Projects
 <i class="fa fa-gears"></i> [Dotfiles](https://github.com/DanySpin97/dotfiles), dotfiles and configuration for various programs
 
 ### Old Projects
-<i class="fa fa-telegram"></i> [PhpBotFramework](http://danyspin97.github.io/PhpBotFramework), Framework for Telegram Bot API, written in PHP
+<i class="fa fa-telegram"></i> [PhpBotFramework](http://danyspin97.github.io/PhpBotFramework), a framework for Telegram Bot API written in PHP
+
+<i class="fa fa-telegram"></i> [Cppgram](https://github.com/DanySpin97/cppgram),
+a framework for Telegram Bot API written in C++11
 
 <i class="fa fa-address-book-o"></i> [MyAddressBookBot](http://danyspin97.github.io/MyAddressBookBot), a Telegram Bot to store and browse username contacts
 
