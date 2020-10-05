@@ -2,15 +2,20 @@
 title: Projects
 ---
 
-<i class="fa fa-star"></i> [tt](https://github.com/danyspin97/tt), a init/rc manager inspired by 66 and based on s6 suite 
+<i class="fa fa-star"></i> [tt](https://github.com/danyspin97/tt),
+a init/rc manager inspired by 66 and s6 suite
 
-<i class="fa fa-sliders"></i> [benice](https://git.sr.ht/~danyspin97/benice),
+<i class="fa fa-sliders"></i> [benice](https://sr.ht/~danyspin97/benice/),
 a program that applies CPU and I/O policies on processes
+
+<i class="fa fa-code-o"></i> [xdgpp](https://sr.ht/~danyspin97/xdgpp/),
+C++17 header-only implementation of the XDG Base Directory Specification
 
 <i class="fa fa-user"></i> [Diverse Linux](https://gitlab.exherbo.org/diverse/diverse-design),
  an opinionated spin of Exherbo Linux
 
-<i class="fa fa-sync"></i> [Exheres repository](https://github.com/DanySpin97/exheres), my repository of Exherbo packages
+<i class="fa fa-sync"></i> [Exheres repository](https://github.com/DanySpin97/exheres),
+my repository of Exherbo packages
 
 <i class="fa fa-linux"></i> [liveunix](https://liveunix.org), a site collecting unix systems data
 
