@@ -1,0 +1,9 @@
+<li class="post-item">
+    <span class="meta">{{ .Date.Format .Site.Params.dateform }}</span>
+    &emsp;
+    {{ if .Params.draft }}
+    <a href="{{ .RelPermalink }}"><span>Draft::{{ .Title }}</span></a>
+    {{ else }}
+    <a href="{{ .RelPermalink }}"><span>{{ .Title }}</span></a>
+    {{ end }}
+</li>

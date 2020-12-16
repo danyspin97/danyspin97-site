@@ -28,6 +28,8 @@
                 </div>
             {{ end }}
 
+            </br>
+
             <div class="best-posts">
             {{ $nbPosts := len (where .Site.Pages "Params.best" true) }}
             {{ if gt $nbPosts 0 }}
