@@ -16,18 +16,6 @@
     {{ partial "css/ascetic.css" . | safeCSS }}
 </style>
 
-<style type="text/css" media="screen">
-    {{ partial "css/merriweather.css" . | safeCSS }}
-</style>
-
-<style type="text/css" media="screen">
-    {{ partial "css/raleway.css" . | safeCSS }}
-</style>
-
-<style type="text/css" media="screen">
-    {{ partial "css/ubuntu-mono.css" . | safeCSS }}
-</style>
-
 {{ if .Site.Params.progressively }}
   <style type="text/css" media="screen">
     {{ partial "css/progressively.min.css" . | safeCSS }}
@@ -51,11 +39,11 @@
 </style>
 
 <style type="text/css" media="screen">
-    {{ partial "css/bigger-header.css" . | safeCSS }}
+    {{ partial "css/image.css" . | safeCSS }}
 </style>
 
 <style type="text/css" media="screen">
-    {{ partial "css/image.css" . | safeCSS }}
+    {{ partial "css/override.css" . | safeCSS }}
 </style>
 
 {{ range .Site.Params.extracssfiles }}

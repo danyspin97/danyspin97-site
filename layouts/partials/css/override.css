@@ -1,0 +1,131 @@
+/* Choose header and navbar font */
+h1, summary, body,
+div.header nav ul a,
+div.main .container.f04 .content .num,
+div.main .content .page-heading,
+div.main .content .markdown h1,
+div.main .content .markdown h2,
+div.main .content .markdown h3,
+div.main .content .markdown h4,
+div.main .content .markdown h5,
+div.main .content .markdown h6 {
+    font-family: 'Manrope', sans-serif;
+}
+
+div.main .content .front-matter .page-heading {
+    font-size: 1.3rem;
+}
+
+div.main .content .front-matter .date,
+div.main .content .front-matter .author,
+div.main .content .front-matter .reading-time,
+div.main .content .front-matter .tags {
+    font-size: 1.1rem;
+}
+
+div.main .content .page-heading {
+    font-size: 1.27rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+summary {
+    font-size: 1.3rem;
+}
+
+/* Change body font */
+div.main .content .markdown {
+    font-family: 'Martel', serif;
+    font-size: 1.055rem;
+}
+
+/* Change monospace font */
+div.main .content .markdown code,
+div.main .content .markdown pre {
+  font-family: 'Iosevka Web', monospace;
+  font-size: 1.06rem;
+  background-color: #f7f7f7;
+}
+
+div.main .content .markdown pre code {
+  font-size: 1.06rem;
+}
+
+
+div.main .container .content .post-item .meta {
+  font-size: 0.94rem;
+}
+
+div.main .container .content .groupby {
+    font-size: 1.09rem;
+}
+
+/* Remove padding for see-more link */
+div.main .container .content .see-more {
+   margin-top: 0;
+}
+
+.fa-lg {
+    font-size: 1.45rem;
+}
+
+/* Increase font size in the navbar */
+div.header nav ul a {
+  font-size: 1.35rem;
+}
+
+/* martel-regular - latin */
+@font-face {
+  font-family: 'Martel';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+  url('/fonts/martel-v5-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('/fonts/martel-v5-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* manrope-regular - latin */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+  url('/fonts/manrope-v3-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('/fonts/manrope-v3-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Iosevka font */
+@font-face {
+  font-family: 'Iosevka Web';
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  src: url('/fonts/iosevka-light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Iosevka Web';
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: italic;
+  src: url('/fonts/iosevka-lightitalic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Iosevka Web';
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  src: url('/fonts/iosevka-semibold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Iosevka Web';
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: italic;
+  src: url('/fonts/iosevka-semibolditalic.woff2') format('woff2');
+}
