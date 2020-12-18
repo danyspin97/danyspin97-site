@@ -84,6 +84,11 @@ div.header nav ul a {
   font-size: 1.35rem;
 }
 
+/* Increase font size in the footer */
+div.footer .container a {
+  font-size: 1.1rem;
+}
+
 /* martel-regular - latin */
 @font-face {
   font-family: 'Martel';
