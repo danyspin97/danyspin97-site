@@ -12,10 +12,6 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
 
-<style type="text/css" media="screen">
-    {{ partial "css/ascetic.css" . | safeCSS }}
-</style>
-
 {{ if .Site.Params.progressively }}
   <style type="text/css" media="screen">
     {{ partial "css/progressively.min.css" . | safeCSS }}
@@ -28,11 +24,9 @@
   </style>
 {{ end }}
 
-{{ if .Site.Params.colors }}
-  <style type="text/css" media="screen">
-    {{ partial "css/colors.css" . | safeCSS }}
-  </style>
-{{ end }}
+<style type="text/css" media="screen">
+  {{ partial "css/colors.css" . | safeCSS }}
+</style>
 
 <style type="text/css" media="screen">
     {{ partial "css/details-arrow.css" . | safeCSS }}
@@ -41,6 +35,17 @@
 <style type="text/css" media="screen">
     {{ partial "css/image.css" . | safeCSS }}
 </style>
+
+
+<style type="text/css" media="screen">
+    {{ partial "css/switch.css" . | safeCSS }}
+</style>
+
+<link rel="stylesheet" id="dark-theme-code"
+      href="/css/monokai-sublime.css">
+
+<link rel="stylesheet" id="light-theme-code"
+      href="/css/lightfair.css">
 
 <style type="text/css" media="screen">
     {{ partial "css/override.css" . | safeCSS }}

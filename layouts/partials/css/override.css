@@ -46,11 +46,19 @@ div.main .content .markdown code,
 div.main .content .markdown pre {
   font-family: 'Iosevka Web', monospace;
   font-size: 1.06rem;
-  background-color: #f7f7f7;
+}
+
+/* Add a frame to the code blocks */
+div.main .content .markdown code {
+  border: 2px dotted var(--gray);
+  border-radius: 8px;
 }
 
 div.main .content .markdown pre code {
   font-size: 1.06rem;
+  border: 5px solid var(--gray);
+  border-radius: 8px 30px;
+  padding: 10px;
 }
 
 

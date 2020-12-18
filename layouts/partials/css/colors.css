@@ -1,0 +1,83 @@
+:root {
+    --background: #f9f9f9;
+    --foreground: #181d2a;
+    --identifier: #428bca;
+    --secondary: var(--foreground);
+    --identifier-dark: #AB9DF2;
+    --gray: #727072;
+    --inline-code: var(--identifier);
+    --code-background: unset;
+}
+
+[data-theme="dark"] {
+    --background: #1C1C1C;
+    --foreground: #FCFCFA;
+    --secondary: #FC9867;
+    --identifier: #78DCE8;
+    --identifier-dark: #AB9DF2;
+    --gray: #727072;
+    --inline-code: #FFD866;
+    --code-background: unset;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--foreground);
+}
+
+a {
+    color: var(--identifier);
+}
+
+a:hover {
+    color: var(--identifier-dark);
+}
+
+div.main .content .front-matter .page-heading {
+    color: var(--red);
+}
+
+div.main .content .markdown h1,
+div.main .content .markdown h2,
+div.main .content .markdown h3,
+div.main .content .markdown h4,
+div.main .content .markdown h5,
+div.main .content .markdown h6 {
+    color: var(--secondary);
+}
+
+div.main .content {
+    color: var(--secondary);
+}
+
+#button-date,
+#button-category,
+#button-title,
+#button-tag,
+div.main .content .front-matter .meta,
+div.main .content .page-heading,
+div.main .container .content .post-item .meta,
+div.footer .container a {
+    color: var(--gray);
+}
+
+div.main .content .markdown, div.header .name, div.header nav ul a:hover {
+    color: var(--foreground);
+}
+
+div.header nav ul a {
+    color: var(--secondary);
+}
+
+div.main .content .markdown code ,
+div.main .content .markdown pre {
+    background-color: var(--code-background);
+}
+
+div.main .content .markdown code {
+    color: var(--inline-code);
+}
+
+div.main .content .markdown pre code {
+    color: unset;
+}

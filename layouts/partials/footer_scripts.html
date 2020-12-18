@@ -20,6 +20,7 @@
   var remark_config = {
     host: "https://remark42.danyspin97.org", // hostname of remark server, same as REMARK_URL in backend config, e.g. "https://demo.remark42.com"
     site_id: 'danyspin97.org',
+    theme: 'dark',
     components: ['embed', 'counter'], // optional param; which components to load. default to ["embed"]
                            // to load all components define components as ['embed', 'last-comments', 'counter']
   };
@@ -32,6 +33,43 @@
       (d.head || d.body).appendChild(s);
     }
   })(remark_config.components || ['embed']);
+</script>
+
+<script>
+/* https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8 */
+const toggleSwitch = document.querySelector('.theme-switch input');
+const currentTheme = localStorage.getItem('theme');
+
+if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+  
+    if (currentTheme === 'dark') {
+        toggleSwitch.checked = true;
+        document.getElementById('light-theme-code').disabled = true;
+    } else {
+        document.getElementById('dark-theme-code').disabled = true;
+        // Wait until remark42 windows has been created
+        window.setTimeout ( function() {
+            window.REMARK42.changeTheme('light');
+        }, 1000);
+    }
+} else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    toggleSwitch.checked = true;
+    localStorage.setItem('theme', 'dark');
+    document.getElementById('light-theme-code').disabled = true;
+}
+
+function switchTheme(e) {
+    theme = e.target.checked? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+    window.REMARK42.changeTheme(theme);
+    document.getElementById('dark-theme-code').disabled = (!e.target.checked);
+    document.getElementById('light-theme-code').disabled = (e.target.checked);
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
 </script>
 
 {{ if .Site.Params.uselatex }}
