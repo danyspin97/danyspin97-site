@@ -61,6 +61,11 @@ div.main .content .markdown pre code {
   padding: 10px;
 }
 
+div.main .content .markdown img {
+  padding: 4px;
+  border: 3px solid var(--gray);
+  border-radius: 8px;
+}
 
 div.main .container .content .post-item .meta {
   font-size: 0.94rem;
