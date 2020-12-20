@@ -191,7 +191,7 @@ export LESS="--RAW-CONTROL-CHARS"
 
 If you are using `fish`, add the following to your `~/.config/fish/config.fish`:
 
-```fish
+```sh
 set -xU LESS_TERMCAP_md (printf "\e[01;31m")
 set -xU LESS_TERMCAP_me (printf "\e[0m")
 set -xU LESS_TERMCAP_se (printf "\e[0m")
