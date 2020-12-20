@@ -81,3 +81,7 @@ div.main .content .markdown code {
 div.main .content .markdown pre code {
     color: unset;
 }
+
+div.main .content .markdown img + em {
+    color: var(--gray);
+}

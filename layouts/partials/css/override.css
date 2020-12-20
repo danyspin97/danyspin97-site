@@ -94,6 +94,16 @@ div.footer .container a {
   font-size: 1.1rem;
 }
 
+/* Adjust image size */
+div.main .content .markdown img {
+    max-width: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* martel-regular - latin */
 @font-face {
   font-family: 'Martel';
