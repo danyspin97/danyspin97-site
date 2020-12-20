@@ -96,6 +96,17 @@ div.footer .container a {
 }
 
 /* Adjust image size */
+div.main .content .markdown figure {
+    align-items: center;
+    max-width: 100%;
+    margin-left: auto;
+    text-align: center;
+}
+
+div.main .content .markdown figcaption {
+    padding: 5px;
+}
+
 div.main .content .markdown img {
     max-width: 100%;
     width: auto;
