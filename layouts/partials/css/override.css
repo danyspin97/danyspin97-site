@@ -116,6 +116,10 @@ div.main .content .markdown img {
     margin-right: auto;
 }
 
+div.footer .container .copyright {
+    font-weight: bold;
+}
+
 /* martel-regular - latin */
 @font-face {
   font-family: 'Martel';
