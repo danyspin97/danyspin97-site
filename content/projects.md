@@ -8,7 +8,7 @@ a init/rc manager inspired by 66 and s6 suite
 <i class="fa fa-sliders"></i> [benice](https://sr.ht/~danyspin97/benice/),
 a program that applies CPU and I/O policies on processes
 
-<i class="fa fa-code-o"></i> [xdgpp](https://sr.ht/~danyspin97/xdgpp/),
+<i class="fa fa-file-code-o"></i> [xdgpp](https://sr.ht/~danyspin97/xdgpp/),
 C++17 header-only implementation of the XDG Base Directory Specification
 
 <i class="fa fa-user"></i> [Diverse Linux](https://gitlab.exherbo.org/diverse/diverse-design),
