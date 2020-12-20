@@ -59,6 +59,7 @@ div.main .content .markdown pre code {
   border: 5px solid var(--gray);
   border-radius: 8px 30px;
   padding: 10px;
+  white-space: pre-wrap;
 }
 
 div.main .content .markdown img {
