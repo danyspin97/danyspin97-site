@@ -120,6 +120,10 @@ div.footer .container .copyright {
     font-weight: bold;
 }
 
+.theme-switch-container {
+    padding: 6px;
+}
+
 /* martel-regular - latin */
 @font-face {
   font-family: 'Martel';
