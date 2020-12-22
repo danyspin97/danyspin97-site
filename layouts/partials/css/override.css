@@ -124,6 +124,16 @@ div.footer .container .copyright {
     padding: 6px;
 }
 
+div.donate-banner {
+    text-align: center;
+    font-family: 'Martel';
+    font-size: 1.15rem;
+    padding: 12px;
+    border: 5px solid var(--gray);
+    border-radius: 8px;
+    color: var(--foreground);
+}
+
 /* martel-regular - latin */
 @font-face {
   font-family: 'Martel';
