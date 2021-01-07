@@ -13,7 +13,7 @@ with its embedded competitor: `wolfssl`.
 
 ## A bit of background about OpenSSL
 
-OpenSSL is one of the most crucial library on a Unix system: it performs
+OpenSSL is one of the most crucial libraries on a Unix system: it performs
 cryptographic functions and it provides _Transport Layer Security_ (_TLS_) and _Secure Sockets Layer_ (_SSL_) protocols to applications.
 
 According to the _Arch Linux_ [OpenSSL package], **355** packages, out of the
@@ -38,8 +38,9 @@ keys, user names and passwords.
 [RFC6520]: https://tools.ietf.org/html/rfc6520
 
 All the community turned to the OpenSSL project, weighting its implementation
-and security policy. Heartbleed have been promptly fixed, but another
-vulnerability there could be new vulnerabilities in the future, if security was not properly prioritized during development.
+and security policy. Heartbleed have been promptly fixed, but there could be new
+vulnerabilities in the future, if security was not properly prioritized during
+development.
 
 At this point, OpenBSD's folks forked OpenSSL and started a new project:
 [LibreSSL]. It primary goals were to **modernize the codebase and to improve
