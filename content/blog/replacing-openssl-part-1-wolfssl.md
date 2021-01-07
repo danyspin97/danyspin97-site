@@ -1,7 +1,6 @@
 ---
 title: "Replacing Openssl, Part 1: wolfSSL"
 date: 2021-01-06T16:15:00+01:00
-hacker_news_id: "25658440"
 tags: ["wolfssl", "openssl"]
 categories: ["linux"]
 ---
