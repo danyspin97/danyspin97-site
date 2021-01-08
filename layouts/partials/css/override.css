@@ -134,6 +134,18 @@ div.donate-banner {
     color: var(--foreground);
 }
 
+div.main .content .markdown table {
+    border: 5px solid var(--gray);
+    border-radius: 8px;
+    padding: 12px;
+    border-collapse: separate;
+}
+
+div.main .content .markdown td,
+div.main .content .markdown th {
+    border: unset;
+}
+
 /* martel-regular - latin */
 @font-face {
   font-family: 'Martel';

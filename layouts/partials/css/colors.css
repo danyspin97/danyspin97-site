@@ -96,3 +96,8 @@ div.main .content .markdown figure {
 div.main .container .content .see-more {
     color: var(--gray);
 }
+
+div.main .content .markdown tbody tr:nth-child(2n+1) td {
+    background-color: var(--background);
+}
+
