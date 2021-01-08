@@ -79,7 +79,7 @@ $ alias ll='l --long'
 
 |
 -|-
-Repository: | https://github.com/ogham/exa
+Repository: | https://github.com/dandavison/delta
 Written in: | _Rust_
 Repology: | https://repology.org/project/git-delta/versions
 Dependencies: | _libgit2_
