@@ -116,7 +116,7 @@ To add `delta` to `git`, add the following to your `~/.gitconfig` file:
 `delta` supports many themes; you can see the complete list by running:
 
 ```bash
-$ git --list-syntax-themes
+$ delta --list-syntax-themes
 ```
 
 After you have found one that you like or that pairs well with your terminal
