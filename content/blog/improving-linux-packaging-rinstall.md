@@ -159,7 +159,7 @@ docs:
 appdata:
     - src: extra/linux/io.alacritty.Alacritty.appdata.xml
 desktop-files:
-    - src: extra/linux/Alacritty.desktopname: alacritty
+    - src: extra/linux/Alacritty.desktop
 ```
 
 And this would be the output from **rinstall**:
