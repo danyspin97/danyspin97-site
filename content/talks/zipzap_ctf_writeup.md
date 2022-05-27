@@ -9,7 +9,7 @@ name: start
 
 # ZipZap CTF Writeup![:i](fas fa-door-open)
 
-.footer[15th October 2021</br>_Friday Talks_ @ ![:i](fab fa-suse)]
+.footer[30th May 2022</br>_Friday Talks_ @ ![:i](fab fa-suse)]
 ---
 class: left, middle
 
