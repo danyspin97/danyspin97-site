@@ -1,8 +1,8 @@
 ---
 title: 'Writing a Wayland wallpaper daemon in Rust'
-date: "2021-10-15T13:30:00"
+date: "2022-04-29T14:00:00"
 categories: ["workshop"]
-tags: ["supervision", "c"]
+tags: ["wayland", "rust"]
 ---
 class: center, middle
 name: start
