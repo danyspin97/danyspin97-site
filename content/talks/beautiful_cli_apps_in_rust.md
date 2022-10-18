@@ -18,7 +18,7 @@ class: left, middle
 
 # You can follow at
 
-https://danyspin97.org/talks/beautiful_cli_apps_in_rust
+https://shorturl.at/CDFIX
 
 ![](/img/beautiful_cli_apps_in_rust/qr.jpg)
 
@@ -59,6 +59,25 @@ class: left, middle
 Fetches the current weather for a city and gives us the result
 
 ---
+class: center, middle
+
+![:resize 850](/img/beautiful_cli_apps_in_rust/example_cli.png)
+
+---
+background-image: url(/img/beautiful_cli_apps_in_rust/codemotion_page.png)
+class: left, middle
+
+## Why Rust ![:i](fa fa-question)
+
+Ease of development
+
+Robustness
+
+Solid error handling
+
+Complete application in 73 LOC
+
+---
 background-image: url(/img/beautiful_cli_apps_in_rust/codemotion_page.png)
 class: left, middle
 
@@ -96,11 +115,25 @@ class: left, middle
 
 Parse the name of the city from the command line ![:i](fas fa-arrow-right) **clap**
 
-Read the OpenWeather API key from a config file ![:i](fas fa-arrow-right) **serde** and **toml**
+Read the OpenWeather API key from a config file ![:i](fas fa-arrow-right) **directories**, **serde** and **yaml**
 
 Fetch and parse the data ![:i](fas fa-arrow-right)  **reqwest** and **serde-json**
 
-Print it to the user in a nice way ![:i](fas fa-arrow-right) **termcolor**
+Print it to the user in a nice way ![:i](fas fa-arrow-right) **colored**
+
+---
+background-image: url(/img/beautiful_cli_apps_in_rust/codemotion_page.png)
+class: left, middle
+
+## Error handling
+
+Function that can fail almost always return a `Result` wrapper over the returned value
+
+![:resize 850](/img/beautiful_cli_apps_in_rust/result_code.svg)
+
+`unwrap()` -> returns the inner value and panic on error
+
+`expect(err_msg)` -> returns the inner value and panic on error with a specified message
 
 ---
 background-image: url(/img/beautiful_cli_apps_in_rust/codemotion_page.png)
@@ -110,65 +143,37 @@ class: left, middle
 
 Powerful and flexible command line argument library
 
-```rust
-use clap::Parser;
-
-#[derive(Parser)]
-#[command(version, about)]
-struct Args {
-   city: String,
-}
-
-fn main() {
-    let args = Args::try_parse().unwrap();
-```
+![:resize 850](/img/beautiful_cli_apps_in_rust/clap_code.svg)
 
 ---
 background-image: url(/img/beautiful_cli_apps_in_rust/codemotion_page.png)
 class: left, middle
 
-## xdg
+## directories
 
-Library that implements the [XDG BaseDirectories specification](http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html)
+Provides standard locations of directories for config, cache and other data on all platforms
 
-```rust
-    let xdg_dirs = xdg::BaseDirectories::with_prefix("weather-cli").unwrap();
-    let config_file = xdg_dirs.find_config_file("weather-cli.conf")
-        .expect("could not find configuration file");
-```
+![:resize 850](/img/beautiful_cli_apps_in_rust/directories_code.svg)
 
 ---
 background-image: url(/img/beautiful_cli_apps_in_rust/codemotion_page.png)
 class: left, middle
 
-## serde
+## serde (1/2)
 
 De-facto standard serialization and deserialization library
 
-```rust
-use serde::Deserialize;
-
-#[derive(Deserialize)]
-struct Config {
-  api_key: String
-}
-```
+![:resize 850](/img/beautiful_cli_apps_in_rust/serde_code_1.svg)
 
 ---
 background-image: url(/img/beautiful_cli_apps_in_rust/codemotion_page.png)
 class: left, middle
 
-## toml
+## yaml
 
-Implement TOML data format for serde
+Implement YAML data format for serde
 
-```rust
-    use std::fs;
-
-    let config = toml::from_str(fs::read_to_string(config_file)
-        .expect("could not read config file"))
-        .expect("could not deserialize config file");
-```
+![:resize 850](/img/beautiful_cli_apps_in_rust/serde_yaml_code.svg)
 
 ---
 background-image: url(/img/beautiful_cli_apps_in_rust/codemotion_page.png)
@@ -178,38 +183,7 @@ class: left, middle
 
 Provides a convenient, higher-level HTTP Client
 
-```rust
-    const GEO_URL = "http://api.openweathermap.org/geo/1.0/direct?limit=1";
-
-    use reqwest::blocking::Client;
-    let client = Client::new();
-
-    let params = [("appid", "bar"), ("q", &args.city)];
-    let res = client.post(GEO_URL)
-        .body(params)
-        .send()
-        .expect(format!("could not get geodata about {}", args.city));
-```
-
-[API documentation](https://openweathermap.org/api/geocoding-api)
-
----
-background-image: url(/img/beautiful_cli_apps_in_rust/codemotion_page.png)
-class: left, middle
-
-## serde-json (1/2)
-
-Implements JSON data format for serde
-
-```rust
-    use serde_json::Value;
-
-    let json_value : Value = serde_json::from_str(res)
-        .expect("could not parse JSON data");
-    let geo_data = json_value[0];
-    let lat = geo_data["lat"];
-    let lon = geo_data["lon"];
-```
+![:resize 850](/img/beautiful_cli_apps_in_rust/reqwest_code_1.svg)
 
 ---
 background-image: url(/img/beautiful_cli_apps_in_rust/codemotion_page.png)
@@ -217,36 +191,41 @@ class: left, middle
 
 ## reqwest (2/2)
 
-```rust
-    const WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather";
-
-    let params = [("appid", "bar"), ("lat", &lat), ("lon", &lon)];
-    let res = client.post(WEATHER_URL)
-        .body(params)
-        .send()
-        .expect(format!("could not get weather for {}", args.city));
-```
-
-[API documentation](https://openweathermap.org/current)
+![:resize 850](/img/beautiful_cli_apps_in_rust/reqwest_code_2.svg)
 
 ---
 background-image: url(/img/beautiful_cli_apps_in_rust/codemotion_page.png)
 class: left, middle
 
+## serde (2/2)
 
-## serde-json (2/2)
-
-```rust
-    let json_value : Value = serde_json::from_str(res)
-        .expect("could not parse JSON data");
-    let weather = json_value["weather"][0];
-```
+![:resize 850](/img/beautiful_cli_apps_in_rust/serde_json_2.svg)
 
 ---
 background-image: url(/img/beautiful_cli_apps_in_rust/codemotion_page.png)
 class: left, middle
 
-## Printing the weather
+## serde-json
+
+Implements JSON data format for serde
+
+![:resize 850](/img/beautiful_cli_apps_in_rust/serde_json_1.svg)
+
+---
+background-image: url(/img/beautiful_cli_apps_in_rust/codemotion_page.png)
+class: left, middle
+
+## colored
+
+![:resize 850](/img/beautiful_cli_apps_in_rust/colored_code.svg)
+
+---
+background-image: url(/img/beautiful_cli_apps_in_rust/codemotion_page.png)
+class: left, middle
+
+## You can find the result here
+
+https://github.com/danyspin97/weather-cli-app-codemotion
 
 ---
 background-image: url(/img/beautiful_cli_apps_in_rust/codemotion_page.png)
