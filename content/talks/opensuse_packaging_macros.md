@@ -74,8 +74,14 @@ background-image: url(/img/opensuse_packaging_macros/pkgbuild.png)
 <!-- https://gitlab.archlinux.org/archlinux/packaging/packages/mdp/-/blob/main/PKGBUILD?ref_type=heads -->
 
 ---
+class: right, middle
 background-image: url(/img/opensuse_packaging_macros/exherbo.png)
 <!-- https://gitlab.exherbo.org/DanySpin97/danyspin97-exheres/-/blob/master/packages/app-misc/mdp/mdp-1.0.15.exheres-0 -->
+
+---
+class: left, middle
+
+mdp-1.0.15.exheres-0
 
 ---
 background-image: url(/img/opensuse_packaging_macros/voidtemplate.png)
@@ -141,13 +147,22 @@ background-image: url(/img/opensuse_packaging_macros/exherbo-update.png)
 background-image: url(/img/opensuse_packaging_macros/exherbo-exlib-loading.png)
 
 ---
+background-image: url(/img/opensuse_packaging_macros/bash-1.png)
+
+---
+background-image: url(/img/opensuse_packaging_macros/bash-2.png)
+
+---
+background-image: url(/img/opensuse_packaging_macros/bash-3.png)
+
+---
 class: left, middle
 
 ## Other caveats
 
 Exponential number of macros, exlibs or build-styles
 
-Bash caveats
+Packaging 90% of applications is the same across all distributions
 
 ---
 class: left, middle
@@ -155,12 +170,18 @@ class: left, middle
 ## Improvements
 
 ---
+class: left, middle
 <!-- https://www.oilshell.org/blog/2021/01/why-a-new-shell.html#how-is-oil-different-than-bash-or-zsh -->
 background-image: url(/img/opensuse_packaging_macros/oilshell.png)
 
+Oilshell
+
 ---
+class: left, middle
 <!-- https://github.com/danyspin97/wpaperd/blob/main/install.yml -->
 background-image: url(/img/opensuse_packaging_macros/rinstall.png)
+
+rinstall
 
 ---
 class: left, middle
