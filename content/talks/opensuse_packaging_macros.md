@@ -1,6 +1,6 @@
 ---
 title: 'openSUSE packaging: is macro the way to go?'
-date: "2024-04-21T13:00:00"
+date: "2024-04-23T09:00:00"
 categories: ["workshop"]
 tags: ["opensuse", "packaging"]
 ---
