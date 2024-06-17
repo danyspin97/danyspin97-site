@@ -3,6 +3,7 @@ title: 'Beautiful CLI Apps in Rust'
 date: "2022-10-18T14:45:00"
 categories: ["workshop"]
 tags: ["opensuse", "packaging"]
+video: https://talks.codemotion.com/wannabe-speaker-1
 ---
 background-image: url(/img/beautiful_cli_apps_in_rust/codemotion_first_page.png)
 class: left, middle

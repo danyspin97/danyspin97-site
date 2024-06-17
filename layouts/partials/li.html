@@ -4,6 +4,15 @@
     {{ if .Params.draft }}
     <a href="{{ .RelPermalink }}"><span>Draft::{{ .Title }}</span></a>
     {{ else }}
-    <a href="{{ .RelPermalink }}"><span>{{ .Title }}</span></a>
+    <a href="{{ .RelPermalink }}">
+        <span>
+            {{ .Title }}
+            {{ if .Params.video }}
+                &nbsp;
+                <sup>
+                    <a href="{{.Params.Video}}"><i class="fa-brands fa-youtube"></i></a>
+                </sup>
+            {{ end }}
+        </span></a>
     {{ end }}
 </li>

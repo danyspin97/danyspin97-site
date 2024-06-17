@@ -3,6 +3,7 @@ title: 'rinstall: a modern make install'
 date: "2024-04-23T13:00:00"
 categories: ["workshop"]
 tags: ["opensuse", "packaging"]
+video: https://youtu.be/yB_12puVS3c?feature=shared
 ---
 class: center, middle
 name: start
