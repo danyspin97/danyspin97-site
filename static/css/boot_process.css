@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway');
+@import url('http://overpass-30e2.kxcdn.com/overpass-mono.css');
+.remark-slide-content {
+    background-color: #040b22;
+}
+body { 
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+}
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    color: #37E176;
+}
+.remark-code, .remark-inline-code { font-family: 'Overpass Mono'; }
+
+.remark-slide-content h3 {
+    font-weight: normal;
+    font-size: 55px;
+    color: #2f5361;
+}
+
+.remark-slide-content h2 {
+    font-size: 60px;
+}
+
+.remark-slide-content h4 {
+    font-size: 85px;
+}
+
+.remark-slide-content {
+    font-size: 39px;
+}
+
+.left-center {
+    margin: 0;
+    position: absolute;
+    text-align: left;
+    width: 30%;
+    top: 40%;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.header {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.green {
+    color: #81c13b;
+}
+
+.column:first-of-type {
+    float:left
+}
+.column:last-of-type {
+    float:right
+}
+
+.split-50 .column:first-of-type {
+    width: 50%;
+    text-align: left;
+}
+.split-50 .column:last-of-type {
+    width: 50%;
+    text-align: right;
+}
+
+.left-column h1 {
+    color: #dcd9d6;
+}
+
+.remark-fading { z-index: 9; } 
+ /* Thanks to http://www.partage-it.com/animez-vos-presentations-remark-js/  (in French) */
+.remark-slide-container {transition: opacity 0.45s ease-out;opacity: 0;}
+.remark-visible {transition: opacity 0.45s ease-out;opacity: 1;}
+
+.remark-slide-content { background-size: contain; }

@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref--excluded vector-feature-appearance-enabled vector-feature-appearance-pinned-clientpref-1 vector-feature-night-mode-enabled skin-theme-clientpref-day vector-toc-not-available" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>File:GNU GRUB components.svg - Wikipedia</title>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref--excluded vector-feature-appearance-enabled vector-feature-appearance-pinned-clientpref-1 vector-feature-night-mode-enabled skin-theme-clientpref-day vector-toc-not-available";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],
+"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"e42dd7c4-18f1-44cf-b16c-f83396f03992","wgCanonicalNamespace":"File","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":6,"wgPageName":"File:GNU_GRUB_components.svg","wgTitle":"GNU GRUB components.svg","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"File:GNU_GRUB_components.svg","wgRelevantArticleId":0,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionCreate":[],"wgNoticeProject":"wikipedia","wgCiteReferencePreviewsActive":false,"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,
+"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":6,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":0,"wgULSCurrentAutonym":"English","wgRelatedArticlesCompat":[],"wgCentralAuthMobileDomain":false,"wgEditSubmitButtonLabelPublish":true,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":false,"wgVector2022LanguageInHeader":true,"wgULSisLanguageSelectorEmpty":true,"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready",
+"ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","mediawiki.interface.helpers.styles":"ready","mediawiki.action.view.filepage":"ready","skins.vector.search.codex.styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","filepage":"ready","ext.wikimediamessages.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["mediawiki.action.view.metadata","site","mediawiki.page.ready","skins.vector.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.switcher","ext.urlShortener.toolbar","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.checkUser.clientHints"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cext.wikimediamessages.styles%7Cfilepage%7Cmediawiki.action.view.filepage%7Cmediawiki.interface.helpers.styles%7Cskins.vector.icons%2Cstyles%7Cskins.vector.search.codex.styles&amp;only=styles&amp;skin=vector-2022">
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<link rel="stylesheet" href="https://commons.wikimedia.org/w/index.php?title=MediaWiki:Filepage.css&amp;action=raw&amp;ctype=text/css">
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.43.0-wmf.21">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/GNU_GRUB_components.svg/1200px-GNU_GRUB_components.svg.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="675">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/GNU_GRUB_components.svg/800px-GNU_GRUB_components.svg.png">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="450">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/GNU_GRUB_components.svg/640px-GNU_GRUB_components.svg.png">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="360">
+<meta name="viewport" content="width=1120">
+<meta property="og:title" content="File:GNU GRUB components.svg - Wikipedia">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="//en.m.wikipedia.org/wiki/File:GNU_GRUB_components.svg">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/rest.php/v1/search" title="Wikipedia (en)">
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://commons.wikimedia.org/wiki/File:GNU_GRUB_components.svg">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org">
+</head>
+<body class="skin--responsive skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-6 ns-subject page-File_GNU_GRUB_components_svg rootpage-File_GNU_GRUB_components_svg skin-vector-2022 action-view"><a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site">
+				
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Main menu"  >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu"></span>
+
+<span class="vector-dropdown-label-text">Main menu</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
+		
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Main menu</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin">hide</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigation
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-menu mw-portlet mw-portlet-interaction"  >
+	<div class="vector-menu-heading">
+		Contribute
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container skin-invert">
+		<img class="mw-logo-wordmark" alt="Wikipedia" src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline" alt="The Free Encyclopedia" src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" title="Search Wikipedia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+
+<span>Search</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links vector-user-links-wide" aria-label="Personal tools">
+	<div class="vector-user-links-main">
+	
+<div id="p-vector-user-menu-preferences" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-userpage" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	<nav class="vector-appearance-landmark" aria-label="Appearance">
+		
+<div id="vector-appearance-dropdown" class="vector-dropdown "  title="Change the appearance of the page&#039;s font size, width, and color" >
+	<input type="checkbox" id="vector-appearance-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-appearance-dropdown" class="vector-dropdown-checkbox "  aria-label="Appearance"  >
+	<label id="vector-appearance-dropdown-label" for="vector-appearance-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-appearance mw-ui-icon-wikimedia-appearance"></span>
+
+<span class="vector-dropdown-label-text">Appearance</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+			<div id="vector-appearance-unpinned-container" class="vector-unpinned-container">
+				
+			</div>
+		
+	</div>
+</div>
+
+	</nav>
+	
+<div id="p-vector-user-menu-notifications" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw="interface" href="/w/index.php?title=Special:CreateAccount&amp;returnto=File%3AGNU+GRUB+components.svg" title="You are encouraged to create an account and log in; however, it is not mandatory" class=""><span>Create account</span></a>
+</li>
+<li id="pt-login-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw="interface" href="/w/index.php?title=Special:UserLogin&amp;returnto=File%3AGNU+GRUB+components.svg" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o" class=""><span>Log in</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	</div>
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out"  title="Log in and more options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Personal tools"  >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis"></span>
+
+<span class="vector-dropdown-label-text">Personal tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal user-links-collapsible-item"  title="User menu" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=File%3AGNU+GRUB+components.svg" title="You are encouraged to create an account and log in; however, it is not mandatory"><span class="vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Create account</span></a></li><li id="pt-login" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=File%3AGNU+GRUB+components.svg" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-user-menu-anon-editor" class="vector-menu mw-portlet mw-portlet-user-menu-anon-editor"  >
+	<div class="vector-menu-heading">
+		Pages for logged out editors <a href="/wiki/Help:Introduction" aria-label="Learn more about editing"><span>learn more</span></a>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice" class="notheme"><!-- CentralNotice --></div>
+		</div>
+		<div class="vector-column-start">
+			<div class="vector-main-menu-container">
+		<div id="mw-navigation">
+			<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site">
+				<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+				</div>
+		</nav>
+		</div>
+	</div>
+</div>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body">
+				<header class="mw-body-header vector-page-titlebar">
+					<h1 id="firstHeading" class="firstHeading mw-first-heading">File:GNU GRUB components.svg</h1>
+							
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang mw-portlet-lang-icon-only"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector-empty" aria-label="This article exist only in this language. Add the article for other languages"   >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only mw-portlet-lang-heading-empty" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language mw-ui-icon-wikimedia-language"></span>
+
+<span class="vector-dropdown-label-text">Add languages</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+		<div class="mw-portlet-empty-language-selector-body">
+						Page contents not supported in other languages.
+					</div>
+			
+	</div>
+</div>
+</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-image" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/File:GNU_GRUB_components.svg" title="View the file page [c]" accesskey="c"><span>File</span></a></li><li id="ca-talk" class="new vector-tab-noicon mw-list-item"><a href="/w/index.php?title=File_talk:GNU_GRUB_components.svg&amp;action=edit&amp;redlink=1" rel="discussion" class="new" title="Discuss improvements to the content page (page does not exist) [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+								
+<div id="vector-variants-dropdown" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="vector-variants-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-variants-dropdown" class="vector-dropdown-checkbox " aria-label="Change language variant"   >
+	<label id="vector-variants-dropdown-label" for="vector-variants-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">English</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/File:GNU_GRUB_components.svg"><span>Read</span></a></li><li id="ca-view-foreign" class="vector-tab-noicon mw-list-item"><a href="https://commons.wikimedia.org/wiki/File:GNU_GRUB_components.svg"><span>View on Commons</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="Page tools">
+								
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Tools"  >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">Tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Tools</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin">hide</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<div class="vector-menu-heading">
+		Actions
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/File:GNU_GRUB_components.svg"><span>Read</span></a></li><li id="ca-more-view-foreign" class="vector-more-collapsible-item mw-list-item"><a href="https://commons.wikimedia.org/wiki/File:GNU_GRUB_components.svg"><span>View on Commons</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		General
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/File:GNU_GRUB_components.svg" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=File:GNU_GRUB_components.svg&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Special:UrlShortener&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AGNU_GRUB_components.svg"><span>Get shortened URL</span></a></li><li id="t-urlshortener-qrcode" class="mw-list-item"><a href="/w/index.php?title=Special:QrCode&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AGNU_GRUB_components.svg"><span>Download QR code</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects emptyPortlet"  >
+	<div class="vector-menu-heading">
+		In other projects
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="vector-column-end">
+					<div class="vector-sticky-pinned-container">
+						<nav class="vector-page-tools-landmark" aria-label="Page tools">
+							<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+				
+							</div>
+		</nav>
+						<nav class="vector-appearance-landmark" aria-label="Appearance">
+							<div id="vector-appearance-pinned-container" class="vector-pinned-container">
+				<div id="vector-appearance" class="vector-appearance vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-appearance-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="appearance-pinned"
+	data-pinnable-element-id="vector-appearance"
+	data-pinned-container-id="vector-appearance-pinned-container"
+	data-unpinned-container-id="vector-appearance-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Appearance</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-appearance.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-appearance.unpin">hide</button>
+</div>
+
+
+</div>
+
+							</div>
+		</nav>
+					</div>
+				</div>
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		<div id="mw-indicator-commons-icon" class="mw-indicator"><span typeof="mw:File"><a href="https://commons.wikimedia.org/wiki/File:GNU_GRUB_components.svg" title="This is a file from the Wikimedia Commons"><img alt="This is a file from the Wikimedia Commons" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/15px-Commons-logo.svg.png" decoding="async" width="15" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/22px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></a></span></div>
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content"><ul id="filetoc" role="navigation"><li><a href="#file">File</a></li>
+<li><a href="#filehistory">File history</a></li>
+<li><a href="#filelinks">File usage</a></li>
+<li><a href="#globalusage">Global file usage</a></li>
+<li><a href="#metadata">Metadata</a></li></ul><div class="fullImageLink" id="file"><a href="//upload.wikimedia.org/wikipedia/commons/4/45/GNU_GRUB_components.svg"><img alt="File:GNU GRUB components.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/45/GNU_GRUB_components.svg/720px-GNU_GRUB_components.svg.png" decoding="async" width="720" height="405" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/45/GNU_GRUB_components.svg/1080px-GNU_GRUB_components.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/45/GNU_GRUB_components.svg/1440px-GNU_GRUB_components.svg.png 2x" data-file-width="720" data-file-height="405" /></a><div class="mw-filepage-resolutioninfo">Size of this PNG preview of this SVG file: <a href="//upload.wikimedia.org/wikipedia/commons/thumb/4/45/GNU_GRUB_components.svg/720px-GNU_GRUB_components.svg.png" class="mw-thumbnail-link">720 × 405 pixels</a>. <span class="mw-filepage-other-resolutions">Other resolutions: <a href="//upload.wikimedia.org/wikipedia/commons/thumb/4/45/GNU_GRUB_components.svg/320px-GNU_GRUB_components.svg.png" class="mw-thumbnail-link">320 × 180 pixels</a> | <a href="//upload.wikimedia.org/wikipedia/commons/thumb/4/45/GNU_GRUB_components.svg/640px-GNU_GRUB_components.svg.png" class="mw-thumbnail-link">640 × 360 pixels</a> | <a href="//upload.wikimedia.org/wikipedia/commons/thumb/4/45/GNU_GRUB_components.svg/1024px-GNU_GRUB_components.svg.png" class="mw-thumbnail-link">1,024 × 576 pixels</a> | <a href="//upload.wikimedia.org/wikipedia/commons/thumb/4/45/GNU_GRUB_components.svg/1280px-GNU_GRUB_components.svg.png" class="mw-thumbnail-link">1,280 × 720 pixels</a> | <a href="//upload.wikimedia.org/wikipedia/commons/thumb/4/45/GNU_GRUB_components.svg/2560px-GNU_GRUB_components.svg.png" class="mw-thumbnail-link">2,560 × 1,440 pixels</a>.</span></div></div>
+<div class="mw-content-ltr fullMedia" lang="en" dir="ltr"><p><a href="//upload.wikimedia.org/wikipedia/commons/4/45/GNU_GRUB_components.svg" class="internal" title="GNU GRUB components.svg">Original file</a> &#8206;<span class="fileInfo">(SVG file, nominally 720 × 405 pixels, file size: 29 KB)</span>
+</p></div><div class="sharedUploadNotice">
+<div class="mw-parser-output">
+<style data-mw-deduplicate="TemplateStyles:r1238441935">.mw-parser-output .fmbox{clear:both;margin:0.2em 0;width:100%;border:1px solid #a2a9b1;background-color:var(--background-color-interactive-subtle,#f8f9fa);box-sizing:border-box;color:var(--color-base,#202122)}.mw-parser-output .fmbox-warning{border:1px solid #bb7070;background-color:#ffdbdb}.mw-parser-output .fmbox-editnotice{background-color:transparent}.mw-parser-output .fmbox .mbox-text{border:none;padding:0.25em 0.9em;width:100%}.mw-parser-output .fmbox .mbox-image{border:none;padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .fmbox .mbox-imageright{border:none;padding:2px 0.9em 2px 0;text-align:center}.mw-parser-output .fmbox .mbox-invalid-type{text-align:center}@media screen{html.skin-theme-clientpref-night .mw-parser-output .fmbox-warning{background-color:#300}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .fmbox-warning{background-color:#300}}</style><table id="mw-sharedupload" class="plainlinks fmbox fmbox-system" role="presentation"><tbody><tr><td class="mbox-image"><span class="noviewer" typeof="mw:File"><span title="Wikimedia Commons logo"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" decoding="async" width="30" height="40" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></span></span></td><td class="mbox-text" style="text-align: center;">This is a file from the <a href="https://commons.wikimedia.org/wiki/Main_Page" class="extiw" title="commons:Main Page">Wikimedia Commons</a>. Information from its <b><a href="https://commons.wikimedia.org/wiki/File:GNU_GRUB_components.svg" class="extiw" title="commons:File:GNU GRUB components.svg">description page there</a></b> is shown below.<br /><span style="font-size: smaller;">Commons is a freely licensed media file repository. <a href="https://commons.wikimedia.org/wiki/Commons:Welcome" class="extiw" title="commons:Commons:Welcome">You can help</a>.</span></td></tr></tbody></table>
+</div>
+</div>
+<div id="shared-image-desc"><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><div class="mw-heading mw-heading2"><h2 id="Summary">Summary</h2></div>
+<div class="hproduct commons-file-information-table">
+<div style="display:inline-block;width:auto;white-space:nowrap;vertical-align:middle;direction:ltr;float:left;line-height:22px;height:24px;font-size:.96em;margin:0px;padding:2px 4px 2px 6px;color:var(--color-base,#000);background:var(--background-color-neutral-subtle,#F8F9FA);border:1px solid #BAB;background:#FEE;border:1px solid #600"><span typeof="mw:File"><a href="//commons.wikimedia.org/wiki/File:Inkscape-ws.svg" class="mw-file-description"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Inkscape-ws.svg/22px-Inkscape-ws.svg.png" decoding="async" width="22" height="22" class="mw-file-element" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Inkscape-ws.svg/33px-Inkscape-ws.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Inkscape-ws.svg/44px-Inkscape-ws.svg.png 2x" data-file-width="390" data-file-height="390"></a></span>&nbsp;<div lang="en" dir="ltr" class="description en" style="display:inline;">This <i>W3C-unspecified</i> <a href="https://en.wikipedia.org/wiki/Vector_images" class="extiw" title="w:Vector images">vector image</a> was created with <a href="https://en.wikipedia.org/wiki/Inkscape" class="extiw" title="w:Inkscape">Inkscape</a><a href="//commons.wikimedia.org/wiki/Help:Inkscape#Inkscape_SVG_vs._Plain_SVG" title="Help:Inkscape">…important</a> .</div></div><div style="display:inline-block;width:auto;white-space:nowrap;vertical-align:middle;direction:ltr;float:left;line-height:22px;height:24px;font-size:.96em;margin:0px;padding:2px 4px 2px 6px;color:var(--color-base,#000);background:var(--background-color-neutral-subtle,#F8F9FA);border:1px solid #BAB;background:#FEE;border:1px solid #600"><span typeof="mw:File"><a href="//commons.wikimedia.org/wiki/File:W3C_red.svg" class="mw-file-description"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/W3C_red.svg/36px-W3C_red.svg.png" decoding="async" width="36" height="22" class="mw-file-element" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/W3C_red.svg/54px-W3C_red.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/W3C_red.svg/72px-W3C_red.svg.png 2x" data-file-width="288" data-file-height="174"></a></span>&nbsp;<div lang="en" dir="ltr" class="description en" style="display:inline;">W3C-validity not checked.</div></div><table class="fileinfotpl-type-information vevent" dir="ltr">
+
+<tbody><tr>
+<td id="fileinfotpl_desc" class="fileinfo-paramfield" lang="en">Description<span class="summary fn" style="display:none">GNU GRUB components.svg</span></td>
+<td class="description">
+<div class="description en" dir="ltr" lang="en"><span class="language en" title="English"><b>English: </b></span> <a href="https://en.wikipedia.org/wiki/GNU_GRUB" class="extiw" title="en:GNU GRUB">GNU GRUB</a>: Illustrates the locations of the components <code>boot.img</code>, <code>core.img</code> and <code>/boot/grub</code>on a harddisc</div><div class="description de" dir="ltr" lang="de"><span class="language de" title="German"><b>Deutsch: </b></span> <a href="https://de.wikipedia.org/wiki/GNU_GRUB" class="extiw" title="de:GNU GRUB">GNU GRUB</a>: Veranschaulicht wo sich die Komponenten <code>boot.img</code>, <code>core.img</code> und <code>/boot/grub</code> auf einer Festplatte befinden</div><div class="description hu" dir="ltr" lang="hu"><span class="language hu" title="Hungarian"><b>Magyar: </b></span> <a href="https://hu.wikipedia.org/wiki/GNU_GRUB" class="extiw" title="hu:GNU GRUB">GNU GRUB</a>: Ábrázolja <code>boot.img</code>, <code>core.img</code> és <code>/boot/grub</code> élhelyezkedéséét egz harddiscon</div><div class="description ro" dir="ltr" lang="ro"><span class="language ro" title="Romanian"><b>Română: </b></span> <a href="https://ro.wikipedia.org/wiki/GNU_GRUB" class="extiw" title="ro:GNU GRUB">GNU GRUB</a>: Ilustrează locația componentelor <code>boot.img</code>, <code>core.img</code> és <code>/boot/grub</code> pe un dic</div></td>
+</tr>
+
+<tr>
+<td id="fileinfotpl_date" class="fileinfo-paramfield" lang="en">Date</td>
+<td lang="en">
+<time class="dtstart" datetime="2013-09-11" lang="en" dir="ltr" style="white-space:nowrap">11 September 2013</time></td>
+</tr>
+
+<tr>
+<td id="fileinfotpl_src" class="fileinfo-paramfield" lang="en">Source</td>
+<td>
+<span class="int-own-work" lang="en">Own work</span></td>
+</tr>
+
+<tr>
+<td id="fileinfotpl_aut" class="fileinfo-paramfield" lang="en">Author</td>
+<td>
+<a href="//commons.wikimedia.org/wiki/User:ScotXW" title="User:ScotXW">ScotXW</a></td>
+</tr>
+
+
+</tbody></table>
+</div>
+<div class="mw-heading mw-heading2"><h2 id="Licensing">Licensing</h2></div>
+<div style="clear:both; margin:0.5em auto; background-color:var(--background-color-interactive,#eaecf0); color:inherit; border:2px solid var(--border-color-subtle,#c8ccd1); padding:8px; direction:ltr;" class="licensetpl_wrapper"><div class="center" style="font-weight:bold;"><div lang="en" dir="ltr" class="description en" style="display:inline;">I, the copyright holder of this work, hereby publish it under the following licenses:</div></div>
+<style data-mw-deduplicate="TemplateStyles:r890281695">.mw-parser-output .responsive-license-cc{clear:both;text-align:center;box-sizing:border-box;width:100%;justify-content:space-around;align-items:center;margin:0.5em auto;color:var(--color-base,#202122);background-color:var(--background-color-neutral-subtle,#f9f9f9);border-width:2px;border-style:solid;border-top-color:var(--border-color-subtle,#e0e0e0);border-right-color:var(--border-color-subtle,#e0e0e0);border-bottom-color:var(--border-color-subtle,#e0e0e0);border-left-color:var(--border-color-subtle,#e0e0e0);border-spacing:8px;display:flex}.mw-parser-output .responsive-license-cc div{margin:4px}.mw-parser-output .rlicense-text div{margin:0.5em auto}@media screen and (max-width:640px){.mw-parser-output .responsive-license-cc{flex-flow:column}.mw-parser-output .rlicense-text{order:1}}</style><div class="responsive-license-cc layouttemplate licensetpl" dir="ltr" lang="en"><div class="rlicense-icons"><span class="skin-invert" typeof="mw:File"><span title="w:en:Creative Commons"><img alt="w:en:Creative Commons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/90px-CC_some_rights_reserved.svg.png" decoding="async" width="90" height="36" class="mw-file-element" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/135px-CC_some_rights_reserved.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/180px-CC_some_rights_reserved.svg.png 2x" data-file-width="744" data-file-height="300"></span></span><br>
+<span class="skin-invert" typeof="mw:File"><span title="attribution"><img alt="attribution" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/24px-Cc-by_new_white.svg.png" decoding="async" width="24" height="24" class="mw-file-element" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/36px-Cc-by_new_white.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/48px-Cc-by_new_white.svg.png 2x" data-file-width="64" data-file-height="64"></span></span> <span class="skin-invert" typeof="mw:File"><span title="share alike"><img alt="share alike" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/24px-Cc-sa_white.svg.png" decoding="async" width="24" height="24" class="mw-file-element" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/36px-Cc-sa_white.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/48px-Cc-sa_white.svg.png 2x" data-file-width="64" data-file-height="64"></span></span></div><div class="rlicense-text"><div class="rlicense-declaration">This file is licensed under the <a href="https://en.wikipedia.org/wiki/en:Creative_Commons" class="extiw" title="w:en:Creative Commons">Creative Commons</a> <a href="//creativecommons.org/licenses/by-sa/3.0/deed.en" class="extiw" title="creativecommons:by-sa/3.0/deed.en">Attribution-Share Alike 3.0 Unported</a> license.</div><div class="rlicense-attr" style="font-weight: bold;">Attribution: <span style="font-size:larger;" class="licensetpl_attr">Shmuel Csaba Otto Traian</span></div><div class="rlicense-desc" style="text-align:start;" lang="en">
+<dl><dd>You are free:
+<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>
+<li><b>to remix</b> – to adapt the work</li></ul></dd>
+<dd>Under the following conditions:
+<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>
+<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a rel="nofollow" class="external text" href="https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class="licensetpl_link" style="display:none;">https://creativecommons.org/licenses/by-sa/3.0</span><span class="licensetpl_short" style="display:none;">CC BY-SA 3.0 </span><span class="licensetpl_long" style="display:none;">Creative Commons Attribution-Share Alike 3.0 </span><span class="licensetpl_link_req" style="display:none;">true</span><span class="licensetpl_attr_req" style="display:none;">true</span></div></div>
+<table cellspacing="8" cellpadding="0" style="width:100%; clear:both; margin:0.5em auto; background-color: var(--background-color-neutral-subtle, #f9f9f9); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #e0e0e0);" dir="ltr" lang="en" class="layouttemplate licensetpl">
+<tbody><tr>
+<td><span class="noviewer" typeof="mw:File"><span title="GNU head"><img alt="GNU head" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Heckert_GNU_white.svg/64px-Heckert_GNU_white.svg.png" decoding="async" width="64" height="63" class="mw-file-element" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Heckert_GNU_white.svg/96px-Heckert_GNU_white.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Heckert_GNU_white.svg/128px-Heckert_GNU_white.svg.png 2x" data-file-width="535" data-file-height="523"></span></span>
+</td>
+<td>Permission is granted to copy, distribute and/or modify this document under the terms of the <b><a href="https://en.wikipedia.org/wiki/en:GNU_Free_Documentation_License" class="extiw" title="w:en:GNU Free Documentation License">GNU Free Documentation License</a></b>, Version 1.2 or any later version published by the <a href="https://en.wikipedia.org/wiki/en:Free_Software_Foundation" class="extiw" title="w:en:Free Software Foundation">Free Software Foundation</a>; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled <i><a href="//commons.wikimedia.org/wiki/Commons:GNU_Free_Documentation_License,_version_1.2" title="Commons:GNU Free Documentation License, version 1.2">GNU Free Documentation License</a></i>.<span class="licensetpl_link" style="display:none;">http://www.gnu.org/copyleft/fdl.html</span><span class="licensetpl_short" style="display:none;">GFDL</span><span class="licensetpl_long" style="display:none;">GNU Free Documentation License</span><span class="licensetpl_link_req" style="display:none;">true</span><span class="licensetpl_attr_req" style="display:none;">true</span>
+</td></tr></tbody></table>
+<div class="center"><div lang="en" dir="ltr" class="description en" style="display:inline;">You may select the license of your choice.</div></div></div><h1 class="mw-slot-header"><mediainfoslotheader></mediainfoslotheader></h1><mediainfoview style="display: none"><mediainfoviewcaptions><div class="wbmi-entityview-captionsPanel oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-framed"><h3 class="wbmi-entityview-captions-header">Captions</h3><div class="wbmi-entityview-caption oo-ui-layout oo-ui-horizontalLayout"><label class="wbmi-language-label oo-ui-widget oo-ui-widget-enabled oo-ui-labelElement-label oo-ui-labelElement oo-ui-labelWidget">English</label><div lang="en" dir="ltr" class="wbmi-caption-value wbmi-entityview-emptyCaption">Add a one-line explanation of what this file represents</div></div></div></mediainfoviewcaptions><mediainfoviewstatements><div id="P180" data-property="P180" data-statements="[]" data-formatvalue="[]" class="wbmi-entityview-statementsGroup wbmi-entityview-statementsGroup-P180 oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-framed"><div class="wbmi-statements-widget"><div class="wbmi-statement-header"><div class="wbmi-entity-data"><div class="wbmi-entity-title"><h3 class="wbmi-statements-title">Items portrayed in this file</h3><h4 class="wbmi-entity-label"><bdi><a target="_blank" title="d:Special:EntityPage/P180" href="https://www.wikidata.org/wiki/Special:EntityPage/P180">depicts</a></bdi></h4></div></div></div><div class="wbmi-content-items-group"></div></div></div><div id="P170" data-property="P170" data-statements="[{&quot;mainsnak&quot;:{&quot;snaktype&quot;:&quot;somevalue&quot;,&quot;property&quot;:&quot;P170&quot;,&quot;hash&quot;:&quot;d3550e860f988c6675fff913440993f58f5c40c5&quot;},&quot;type&quot;:&quot;statement&quot;,&quot;qualifiers&quot;:{&quot;P2699&quot;:[{&quot;snaktype&quot;:&quot;value&quot;,&quot;property&quot;:&quot;P2699&quot;,&quot;hash&quot;:&quot;c56c5cbfc9e0dfc16b5bcebb224d1ff248daf520&quot;,&quot;datavalue&quot;:{&quot;value&quot;:&quot;https:\/\/commons.wikimedia.org\/wiki\/user:ScotXW&quot;,&quot;type&quot;:&quot;string&quot;}}],&quot;P2093&quot;:[{&quot;snaktype&quot;:&quot;value&quot;,&quot;property&quot;:&quot;P2093&quot;,&quot;hash&quot;:&quot;00eb7b4a8453d30959aa7249eeb2a6f1eee07651&quot;,&quot;datavalue&quot;:{&quot;value&quot;:&quot;ScotXW&quot;,&quot;type&quot;:&quot;string&quot;}}],&quot;P4174&quot;:[{&quot;snaktype&quot;:&quot;value&quot;,&quot;property&quot;:&quot;P4174&quot;,&quot;hash&quot;:&quot;df0802721a9665742ecf76a7850a1625c1352c06&quot;,&quot;datavalue&quot;:{&quot;value&quot;:&quot;ScotXW&quot;,&quot;type&quot;:&quot;string&quot;}}]},&quot;qualifiers-order&quot;:[&quot;P2699&quot;,&quot;P2093&quot;,&quot;P4174&quot;],&quot;id&quot;:&quot;M28215775$7C1A2304-8A4B-4E8B-8968-32034636C0A2&quot;,&quot;rank&quot;:&quot;normal&quot;}]" data-formatvalue="{&quot;{\&quot;value\&quot;:{\&quot;entity-type\&quot;:\&quot;property\&quot;,\&quot;numeric-id\&quot;:170,\&quot;id\&quot;:\&quot;P170\&quot;},\&quot;type\&quot;:\&quot;wikibase-entityid\&quot;}&quot;:{&quot;text\/html&quot;:{&quot;en&quot;:{&quot;&quot;:&quot;<a target=\&quot;_blank\&quot; title=\&quot;d:Special:EntityPage\/P170\&quot; href=\&quot;https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/P170\&quot;>creator<\/a>&quot;}},&quot;text\/plain&quot;:{&quot;en&quot;:{&quot;&quot;:&quot;creator&quot;}}},&quot;{\&quot;value\&quot;:{\&quot;entity-type\&quot;:\&quot;property\&quot;,\&quot;numeric-id\&quot;:2699,\&quot;id\&quot;:\&quot;P2699\&quot;},\&quot;type\&quot;:\&quot;wikibase-entityid\&quot;}&quot;:{&quot;text\/html&quot;:{&quot;en&quot;:{&quot;&quot;:&quot;<a target=\&quot;_blank\&quot; title=\&quot;d:Special:EntityPage\/P2699\&quot; href=\&quot;https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/P2699\&quot;>URL<\/a>&quot;}},&quot;text\/plain&quot;:{&quot;en&quot;:{&quot;&quot;:&quot;URL&quot;}}},&quot;{\&quot;value\&quot;:\&quot;https:\\\/\\\/commons.wikimedia.org\\\/wiki\\\/user:ScotXW\&quot;,\&quot;type\&quot;:\&quot;string\&quot;}&quot;:{&quot;text\/html&quot;:{&quot;en&quot;:{&quot;P2699&quot;:&quot;<a target=\&quot;_blank\&quot; rel=\&quot;nofollow\&quot; class=\&quot;external free\&quot; href=\&quot;https:\/\/commons.wikimedia.org\/wiki\/user:ScotXW\&quot;>https:\/\/commons.wikimedia.org\/wiki\/user:ScotXW<\/a>&quot;}},&quot;text\/plain&quot;:{&quot;en&quot;:{&quot;P2699&quot;:&quot;https:\/\/commons.wikimedia.org\/wiki\/user:ScotXW&quot;}}},&quot;{\&quot;value\&quot;:{\&quot;entity-type\&quot;:\&quot;property\&quot;,\&quot;numeric-id\&quot;:2093,\&quot;id\&quot;:\&quot;P2093\&quot;},\&quot;type\&quot;:\&quot;wikibase-entityid\&quot;}&quot;:{&quot;text\/html&quot;:{&quot;en&quot;:{&quot;&quot;:&quot;<a target=\&quot;_blank\&quot; title=\&quot;d:Special:EntityPage\/P2093\&quot; href=\&quot;https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/P2093\&quot;>author name string<\/a>&quot;}},&quot;text\/plain&quot;:{&quot;en&quot;:{&quot;&quot;:&quot;author name string&quot;}}},&quot;{\&quot;value\&quot;:\&quot;ScotXW\&quot;,\&quot;type\&quot;:\&quot;string\&quot;}&quot;:{&quot;text\/html&quot;:{&quot;en&quot;:{&quot;P2093&quot;:&quot;ScotXW&quot;,&quot;P4174&quot;:&quot;<a target=\&quot;_blank\&quot; class=\&quot;wb-external-id external\&quot; href=\&quot;https:\/\/www.wikidata.org\/wiki\/Special:CentralAuth?target=ScotXW\&quot; rel=\&quot;nofollow\&quot;>ScotXW<\/a>&quot;}},&quot;text\/plain&quot;:{&quot;en&quot;:{&quot;P2093&quot;:&quot;ScotXW&quot;,&quot;P4174&quot;:&quot;ScotXW&quot;}}},&quot;{\&quot;value\&quot;:{\&quot;entity-type\&quot;:\&quot;property\&quot;,\&quot;numeric-id\&quot;:4174,\&quot;id\&quot;:\&quot;P4174\&quot;},\&quot;type\&quot;:\&quot;wikibase-entityid\&quot;}&quot;:{&quot;text\/html&quot;:{&quot;en&quot;:{&quot;&quot;:&quot;<a target=\&quot;_blank\&quot; title=\&quot;d:Special:EntityPage\/P4174\&quot; href=\&quot;https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/P4174\&quot;>Wikimedia username<\/a>&quot;}},&quot;text\/plain&quot;:{&quot;en&quot;:{&quot;&quot;:&quot;Wikimedia username&quot;}}}}" class="wbmi-entityview-statementsGroup wbmi-entityview-statementsGroup-P170 oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-framed"><div class="wbmi-statements-widget"><div class="wbmi-statement-header"><div class="wbmi-entity-data"><div class="wbmi-entity-title"><h4 class="wbmi-entity-label"><bdi><a target="_blank" title="d:Special:EntityPage/P170" href="https://www.wikidata.org/wiki/Special:EntityPage/P170">creator</a></bdi></h4></div></div></div><div class="wbmi-content-items-group"><div class="wbmi-item wbmi-item-read"><div data-guid="M28215775$7C1A2304-8A4B-4E8B-8968-32034636C0A2" class="wbmi-item-container"><div class="wbmi-entity-header"><div class="wbmi-entity-data"><div class="wbmi-entity-title"><h4 class="wbmi-entity-label"><bdi>some value</bdi></h4></div></div></div><div class="wbmi-item-qualifiers"><div class="wbmi-snaklist-container"><div class="wbmi-snaklist-content"><div class="wbmi-snak"><div class="wbmi-snak-value"><a target="_blank" title="d:Special:EntityPage/P2699" href="https://www.wikidata.org/wiki/Special:EntityPage/P2699">URL</a><span class="wbmi-snak-value-separator">: </span><span class="wbmi-snak-value--value"><a target="_blank" rel="nofollow" class="external free" href="https://commons.wikimedia.org/wiki/user:ScotXW">https://commons.wikimedia.org/wiki/user:ScotXW</a></span></div></div><div class="wbmi-snak"><div class="wbmi-snak-value"><a target="_blank" title="d:Special:EntityPage/P2093" href="https://www.wikidata.org/wiki/Special:EntityPage/P2093">author name string</a><span class="wbmi-snak-value-separator">: </span><span class="wbmi-snak-value--value">ScotXW</span></div></div><div class="wbmi-snak"><div class="wbmi-snak-value"><a target="_blank" title="d:Special:EntityPage/P4174" href="https://www.wikidata.org/wiki/Special:EntityPage/P4174">Wikimedia username</a><span class="wbmi-snak-value-separator">: </span><span class="wbmi-snak-value--value"><a target="_blank" class="wb-external-id external" href="https://www.wikidata.org/wiki/Special:CentralAuth?target=ScotXW" rel="nofollow">ScotXW</a></span></div></div></div></div></div></div></div></div></div></div><div id="P6216" data-property="P6216" data-statements="[{&quot;mainsnak&quot;:{&quot;snaktype&quot;:&quot;value&quot;,&quot;property&quot;:&quot;P6216&quot;,&quot;hash&quot;:&quot;5570347fdc76d2a80732f51ea10ee4b144a084e0&quot;,&quot;datavalue&quot;:{&quot;value&quot;:{&quot;entity-type&quot;:&quot;item&quot;,&quot;numeric-id&quot;:50423863,&quot;id&quot;:&quot;Q50423863&quot;},&quot;type&quot;:&quot;wikibase-entityid&quot;}},&quot;type&quot;:&quot;statement&quot;,&quot;id&quot;:&quot;M28215775$AE8CF9DC-2B2F-452F-9CDF-CA73ABC94B5C&quot;,&quot;rank&quot;:&quot;normal&quot;}]" data-formatvalue="{&quot;{\&quot;value\&quot;:{\&quot;entity-type\&quot;:\&quot;property\&quot;,\&quot;numeric-id\&quot;:6216,\&quot;id\&quot;:\&quot;P6216\&quot;},\&quot;type\&quot;:\&quot;wikibase-entityid\&quot;}&quot;:{&quot;text\/html&quot;:{&quot;en&quot;:{&quot;&quot;:&quot;<a target=\&quot;_blank\&quot; title=\&quot;d:Special:EntityPage\/P6216\&quot; href=\&quot;https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/P6216\&quot;>copyright status<\/a>&quot;}},&quot;text\/plain&quot;:{&quot;en&quot;:{&quot;&quot;:&quot;copyright status&quot;}}},&quot;{\&quot;value\&quot;:{\&quot;entity-type\&quot;:\&quot;item\&quot;,\&quot;numeric-id\&quot;:50423863,\&quot;id\&quot;:\&quot;Q50423863\&quot;},\&quot;type\&quot;:\&quot;wikibase-entityid\&quot;}&quot;:{&quot;text\/html&quot;:{&quot;en&quot;:{&quot;P6216&quot;:&quot;<a target=\&quot;_blank\&quot; title=\&quot;d:Special:EntityPage\/Q50423863\&quot; href=\&quot;https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/Q50423863\&quot;>copyrighted<\/a>&quot;}},&quot;text\/plain&quot;:{&quot;en&quot;:{&quot;P6216&quot;:&quot;copyrighted&quot;}}}}" class="wbmi-entityview-statementsGroup wbmi-entityview-statementsGroup-P6216 oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-framed"><div class="wbmi-statements-widget"><div class="wbmi-statement-header"><div class="wbmi-entity-data"><div class="wbmi-entity-title"><h4 class="wbmi-entity-label"><bdi><a target="_blank" title="d:Special:EntityPage/P6216" href="https://www.wikidata.org/wiki/Special:EntityPage/P6216">copyright status</a></bdi></h4></div></div></div><div class="wbmi-content-items-group"><div class="wbmi-item wbmi-item-read"><div data-guid="M28215775$AE8CF9DC-2B2F-452F-9CDF-CA73ABC94B5C" class="wbmi-item-container"><div class="wbmi-entity-header"><div class="wbmi-entity-data"><div class="wbmi-entity-title"><h4 class="wbmi-entity-label"><bdi><a target="_blank" title="d:Special:EntityPage/Q50423863" href="https://www.wikidata.org/wiki/Special:EntityPage/Q50423863">copyrighted</a></bdi></h4></div></div></div></div></div></div></div></div><div id="P275" data-property="P275" data-statements="[{&quot;mainsnak&quot;:{&quot;snaktype&quot;:&quot;value&quot;,&quot;property&quot;:&quot;P275&quot;,&quot;hash&quot;:&quot;a35b4558d66c92eacbe2f569697ffb1934e0316e&quot;,&quot;datavalue&quot;:{&quot;value&quot;:{&quot;entity-type&quot;:&quot;item&quot;,&quot;numeric-id&quot;:14946043,&quot;id&quot;:&quot;Q14946043&quot;},&quot;type&quot;:&quot;wikibase-entityid&quot;}},&quot;type&quot;:&quot;statement&quot;,&quot;id&quot;:&quot;M28215775$65CDD842-6C2B-411F-887E-2747297DED46&quot;,&quot;rank&quot;:&quot;normal&quot;},{&quot;mainsnak&quot;:{&quot;snaktype&quot;:&quot;value&quot;,&quot;property&quot;:&quot;P275&quot;,&quot;hash&quot;:&quot;4315b8c41a664bcb36dc3783262461e54b0ddf16&quot;,&quot;datavalue&quot;:{&quot;value&quot;:{&quot;entity-type&quot;:&quot;item&quot;,&quot;numeric-id&quot;:50829104,&quot;id&quot;:&quot;Q50829104&quot;},&quot;type&quot;:&quot;wikibase-entityid&quot;}},&quot;type&quot;:&quot;statement&quot;,&quot;id&quot;:&quot;M28215775$85177CCA-8909-4241-BA65-8EB1672595AB&quot;,&quot;rank&quot;:&quot;normal&quot;}]" data-formatvalue="{&quot;{\&quot;value\&quot;:{\&quot;entity-type\&quot;:\&quot;property\&quot;,\&quot;numeric-id\&quot;:275,\&quot;id\&quot;:\&quot;P275\&quot;},\&quot;type\&quot;:\&quot;wikibase-entityid\&quot;}&quot;:{&quot;text\/html&quot;:{&quot;en&quot;:{&quot;&quot;:&quot;<a target=\&quot;_blank\&quot; title=\&quot;d:Special:EntityPage\/P275\&quot; href=\&quot;https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/P275\&quot;>copyright license<\/a>&quot;}},&quot;text\/plain&quot;:{&quot;en&quot;:{&quot;&quot;:&quot;copyright license&quot;}}},&quot;{\&quot;value\&quot;:{\&quot;entity-type\&quot;:\&quot;item\&quot;,\&quot;numeric-id\&quot;:14946043,\&quot;id\&quot;:\&quot;Q14946043\&quot;},\&quot;type\&quot;:\&quot;wikibase-entityid\&quot;}&quot;:{&quot;text\/html&quot;:{&quot;en&quot;:{&quot;P275&quot;:&quot;<a target=\&quot;_blank\&quot; title=\&quot;d:Special:EntityPage\/Q14946043\&quot; href=\&quot;https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/Q14946043\&quot;>Creative Commons Attribution-ShareAlike 3.0 Unported<\/a>&quot;}},&quot;text\/plain&quot;:{&quot;en&quot;:{&quot;P275&quot;:&quot;Creative Commons Attribution-ShareAlike 3.0 Unported&quot;}}},&quot;{\&quot;value\&quot;:{\&quot;entity-type\&quot;:\&quot;item\&quot;,\&quot;numeric-id\&quot;:50829104,\&quot;id\&quot;:\&quot;Q50829104\&quot;},\&quot;type\&quot;:\&quot;wikibase-entityid\&quot;}&quot;:{&quot;text\/html&quot;:{&quot;en&quot;:{&quot;P275&quot;:&quot;<a target=\&quot;_blank\&quot; title=\&quot;d:Special:EntityPage\/Q50829104\&quot; href=\&quot;https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/Q50829104\&quot;>GNU Free Documentation License, version 1.2 or later<\/a>&quot;}},&quot;text\/plain&quot;:{&quot;en&quot;:{&quot;P275&quot;:&quot;GNU Free Documentation License, version 1.2 or later&quot;}}}}" class="wbmi-entityview-statementsGroup wbmi-entityview-statementsGroup-P275 oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-framed"><div class="wbmi-statements-widget"><div class="wbmi-statement-header"><div class="wbmi-entity-data"><div class="wbmi-entity-title"><h4 class="wbmi-entity-label"><bdi><a target="_blank" title="d:Special:EntityPage/P275" href="https://www.wikidata.org/wiki/Special:EntityPage/P275">copyright license</a></bdi></h4></div></div></div><div class="wbmi-content-items-group"><div class="wbmi-item wbmi-item-read"><div data-guid="M28215775$65CDD842-6C2B-411F-887E-2747297DED46" class="wbmi-item-container"><div class="wbmi-entity-header"><div class="wbmi-entity-data"><div class="wbmi-entity-title"><h4 class="wbmi-entity-label"><bdi><a target="_blank" title="d:Special:EntityPage/Q14946043" href="https://www.wikidata.org/wiki/Special:EntityPage/Q14946043">Creative Commons Attribution-ShareAlike 3.0 Unported</a></bdi></h4></div></div></div></div></div><div class="wbmi-item wbmi-item-read"><div data-guid="M28215775$85177CCA-8909-4241-BA65-8EB1672595AB" class="wbmi-item-container"><div class="wbmi-entity-header"><div class="wbmi-entity-data"><div class="wbmi-entity-title"><h4 class="wbmi-entity-label"><bdi><a target="_blank" title="d:Special:EntityPage/Q50829104" href="https://www.wikidata.org/wiki/Special:EntityPage/Q50829104">GNU Free Documentation License, version 1.2 or later</a></bdi></h4></div></div></div></div></div></div></div></div><div id="P571" data-property="P571" data-statements="[{&quot;mainsnak&quot;:{&quot;snaktype&quot;:&quot;value&quot;,&quot;property&quot;:&quot;P571&quot;,&quot;hash&quot;:&quot;fc222e46d27d293efcc4c63f63ca0d2fcaa035a5&quot;,&quot;datavalue&quot;:{&quot;value&quot;:{&quot;time&quot;:&quot;+2013-09-11T00:00:00Z&quot;,&quot;timezone&quot;:0,&quot;before&quot;:0,&quot;after&quot;:0,&quot;precision&quot;:11,&quot;calendarmodel&quot;:&quot;http:\/\/www.wikidata.org\/entity\/Q1985727&quot;},&quot;type&quot;:&quot;time&quot;}},&quot;type&quot;:&quot;statement&quot;,&quot;id&quot;:&quot;M28215775$BAAECE34-9AD3-4147-A32B-3043D180D81E&quot;,&quot;rank&quot;:&quot;normal&quot;}]" data-formatvalue="{&quot;{\&quot;value\&quot;:{\&quot;entity-type\&quot;:\&quot;property\&quot;,\&quot;numeric-id\&quot;:571,\&quot;id\&quot;:\&quot;P571\&quot;},\&quot;type\&quot;:\&quot;wikibase-entityid\&quot;}&quot;:{&quot;text\/html&quot;:{&quot;en&quot;:{&quot;&quot;:&quot;<a target=\&quot;_blank\&quot; title=\&quot;d:Special:EntityPage\/P571\&quot; href=\&quot;https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/P571\&quot;>inception<\/a>&quot;}},&quot;text\/plain&quot;:{&quot;en&quot;:{&quot;&quot;:&quot;inception&quot;}}},&quot;{\&quot;value\&quot;:{\&quot;time\&quot;:\&quot;+2013-09-11T00:00:00Z\&quot;,\&quot;timezone\&quot;:0,\&quot;before\&quot;:0,\&quot;after\&quot;:0,\&quot;precision\&quot;:11,\&quot;calendarmodel\&quot;:\&quot;http:\\\/\\\/www.wikidata.org\\\/entity\\\/Q1985727\&quot;},\&quot;type\&quot;:\&quot;time\&quot;}&quot;:{&quot;text\/html&quot;:{&quot;en&quot;:{&quot;P571&quot;:&quot;11 September 2013&quot;}},&quot;text\/plain&quot;:{&quot;en&quot;:{&quot;P571&quot;:&quot;11 September 2013&quot;}}}}" class="wbmi-entityview-statementsGroup wbmi-entityview-statementsGroup-P571 oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-framed"><div class="wbmi-statements-widget"><div class="wbmi-statement-header"><div class="wbmi-entity-data"><div class="wbmi-entity-title"><h4 class="wbmi-entity-label"><bdi><a target="_blank" title="d:Special:EntityPage/P571" href="https://www.wikidata.org/wiki/Special:EntityPage/P571">inception</a></bdi></h4></div></div></div><div class="wbmi-content-items-group"><div class="wbmi-item wbmi-item-read"><div data-guid="M28215775$BAAECE34-9AD3-4147-A32B-3043D180D81E" class="wbmi-item-container"><div class="wbmi-entity-header"><div class="wbmi-entity-data"><div class="wbmi-entity-title"><h4 class="wbmi-entity-label"><bdi>11 September 2013</bdi></h4></div></div></div></div></div></div></div></div><div id="P7482" data-property="P7482" data-statements="[{&quot;mainsnak&quot;:{&quot;snaktype&quot;:&quot;value&quot;,&quot;property&quot;:&quot;P7482&quot;,&quot;hash&quot;:&quot;83568a288a8b8b4714a68e7239d8406833762864&quot;,&quot;datavalue&quot;:{&quot;value&quot;:{&quot;entity-type&quot;:&quot;item&quot;,&quot;numeric-id&quot;:66458942,&quot;id&quot;:&quot;Q66458942&quot;},&quot;type&quot;:&quot;wikibase-entityid&quot;}},&quot;type&quot;:&quot;statement&quot;,&quot;id&quot;:&quot;M28215775$763C0460-F1B4-49C2-B3BA-FB67B8A89B1C&quot;,&quot;rank&quot;:&quot;normal&quot;}]" data-formatvalue="{&quot;{\&quot;value\&quot;:{\&quot;entity-type\&quot;:\&quot;property\&quot;,\&quot;numeric-id\&quot;:7482,\&quot;id\&quot;:\&quot;P7482\&quot;},\&quot;type\&quot;:\&quot;wikibase-entityid\&quot;}&quot;:{&quot;text\/html&quot;:{&quot;en&quot;:{&quot;&quot;:&quot;<a target=\&quot;_blank\&quot; title=\&quot;d:Special:EntityPage\/P7482\&quot; href=\&quot;https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/P7482\&quot;>source of file<\/a>&quot;}},&quot;text\/plain&quot;:{&quot;en&quot;:{&quot;&quot;:&quot;source of file&quot;}}},&quot;{\&quot;value\&quot;:{\&quot;entity-type\&quot;:\&quot;item\&quot;,\&quot;numeric-id\&quot;:66458942,\&quot;id\&quot;:\&quot;Q66458942\&quot;},\&quot;type\&quot;:\&quot;wikibase-entityid\&quot;}&quot;:{&quot;text\/html&quot;:{&quot;en&quot;:{&quot;P7482&quot;:&quot;<a target=\&quot;_blank\&quot; title=\&quot;d:Special:EntityPage\/Q66458942\&quot; href=\&quot;https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/Q66458942\&quot;>original creation by uploader<\/a>&quot;}},&quot;text\/plain&quot;:{&quot;en&quot;:{&quot;P7482&quot;:&quot;original creation by uploader&quot;}}}}" class="wbmi-entityview-statementsGroup wbmi-entityview-statementsGroup-P7482 oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-framed"><div class="wbmi-statements-widget"><div class="wbmi-statement-header"><div class="wbmi-entity-data"><div class="wbmi-entity-title"><h4 class="wbmi-entity-label"><bdi><a target="_blank" title="d:Special:EntityPage/P7482" href="https://www.wikidata.org/wiki/Special:EntityPage/P7482">source of file</a></bdi></h4></div></div></div><div class="wbmi-content-items-group"><div class="wbmi-item wbmi-item-read"><div data-guid="M28215775$763C0460-F1B4-49C2-B3BA-FB67B8A89B1C" class="wbmi-item-container"><div class="wbmi-entity-header"><div class="wbmi-entity-data"><div class="wbmi-entity-title"><h4 class="wbmi-entity-label"><bdi><a target="_blank" title="d:Special:EntityPage/Q66458942" href="https://www.wikidata.org/wiki/Special:EntityPage/Q66458942">original creation by uploader</a></bdi></h4></div></div></div></div></div></div></div></div><div id="P1163" data-property="P1163" data-statements="[{&quot;mainsnak&quot;:{&quot;snaktype&quot;:&quot;value&quot;,&quot;property&quot;:&quot;P1163&quot;,&quot;hash&quot;:&quot;636199d1806c7cdbae57b4d4298f38fade12d052&quot;,&quot;datavalue&quot;:{&quot;value&quot;:&quot;image\/svg+xml&quot;,&quot;type&quot;:&quot;string&quot;}},&quot;type&quot;:&quot;statement&quot;,&quot;id&quot;:&quot;M28215775$CE4DA76B-E404-44A3-B1F3-069F4B2DB62E&quot;,&quot;rank&quot;:&quot;normal&quot;}]" data-formatvalue="{&quot;{\&quot;value\&quot;:{\&quot;entity-type\&quot;:\&quot;property\&quot;,\&quot;numeric-id\&quot;:1163,\&quot;id\&quot;:\&quot;P1163\&quot;},\&quot;type\&quot;:\&quot;wikibase-entityid\&quot;}&quot;:{&quot;text\/html&quot;:{&quot;en&quot;:{&quot;&quot;:&quot;<a target=\&quot;_blank\&quot; title=\&quot;d:Special:EntityPage\/P1163\&quot; href=\&quot;https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/P1163\&quot;>media type<\/a>&quot;}},&quot;text\/plain&quot;:{&quot;en&quot;:{&quot;&quot;:&quot;media type&quot;}}},&quot;{\&quot;value\&quot;:\&quot;image\\\/svg+xml\&quot;,\&quot;type\&quot;:\&quot;string\&quot;}&quot;:{&quot;text\/html&quot;:{&quot;en&quot;:{&quot;P1163&quot;:&quot;image\/svg+xml&quot;}},&quot;text\/plain&quot;:{&quot;en&quot;:{&quot;P1163&quot;:&quot;image\/svg+xml&quot;}}}}" class="wbmi-entityview-statementsGroup wbmi-entityview-statementsGroup-P1163 oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-framed"><div class="wbmi-statements-widget"><div class="wbmi-statement-header"><div class="wbmi-entity-data"><div class="wbmi-entity-title"><h4 class="wbmi-entity-label"><bdi><a target="_blank" title="d:Special:EntityPage/P1163" href="https://www.wikidata.org/wiki/Special:EntityPage/P1163">media type</a></bdi></h4></div></div></div><div class="wbmi-content-items-group"><div class="wbmi-item wbmi-item-read"><div data-guid="M28215775$CE4DA76B-E404-44A3-B1F3-069F4B2DB62E" class="wbmi-item-container"><div class="wbmi-entity-header"><div class="wbmi-entity-data"><div class="wbmi-entity-title"><h4 class="wbmi-entity-label"><bdi>image/svg+xml</bdi></h4></div></div></div></div></div></div></div></div></mediainfoviewstatements></mediainfoview>
+<!-- 
+NewPP limit report
+Parsed by mw‐api‐int.eqiad.main‐844cff9c8b‐n8vtw
+Cached time: 20240909091419
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.136 seconds
+Real time usage: 0.194 seconds
+Preprocessor visited node count: 1226/1000000
+Post‐expand include size: 34503/2097152 bytes
+Template argument size: 4755/2097152 bytes
+Highest expansion depth: 21/100
+Expensive parser function count: 1/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 914/5000000 bytes
+Lua time usage: 0.072/10.000 seconds
+Lua memory usage: 1601906/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  164.136      1 -total
+ 76.12%  124.937      1 Template:Information
+ 35.52%   58.303      1 Template:Inkscape
+ 23.73%   38.954      1 Template:Self
+ 12.07%   19.804      1 Template:Cc-by-sa-layout
+ 10.97%   17.998      1 Template:Created_with/en
+  9.62%   15.784      1 Template:Created_with
+  8.99%   14.763      2 Template:Created_with/layout
+  6.89%   11.311      1 Template:SVGvalid
+  5.28%    8.660      1 Template:Ifsvg
+-->
+
+<!-- Saved in parser cache with key commonswiki:pcache:idhash:28215775-0!wb=3!wbMobile=0 and timestamp 20240909091419 and revision id 672762421. Rendering was triggered because: page-view
+ -->
+</div></div>
+<h2 id="filehistory">File history</h2>
+<div id="mw-imagepage-section-filehistory">
+<p>Click on a date/time to view the file as it appeared at that time.
+</p>
+<table class="wikitable filehistory">
+<tr><th></th><th>Date/Time</th><th>Thumbnail</th><th>Dimensions</th><th>User</th><th>Comment</th></tr>
+<tr><td>current</td><td class="filehistory-selected" style="white-space: nowrap;"><a href="//upload.wikimedia.org/wikipedia/commons/4/45/GNU_GRUB_components.svg">06:34, 14 January 2017</a></td><td><a href="//upload.wikimedia.org/wikipedia/commons/4/45/GNU_GRUB_components.svg"><img alt="Thumbnail for version as of 06:34, 14 January 2017" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/45/GNU_GRUB_components.svg/120px-GNU_GRUB_components.svg.png" decoding="async" loading="lazy" width="120" height="68" data-file-width="720" data-file-height="405" /></a></td><td>720 × 405 <span style="white-space: nowrap;">(29 KB)</span></td><td><a href="/wiki/User:Voidxor" class="mw-userlink" title="User:Voidxor"><bdi>Voidxor</bdi></a></td><td dir="ltr">&quot;<a href="/wiki/Hard_disk_drive" title="Hard disk drive">Hard disk</a>&quot; is two words. While &quot;disc&quot; refers to round storage media, such as CDs or DVDs, &quot;disk&quot; refers to rectangular ones. <a href="/wiki/SI" class="mw-redirect" title="SI">SI</a> requires spaces between numbers and units.</td></tr>
+<tr><td></td><td style="white-space: nowrap;"><a href="//upload.wikimedia.org/wikipedia/commons/archive/4/45/20170114063444%21GNU_GRUB_components.svg">17:13, 27 July 2014</a></td><td><a href="//upload.wikimedia.org/wikipedia/commons/archive/4/45/20170114063444%21GNU_GRUB_components.svg"><img alt="Thumbnail for version as of 17:13, 27 July 2014" src="//upload.wikimedia.org/wikipedia/commons/thumb/archive/4/45/20170114063444%21GNU_GRUB_components.svg/120px-GNU_GRUB_components.svg.png" decoding="async" loading="lazy" width="120" height="68" data-file-width="720" data-file-height="405" /></a></td><td>720 × 405 <span style="white-space: nowrap;">(35 KB)</span></td><td><a href="/wiki/User:ScotXW" class="mw-userlink" title="User:ScotXW"><bdi>ScotXW</bdi></a></td><td dir="ltr"><a href="/wiki/GUID_Partition_Table" title="GUID Partition Table">GUID Partition Table</a></td></tr>
+<tr><td></td><td style="white-space: nowrap;"><a href="//upload.wikimedia.org/wikipedia/commons/archive/4/45/20140727171338%21GNU_GRUB_components.svg">13:55, 11 September 2013</a></td><td><a href="//upload.wikimedia.org/wikipedia/commons/archive/4/45/20140727171338%21GNU_GRUB_components.svg"><img alt="Thumbnail for version as of 13:55, 11 September 2013" src="//upload.wikimedia.org/wikipedia/commons/thumb/archive/4/45/20140727171338%21GNU_GRUB_components.svg/120px-GNU_GRUB_components.svg.png" decoding="async" loading="lazy" width="120" height="68" data-file-width="720" data-file-height="405" /></a></td><td>720 × 405 <span style="white-space: nowrap;">(28 KB)</span></td><td><a href="/wiki/User:ScotXW" class="mw-userlink" title="User:ScotXW"><bdi>ScotXW</bdi></a></td><td dir="ltr">== {{int:filedesc}} ==  {{Information |description={{en|1=<a href="/wiki/GNU_GRUB" title="GNU GRUB">GNU GRUB</a>: Illustrates the locations of the components &lt;code&gt;boot.img&lt;/code&gt;, &lt;code&gt;core.img&lt;/code&gt; and &lt;code&gt;/boot/grub&lt;/code&gt;on a harddisc}}{{de|1=<a href="https://de.wikipedia.org/wiki/GNU_GRUB" class="extiw" title="de:GNU GRUB">GNU GRUB</a>: Ve...</td></tr>
+</table>
+
+</div>
+<h2 id="filelinks">File usage</h2>
+<div id='mw-imagepage-section-linkstoimage'>
+<div class="linkstoimage" id="linkstoimage">The following pages on the English Wikipedia use this file (pages on other projects are not listed):</div><ul class="mw-imagepage-linkstoimage">
+<li class="mw-imagepage-linkstoimage-ns0"><a href="/wiki/BIOS_boot_partition" title="BIOS boot partition">BIOS boot partition</a></li>
+<li class="mw-imagepage-linkstoimage-ns0"><a href="/wiki/Boot_sector" title="Boot sector">Boot sector</a></li>
+<li class="mw-imagepage-linkstoimage-ns0"><a href="/wiki/GNU_GRUB" title="GNU GRUB">GNU GRUB</a></li>
+</ul>
+</div>
+<h2 id="globalusage">Global file usage</h2>
+<div id="mw-imagepage-section-globalusage"><p>The following other wikis use this file:
+</p><ul>
+<li class='mw-gu-onwiki-bn_wikipedia_org'>Usage on bn.wikipedia.org
+<ul>	<li><a class="external" href="https://bn.wikipedia.org/wiki/%E0%A6%97%E0%A7%8D%E0%A6%A8%E0%A7%81_%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AC">গ্নু গ্রাব</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-ca_wikipedia_org'>Usage on ca.wikipedia.org
+<ul>	<li><a class="external" href="https://ca.wikipedia.org/wiki/Partici%C3%B3_d%27arrencada_de_la_BIOS">Partició d&#039;arrencada de la BIOS</a></li>
+	<li><a class="external" href="https://ca.wikipedia.org/wiki/Sector_d%27arrencada">Sector d&#039;arrencada</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-cs_wikipedia_org'>Usage on cs.wikipedia.org
+<ul>	<li><a class="external" href="https://cs.wikipedia.org/wiki/GRUB">GRUB</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-de_wikipedia_org'>Usage on de.wikipedia.org
+<ul>	<li><a class="external" href="https://de.wikipedia.org/wiki/Grand_Unified_Bootloader">Grand Unified Bootloader</a></li>
+	<li><a class="external" href="https://de.wikipedia.org/wiki/BIOS-Bootpartition">BIOS-Bootpartition</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-es_wikipedia_org'>Usage on es.wikipedia.org
+<ul>	<li><a class="external" href="https://es.wikipedia.org/wiki/GNU_GRUB">GNU GRUB</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-et_wikipedia_org'>Usage on et.wikipedia.org
+<ul>	<li><a class="external" href="https://et.wikipedia.org/wiki/GRUB">GRUB</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-fa_wikipedia_org'>Usage on fa.wikipedia.org
+<ul>	<li><a class="external" href="https://fa.wikipedia.org/wiki/%DA%AF%D9%86%D9%88_%DA%AF%D8%B1%D8%A7%D8%A8">گنو گراب</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-fi_wikipedia_org'>Usage on fi.wikipedia.org
+<ul>	<li><a class="external" href="https://fi.wikipedia.org/wiki/GNU_GRUB">GNU GRUB</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-fr_wikipedia_org'>Usage on fr.wikipedia.org
+<ul>	<li><a class="external" href="https://fr.wikipedia.org/wiki/GNU_GRUB">GNU GRUB</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-gl_wikipedia_org'>Usage on gl.wikipedia.org
+<ul>	<li><a class="external" href="https://gl.wikipedia.org/wiki/GNU_GRUB">GNU GRUB</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-he_wikipedia_org'>Usage on he.wikipedia.org
+<ul>	<li><a class="external" href="https://he.wikipedia.org/wiki/GRUB">GRUB</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-hu_wikipedia_org'>Usage on hu.wikipedia.org
+<ul>	<li><a class="external" href="https://hu.wikipedia.org/wiki/GNU_GRUB">GNU GRUB</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-it_wikipedia_org'>Usage on it.wikipedia.org
+<ul>	<li><a class="external" href="https://it.wikipedia.org/wiki/GNU_GRUB">GNU GRUB</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-ja_wikipedia_org'>Usage on ja.wikipedia.org
+<ul>	<li><a class="external" href="https://ja.wikipedia.org/wiki/GNU_GRUB">GNU GRUB</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-ko_wikipedia_org'>Usage on ko.wikipedia.org
+<ul>	<li><a class="external" href="https://ko.wikipedia.org/wiki/GNU_GRUB">GNU GRUB</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-ml_wikipedia_org'>Usage on ml.wikipedia.org
+<ul>	<li><a class="external" href="https://ml.wikipedia.org/wiki/%E0%B4%97%E0%B5%8D%E0%B4%A8%E0%B5%81%E2%80%8C%E2%80%8C%E2%80%8C_%E0%B4%97%E0%B5%8D%E0%B4%B0%E0%B4%AC%E0%B5%8D">ഗ്നു‌‌‌ ഗ്രബ്</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-nn_wikipedia_org'>Usage on nn.wikipedia.org
+<ul>	<li><a class="external" href="https://nn.wikipedia.org/wiki/GNU_Grand_Unified_Boot_loader">GNU Grand Unified Boot loader</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-pl_wikibooks_org'>Usage on pl.wikibooks.org
+<ul>	<li><a class="external" href="https://pl.wikibooks.org/wiki/Linux/GRUB">Linux/GRUB</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-pt_wikipedia_org'>Usage on pt.wikipedia.org
+<ul>	<li><a class="external" href="https://pt.wikipedia.org/wiki/GNU_GRUB">GNU GRUB</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-ru_wikipedia_org'>Usage on ru.wikipedia.org
+<ul>	<li><a class="external" href="https://ru.wikipedia.org/wiki/GNU_GRUB">GNU GRUB</a></li>
+	<li><a class="external" href="https://ru.wikipedia.org/wiki/BIOS_boot_partition">BIOS boot partition</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-simple_wikipedia_org'>Usage on simple.wikipedia.org
+<ul>	<li><a class="external" href="https://simple.wikipedia.org/wiki/GNU_GRUB">GNU GRUB</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-sr_wikipedia_org'>Usage on sr.wikipedia.org
+<ul>	<li><a class="external" href="https://sr.wikipedia.org/wiki/%D0%93%D0%9D%D0%A3_%D0%93%D0%A0%D0%A3%D0%91">ГНУ ГРУБ</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-sv_wikipedia_org'>Usage on sv.wikipedia.org
+<ul>	<li><a class="external" href="https://sv.wikipedia.org/wiki/GNU_GRUB">GNU GRUB</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-uk_wikipedia_org'>Usage on uk.wikipedia.org
+<ul>	<li><a class="external" href="https://uk.wikipedia.org/wiki/GNU_GRUB">GNU GRUB</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-vi_wikipedia_org'>Usage on vi.wikipedia.org
+<ul>	<li><a class="external" href="https://vi.wikipedia.org/wiki/GRUB">GRUB</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-zh_wikipedia_org'>Usage on zh.wikipedia.org
+<ul>	<li><a class="external" href="https://zh.wikipedia.org/wiki/%E5%BC%95%E5%AF%BC%E6%89%87%E5%8C%BA">引导扇区</a></li>
+	<li><a class="external" href="https://zh.wikipedia.org/wiki/GNU_GRUB">GNU GRUB</a></li>
+</ul></li>
+</ul>
+</div><h2 id="metadata">Metadata</h2>
+<div class="mw-content-ltr mw-imagepage-section-metadata" lang="en" dir="ltr"><p>This file contains additional information, probably added from the digital camera or scanner used to create or digitize it.
+</p><p>
+If the file has been modified from its original state, some details may not fully reflect the modified file.</p><table id="mw_metadata" class="mw_metadata collapsed">
+<tbody><tr class="exif-objectname"><th>Short title</th><td>GNU GRUB components</td></tr><tr class="exif-imagewidth mw-metadata-collapsible"><th>Width</th><td>720</td></tr><tr class="exif-imagelength mw-metadata-collapsible"><th>Height</th><td>405</td></tr></tbody></table>
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="https://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/wiki/File:GNU_GRUB_components.svg">https://en.wikipedia.org/wiki/File:GNU_GRUB_components.svg</a>"</div></div>
+					<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>
+				</div>
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" >
+	<ul id="footer-info">
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">Code of Conduct</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie statement</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=File:GNU_GRUB_components.svg&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled" style="padding-left: 8px; padding-right: 8px;" href="https://wikimediafoundation.org/" target="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.svg" width="84" height="29" alt="Wikimedia Foundation"></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><img src="/w/resources/assets/poweredby_mediawiki.svg" alt="Powered by MediaWiki" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+<div class="vector-settings" id="p-dock-bottom">
+	<ul>
+		<li>
+		</li>
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw-web.eqiad.main-84c5db9bbb-pfffc","wgBackendResponseTime":208,"wgPageParseReport":{"limitreport":{"cputime":"0.001","walltime":"0.002","ppvisitednodes":{"value":2,"limit":1000000},"postexpandincludesize":{"value":0,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":1,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"origin":"mw-web.eqiad.main-84c5db9bbb-pfffc","timestamp":"20240912160003","ttl":2592000,"transientcontent":false}}});});</script>
+</body>
+</html>
