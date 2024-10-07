@@ -3,6 +3,7 @@ title: 'Boot process for modern Linux'
 date: "2024-09-13T10:30:00"
 categories: ["talk"]
 tags: ["linux", "boot"]
+video: https://youtu.be/QMZzxl1Gv1U?feature=shared
 ---
 class: center, middle
 name: start
