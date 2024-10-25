@@ -1,6 +1,6 @@
 ---
 title: 'Packaging: Analizziamo il DNA delle distro'
-date: "2024-10-26T10:45:00"
+date: "2024-10-25T10:45:00"
 categories: ["workshop"]
 tags: ["opensuse", "packaging"]
 ---
