@@ -10,7 +10,7 @@ name: start
 ### Error recovery
 ## with MicroOS and systemd-bless-boot
 
-.purple[.footer[![:i](fas fa-gear) Fosdem 26]]
+.purple[.footer[Danilo Spinella<br>Fosdem 26 ![:resize 40](https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/j5kbhcqwulktkxkqeyha)]]
 ---
 background-image: url(https://i.pinimg.com/736x/e4/bb/f6/e4bbf6d987196ca49097a7604d734d89.jpg)
 ---
@@ -50,6 +50,17 @@ Reliability first by leveraging snapshots
 ---
 class: left, middle
 
+## Snapshots
+
+Changing the system (adding and removing a package / updating the system) **creates a new shapshot**
+
+Every snapshot has a different boot entry: `rootflags=subvol=@/.snapshots/1/snapshot`
+
+`transactional-update` handles btrfs snapshots and changes
+
+---
+class: left, middle
+
 ## health-checker
 
 Check the status of the system during the boot process
@@ -72,19 +83,6 @@ If the entry was working before: reboot one time, if it still fails, **open an e
 ---
 class: left, middle
 
-## Projects involved
-
-`systemd`
-
-`grub2`
-
-`sdbootutil`
-
-`transactional-update`
-
----
-class: left, middle
-
 # Boot Loader Specification (BLS)
 
 ---
@@ -95,14 +93,15 @@ class: center, middle
 ![:resize 800](/img/health-checker-fosdem-26/linux.drawio.svg)
 
 ---
-
-class: left, top
+class: middle, top
 
 ## Adding another system...
 
 --
 
 `/boot/efi` must be **unique** on each disk
+
+--
 
 Which bootloader will be the default? Does it read the other partition `/boot` folder?
 
@@ -113,9 +112,17 @@ class: middle, left
 
 Allow the boot loader menu entries to be **shared** between _multiple operating systems_
 
+Standardize configuration between booatloader, firmware and system components
+
+Supports two simple formats, found in `/loader/entries`
+
+---
+class: left, middle
+
+## Boot Loader Specification type#1 entry
+
 ```ini
 # /boot/efi/loader/entries/opensuse-microos-6.18.4-5-default-1.conf 
-# Boot Loader Specification type#1 entry
 title      openSUSE MicroOS 1
 version    1@6.18.4-5-default
 sort-key   opensuse-microos
@@ -134,50 +141,49 @@ class: middle, left
 
 ## Automatic Boot Assessment
 
-Revert back to the previous version of the OS or kernel when the system fails to boot
+**Revert back to the previous version** of the OS or kernel when the system fails to boot
+
+Relies on **Boot Loader Specification** and support from system components
+
+---
+class: left, middle
+
+## Boot counting
+
+Add a number of boot attempts on new boot entries
+
+Entries with non-zero tries left are "_indeterminate_"
+
+Entries without boot counting are considered "_good_"
+
+Entries with zero tries left are "_bad_"
 
 ---
 class: center, middle
 
-## Boot Counting
-
 ![:resize 1000](/img/health-checker-fosdem-26/boot-counting.drawio.svg)
 
-
 ---
-class: left, top
+class: left, middle
 
-## How does it work?
+## Installing new entries
 
-**kernel-install** and **sdbootutil** will add boot entries with the initial counter defined in `/etc/kernel/tries`
+The initial counter defined in `/etc/kernel/tries`
 
+**kernel-install** add boot entries with the boot counter enabled
 
-**systemd-boot** and **grub2**_*_ sort the entries with non-zero tries left first and decrease the counter on boot
-
-Services (like **health-checker**) check that the system booted successfully
-
-**systemd-bless-boot** marks the boot entry as "good" (removes the boot counter)
+**sdbootutil** manages the boot counter when editing the boot entries
 
 ---
 class: left, middle
 
-## Bootloader entries' sorting
+## Bootloader support
 
----
-class: left, middle
+Put the entries with zero left tries at the bottom
 
-## boot.target
+Adjust boot counter when an entry is booted
 
-Services that check for a successful boot
-```systemd
-RequiredBy=boot-complete.target
-```
-
-Services that run when the system boots successfully
-```systemd
-Requires=boot-complete.target
-After=boot-complete.target
-```
+**systemd-boot** and **grub2**_*_ supports Automatic Boot Assessment, but support can be extender to any bootloader
 
 ---
 class: left, middle
@@ -188,19 +194,36 @@ _BLS_ support added by different set of patches (one by _Fedora_ and one by _ope
 
 Upstream *grub2 2.14* added initial **incomplete BLS support**
 
-_Boot counting_ (and partial BLI support) implemented via downstream patches in _openSUSE_
+_Boot counting_ (and partial BLI support) **implemented via downstream** patches in _openSUSE_*
+
+.footer[*upstreamed soon]
 
 ---
-class: middle, left
+class: left, middle
 
-## Boot entries and snapshots
+## boot.target
 
-```bash
-# /boot/efi/loader/entries/opensuse-microos-6.18.4-5-default-1.conf
-title      openSUSE MicroOS 1
-version    1@6.18.4-5-default
-options    quiet rootflags=subvol=@/.snapshots/1/snapshot systemd.show_status=yes console=ttyS0,115200 console=tty0 ignition.platform.id=qemu security=selinux selinux=1 root=UUID=8f71b02c-9905-b5e6-fafe-9efdb7c0ecd0
+Services that check for a successful boot (like health-checker)
+```systemd
+RequiredBy=boot-complete.target
 ```
+
+Services that run when the system boots successfully (like systemd-bless-boot)
+```systemd
+Requires=boot-complete.target
+After=boot-complete.target
+```
+
+---
+class: left, middle
+
+## systemd-bless-boot
+
+Remove the boot counter when the boot succeed
+
+Get the status of the current boot entry
+
+Change the status of a boot entry
 
 ---
 class: left, middle
@@ -209,7 +232,7 @@ class: left, middle
 
 No automatic reboot on failed boot
 
-Default entry (`LoaderEntryDefault`) not updated
+Default entry not updated
 
 Simple logic and control by design (to be implemented by bootloaders)
 
