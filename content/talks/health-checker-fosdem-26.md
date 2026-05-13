@@ -1,8 +1,9 @@
 ---
 title: 'Error recovery at boot with MicroOS and systemd-bless-boot'
-date: "2026-01-01T15:00:00"
+date: "2026-02-01T15:00:00"
 categories: ["workshop"]
 tags: ["health-checker", "fosdem"]
+video: https://fosdem.org/2026/schedule/event/VQQF8N-health-checker-bls/
 ---
 class: center, middle
 name: start
@@ -112,7 +113,7 @@ class: middle, left
 
 Allow the boot loader menu entries to be **shared** between _multiple operating systems_
 
-Standardize configuration between booatloader, firmware and system components
+Standardize configuration between bootloader, firmware and system components
 
 Supports two simple formats, found in `/loader/entries`
 
@@ -183,7 +184,7 @@ Put the entries with zero left tries at the bottom
 
 Adjust boot counter when an entry is booted
 
-**systemd-boot** and **grub2**_*_ supports Automatic Boot Assessment, but support can be extender to any bootloader
+**systemd-boot** and **grub2**_*_ supports Automatic Boot Assessment, but support can be extended to any bootloader
 
 ---
 class: left, middle
